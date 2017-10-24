@@ -1,0 +1,2402 @@
+# Translation of Development (trunk) in Greek
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-30 18:01:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#: lib/wpdev-settings-general.php:909
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: lib/wpdev-settings-general.php:931
+msgid "Type your date format for emails and the booking table. %sDocumentation on date formatting%s"
+msgstr "Πληκτρολογήστε την μορφή ημερομηνίας για τα email στον πίνακα κρατήσεων. %sΤεκμηρίωση σχετικά με την ημερομηνία μορφοποίησης%s"
+
+#: lib/wpdev-settings-general.php:939
+msgid "Dates view"
+msgstr "Εμφάνιση ημερομηνιών"
+
+#: lib/wpdev-settings-general.php:942
+msgid "Short days view"
+msgstr "Ταξινόμηση ημερών"
+
+#: lib/wpdev-settings-general.php:943
+msgid "Wide days view"
+msgstr "Μορφή εμφάνισης ημερών"
+
+#: lib/wpdev-settings-general.php:945
+msgid "Select the default view for dates on the booking tables"
+msgstr "Επιλέξτε την προεπιλεγμένη προβολή για τις ημερομηνίες στον πίνακα κράτησης"
+
+#: lib/wpdev-settings-general.php:953
+msgid "Show / hide hints"
+msgstr "Εμφάνιση / απόκρυψη συμβουλών"
+
+#: lib/wpdev-settings-general.php:959
+msgid "Check this box if you want to show help hints on the admin panel."
+msgstr "Επιλέξτε αυτό το πλαίσιο εάν θέλετε να εμφανίσετε βοήθεια-συμβουλές στην φόρμα διαχείρισης."
+
+#: lib/wpdev-settings-general.php:990
+msgid "Checking to prevent double booking, during submitting booking"
+msgstr "Έλεγχος για την αποφυγή διπλής κράτησης, κατά την υποβολή της κράτησης"
+
+#: lib/wpdev-settings-general.php:997 lib/wpdev-settings-general.php:1022
+#: lib/wpdev-settings-general.php:1056 lib/wpdev-settings-general.php:1071
+#: lib/wpdev-settings-general.php:1088 lib/wpdev-settings-general.php:1294
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#: lib/wpdev-settings-general.php:997
+msgid "This feature can impact to speed of submitting booking. Do you really want to do this?"
+msgstr "Αυτό το χαρακτηριστικό μπορεί να επηρεάσει την ταχύτητα της υποβολής της κράτησης. Είστε σίγουροι ότι θέλετε να το κάνετε αυτό?"
+
+#: lib/wpdev-settings-general.php:999
+msgid "Check this box, if you want to %sre-check if the selected dates available during submitting booking%s."
+msgstr "Επιλέξτε αυτό το πλαίσιο, εάν θέλετε να %sνα ελέγξει εκ νέου αν οι επιλεγμένες ημερομηνίες διαθέσιμες κατά τη διάρκεια της υποβολής κράτηση%s."
+
+#: lib/wpdev-settings-general.php:1003
+msgid "This feature useful to prevent double booking of the same date(s) or time(s), if several visitors try to book the same date(s) in same calendar during the same time."
+msgstr "Αυτό το χαρακτηριστικό είναι χρήσιμο για την αποφυγή διπλής κράτησης στην ίδια ημερομηνία (ες) ή χρόνος (s), σε περίπτωση που πολλοί επισκέπτες προσπαθήσουν να κάνουν κράτηση την ίδια ημερομηνία σε ίδιο ημερολογιακό χρονικό διάστημα."
+
+#: lib/wpdev-settings-general.php:1006
+msgid "This feature does not work for booking resources with capacity higher than one."
+msgstr "Αυτό το χαρακτηριστικό δεν λειτουργεί για της πηγές κράτησης με χωρητικότητα μεγαλύτερη από ένα."
+
+#: lib/wpdev-settings-general.php:1015
+msgid "Allow unlimited bookings per same day(s)"
+msgstr "Επιτρέψτε απεριόριστες κρατήσεις στην ίδια ημέρα"
+
+#: lib/wpdev-settings-general.php:1022
+msgid "You allow unlimited number of bookings per same dates, its can be a reason of double bookings on the same date. Do you really want to do this?"
+msgstr "Επιτρέπετε απεριόριστο αριθμό κρατήσεων στις ίδιες ημερομηνίες, αυτός μπορεί να είναι ένας λόγος διπλής κρατήσεις την ίδια ημερομηνία. Είστε σίγουροι ότι θέλετε να το κάνετε αυτό?"
+
+#: lib/wpdev-settings-general.php:1024
+msgid "Check this box, if you want to %sset any days as available%s in calendar. Your visitors will be able to make %sunlimited bookings per same date(s) in calendar and do not see any booked date(s)%s of other visitors."
+msgstr "Επιλέξτε αυτό το πλαίσιο εάν θέλετε να %sορίσετε οποιεσδήποτε ημέρες είναι διαθέσιμες%s στο ημερολόγιο. Οι επισκέπτες θα μπορούν να κάνουν %sαπεριόριστες κρατήσεις την ίδια ημέρα στο ημερολόγιο και εδν θα βλέπουν καμία προγραμματισμένη μέρα%s από άλους επισκέπτες."
+
+#: lib/wpdev-settings-general.php:1040
+msgid "Show advanced settings of JavaScript loading"
+msgstr "Εμφάνιση σύνθετων ρυθμίσεων της JavaScript"
+
+#: lib/wpdev-settings-general.php:1041
+msgid "Hide advanced settings of JavaScript loading"
+msgstr "Απόκρυψη προηγμένων ρυθμίσεων της JavaScript"
+
+#: lib/wpdev-settings-general.php:1050
+msgid "Disable Bootstrap loading on Front-End"
+msgstr "Απενεργοποίηση Bootstrap φόρτωση σε Front-End"
+
+#: lib/wpdev-settings-general.php:1056 lib/wpdev-settings-general.php:1071
+#: lib/wpdev-settings-general.php:1088
+msgid "You are need to be sure what you are doing. You are disable of loading some JavaScripts Do you really want to do this?"
+msgstr "Πρέπει να είστε σίγουροι τι πάτε να κάνετε. Θα απενεργοποιήσετε την φόρτωση από κάποιες JavaScripts ρυθμίσεις. Θέλετε πραγματικά να το κάνετε?"
+
+#: lib/wpdev-settings-general.php:1058 lib/wpdev-settings-general.php:1073
+msgid " If your theme or some other plugin is load the BootStrap JavaScripts, you can disable  loading of this script by this plugin."
+msgstr " Εάν το θέμα σας ή κάποιο άλλο plugin έχει φορτώσει τα JavaScripts Bootstrap, μπορείτε να απενεργοποιήσετε τη φόρτωση του αυτό το σενάριο από αυτό το plugin."
+
+#: lib/wpdev-settings-general.php:1065
+msgid "Disable Bootstrap loading on Back-End"
+msgstr "Απενεργοποίηση Bootstrap φόρτωση Back-End"
+
+#: lib/wpdev-settings-general.php:1082
+msgid "Load JS and CSS files only on specific pages"
+msgstr "Φόρτωμα JS και CSS αρχεία μόνο στην συγκεκριμένη σελίδα"
+
+#: lib/wpdev-settings-general.php:1090
+msgid "Activate loading of CSS and JavaScript files of plugin only at specific pages."
+msgstr "Ενεργοποίηση φορτώματος CSS και JavaScript αρχεία από plugin μόνο σε συγκεκριμένες σελίδες."
+
+#: lib/wpdev-settings-general.php:1104
+msgid "Relative URLs of pages, where to load plugin CSS and JS files"
+msgstr "Σχετικά URLs σελίδων, όπου φορτώνετε Plugin CSS και JS αρχεία"
+
+#: lib/wpdev-settings-general.php:1109
+msgid "Enter relative URLs of pages, where you have Booking Calendar elements (booking forms or availability calendars). Please enter one URL per line. Example: %s"
+msgstr "Εισάγετε σχετικά URLs σελίδων, όπου έχετε ημερολόγια κρατήσεων (φόρμες κρατήσεων ή διαθέσιμα ημερολόγια). Παρακαλώ πληκτρολογήστε ένα URL ανά γραμμή. Παράδειγμα: %s"
+
+#: lib/wpdev-settings-general.php:1127
+msgid "Show settings of powered by notice"
+msgstr "Εμφάνιση ρυθμίσεων των powered με ανακοίνωση"
+
+#: lib/wpdev-settings-general.php:1128
+msgid "Hide settings of powered by notice"
+msgstr "Απόκρυψη ρυθμίσεων των powered με ανακοίνωση"
+
+#: lib/wpdev-settings-general.php:1136
+msgid "Powered by notice"
+msgstr "Powered με ενημέρωση"
+
+#: lib/wpdev-settings-general.php:1141
+msgid " Turn On/Off powered by \"Booking Calendar\" notice under the calendar."
+msgstr " Ενεργοποίηση/Απενεργοποίηση powered με \"Ημερολόγιο Κρατήσεωνr\" εμφάνιση κάτω από το ημερολόγιο."
+
+#: lib/wpdev-settings-general.php:1151
+msgid "Help and info notices"
+msgstr "βοήθεια και πληροφορίες"
+
+#: lib/wpdev-settings-general.php:1157
+msgid " Turn On/Off version notice and help info links at booking admin panel."
+msgstr " Ενεργοποίηση εμφάνισης έκδοσης και link βοήθειας στο admin panel"
+
+#: lib/wpdev-settings-general.php:1186
+msgid "Information"
+msgstr "Πληροφορία"
+
+#: lib/wpdev-settings-general.php:1215
+msgid "User permissions for plugin menu pages"
+msgstr "Τα δικαιώματα χρήσης για τις σελίδες του μενού plugin"
+
+#: lib/wpdev-settings-general.php:1275
+msgid "Select user access level for the menu pages of plugin"
+msgstr "Επιλέξτε το επίπεδο πρόσβασης χρήστη για τις σελίδες του μενού του plugin"
+
+#: lib/wpdev-settings-general.php:1285
+msgid "Uninstall / deactivation"
+msgstr "Κατάργηση / απενεργοποίηση"
+
+#: lib/wpdev-settings-general.php:1289
+msgid "Delete booking data, when plugin deactivated"
+msgstr "Διαγραφή δεδομένων της κράτησης, όταν το plugin απενεργοποιηθεί"
+
+#: lib/wpdev-settings-general.php:1294
+msgid "If you check this option, all booking data will be deleted when you uninstall this plugin. Do you really want to do this?"
+msgstr "Εάν επιλέξετε αυτή την επιλογή, όλα τα δεδομένα κρατήσεων θα διαγραφούν όταν απεγκαταστήσετε το plugin. Θέλετε πραγματικά να το κάνετε?"
+
+#: lib/wpdev-settings-general.php:1296
+msgid "Check this box to delete all booking data when you uninstal this plugin."
+msgstr "Επιλέξετε αυτή την επιλογή για διαγραφή όλων των δεδομένων κράτησης όταν απεγκαταστήσετε το plugin."
+
+#: lib/wpdev-settings-general.php:1423
+msgid "Show legend below calendar"
+msgstr "Εμφάνιση του ημερολόγιου ως Lagend"
+
+#: lib/wpdev-settings-general.php:1431
+msgid "Check this box to display a legend of dates below the booking calendar."
+msgstr "Επιλέξτε αυτό το πλαίσιο για να εμφανιστεί ένα πλήθος ημερομηνιών κάτω από το ημερολόγιο της κράτησης."
+
+#: lib/wpdev-settings-general.php:1441
+msgid "Available item"
+msgstr "Διαθέσιμο στοιχείο"
+
+#: lib/wpdev-settings-general.php:1447
+msgid "Activate and type your %stitle of available%s item in legend"
+msgstr "Ενεργοποιήστε και πληκτρολογήστε %sτίτλο των διαθέσιμων%s θεμάτων στο legend"
+
+#: lib/wpdev-settings-general.php:1453
+msgid "Pending item"
+msgstr "Εν αναμονή στοιχείου"
+
+#: lib/wpdev-settings-general.php:1459
+msgid "Activate and type your %stitle of pending%s item in legend"
+msgstr "Ενεργοποιήστε και πληκτρολογήστε %sτίτλο εκκρεμότητες%s θεμάτων στο legend"
+
+#: lib/wpdev-settings-general.php:1465
+msgid "Approved item"
+msgstr "Εγκεκριμένο στοιχείο"
+
+#: lib/wpdev-settings-general.php:1471
+msgid "Activate and type your %stitle of approved%s item in legend"
+msgstr "Ενεργοποιήστε και πληκτρολογήστε %sτίτλο εγκεκριμένων%s θεμάτων στο legend"
+
+#: lib/wpdev-settings-general.php:1477
+msgid "Partially booked item"
+msgstr "Μερικώς κράτηση στοιχείου"
+
+#: lib/wpdev-settings-general.php:1483
+msgid "Activate and type your %stitle of partially booked%s item in legend"
+msgstr "Ενεργοποιήστε και εισάγετε %sτίτλο μερικής κράτησης%s στο στοιχείο"
+
+#: lib/wpdev-settings-general.php:1484
+msgid "Partially booked item - day, which is booked for the specific time-slot(s)."
+msgstr "Μερικώς κράτηση - την ημέρα, η οποία έχει κρατηθεί για τη συγκεκριμένη χρονική περίοδο."
+
+#: lib/wpdev-settings-general.php:1535
+msgid "Form fields labels"
+msgstr "Ονόματα πεδίων στην φόρμα"
+
+#: lib/wpdev-settings-general.php:1559 lib/wpdev-settings-general.php:1602
+#: lib/wpdev-settings-general.php:1747
+msgid "Field Label"
+msgstr "Ετικέτα πεδίου"
+
+#: lib/wpdev-settings-general.php:1569 lib/wpdev-settings-general.php:1612
+#: lib/wpdev-settings-general.php:1657 lib/wpdev-settings-general.php:1703
+#: lib/wpdev-settings-general.php:1757 lib/wpdev-settings-general.php:1800
+#: lib/wpdev-settings-general.php:2048 lib/wpdev-settings-general.php:2129
+#: lib/wpdev-settings-general.php:2201 lib/wpdev-settings-general.php:2289
+msgid "Active"
+msgstr "Ενεργό"
+
+#: lib/wpdev-settings-general.php:1576 lib/wpdev-settings-general.php:1619
+#: lib/wpdev-settings-general.php:1664 lib/wpdev-settings-general.php:1710
+#: lib/wpdev-settings-general.php:1764 lib/wpdev-settings-general.php:1807
+msgid "Required"
+msgstr "Απαιτείται"
+
+#: lib/wpdev-settings-general.php:1579 lib/wpdev-settings-general.php:1622
+#: lib/wpdev-settings-general.php:1722 lib/wpdev-settings-general.php:1767
+#: lib/wpdev-settings-general.php:1810
+msgid "Activate or deactivate field and change the label title"
+msgstr "Ενεργοποίηση ή απενεργοποίηση τομέα και αλλάξτε τον τίτλο ετικέτα"
+
+#: lib/wpdev-settings-general.php:1647
+msgid "Email Label"
+msgstr "Email Ετικέτα"
+
+#: lib/wpdev-settings-general.php:1667
+msgid "Change the label title of this field. Email is obligatory field in booking form."
+msgstr "Αλλάξτε τον τίτλο ετικέτα του εν λόγω τομέα. Το email δεν είναι υποχρεωτικό πεδίο στη φόρμα της κράτησης."
+
+#: lib/wpdev-settings-general.php:1693
+msgid "Selectbox Label"
+msgstr "Ετικέτα"
+
+#: lib/wpdev-settings-general.php:1716
+msgid "Selectbox Values"
+msgstr "Τιμές"
+
+#: lib/wpdev-settings-general.php:1723
+msgid "Enter dropdown options. One option per line."
+msgstr "Εισάγετε επιλογές. Μια επιλογή ανά γραμμή."
+
+#: lib/wpdev-settings-general.php:1790
+msgid "Textarea Label"
+msgstr "Περιοχή κειμένου Ετικέτα"
+
+#: lib/wpdev-settings-general.php:2034
+msgid "Email to \"Admin\" after a new booking"
+msgstr "Email στο \"Admin\" μετά από νέα κράτηση"
+
+#: lib/wpdev-settings-general.php:2054
+msgid "To"
+msgstr "Στο"
+
+#: lib/wpdev-settings-general.php:2056
+msgid "Type default %sadmin email%s for booking confirmation"
+msgstr "Πληκτρολογήστε προεπιλογή %semail διαχειριστή%s για επιβεβαίωση κράτησης"
+
+#: lib/wpdev-settings-general.php:2063
+msgid "Type the default %sadmin email%s sending the booking confimation. You can use this %s shortcode."
+msgstr "Πληκτρολογήστε το προεπιλεγμένο %semail διαχειριστή%s στέλνει την επιβεβαίωση της κράτησης. Μπορείτε να το χρησιμοποιήσετε %s σύντομος κώδικας."
+
+#: lib/wpdev-settings-general.php:2068 lib/wpdev-settings-general.php:2142
+#: lib/wpdev-settings-general.php:2228 lib/wpdev-settings-general.php:2317
+msgid "Subject"
+msgstr "Θέμα"
+
+#: lib/wpdev-settings-general.php:2070
+msgid "Type your email %ssubject%s for the booking confimation message."
+msgstr "Πληκτρολογήστε το email σας %sθέμα%s για το μήνυμα επιβεβαίωσης στην κράτηση."
+
+#: lib/wpdev-settings-general.php:2075 lib/wpdev-settings-general.php:2150
+#: lib/wpdev-settings-general.php:2235 lib/wpdev-settings-general.php:2324
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: lib/wpdev-settings-general.php:2090
+msgid "Type your %semail message content for checking booking%s in. "
+msgstr "Πληκτρολογήστε %sπεριεχόμενο του μηνύματος ηλεκτρονικού ταχυδρομείου για τον έλεγχο της κράτησης%s μέσα. "
+
+#: lib/wpdev-settings-general.php:2099
+msgid "For example: \"You have a new reservation %s on the following date(s): %s Contact information: %s You can approve or cancel this booking at: %s Thank you, Reservation service.\""
+msgstr "Για παράδειγμα: \"Έχετε μια νέα κράτηση %s στην ακόλουθη ημερομηνία: %s Στοιχεία επικοινωνίας: %s Μπορείτε να εγκρίνετε ή να ακυρώσετε την κράτηση σε: %s Ευχαριστούμε, Υπηρεσία κρατήσεων.\""
+
+#: lib/wpdev-settings-general.php:2114
+msgid "Email to \"Person\" after they make a new reservation"
+msgstr "Email στο \"Πρόσωπο\" μετά από μία νέα κράτηση"
+
+#: lib/wpdev-settings-general.php:2137 lib/wpdev-settings-general.php:2223
+#: lib/wpdev-settings-general.php:2312
+msgid "Type the default %sadmin email%s sending the booking confimation"
+msgstr "Πληκτρολογήστε το προεπιλεγμένο %semail διαχειριστή%s για την αποστολή επιβεβαίωση κράτησης"
+
+#: lib/wpdev-settings-general.php:2144
+msgid "Type email subject for %svisitor after creating a new reservation%s."
+msgstr "Πληκτρολογήστε θέμα στο email για %sεπισκέπτης μετά την δημιουργία νέας κράτησης%s."
+
+#: lib/wpdev-settings-general.php:2165
+msgid "Type your %semail message for visitor after creating a new reservation%s"
+msgstr "Πληκτρολογήστε το δικό σας %semail μήνυμα για τους επισκέπτες μετά την δημιουργία κράτησης%s"
+
+#: lib/wpdev-settings-general.php:2173
+msgid "For example: \"Your reservation %s on these date(s): %s is processing now! We will send confirmation by email. %s Thank you, Reservation service.\""
+msgstr "Για παράδειγμα: \"Η κράτησή σας %s για αυτές τις μέρες: %s επεξεργάζονται! Θα σας στείλουμε επιβεβαίωση μέσω email. %s Ευχαριστούμε, Υπηρεσία κρατήσεων.\""
+
+#: lib/wpdev-settings-general.php:2187
+msgid "Email to \"Person\" after booking is approved"
+msgstr "Email στο \"Πρόσωπο\" μετά την έγκριση της κράτησης"
+
+#: lib/wpdev-settings-general.php:2207 lib/wpdev-settings-general.php:2295
+msgid "Send to Admin"
+msgstr "Αποστολή στον διαχειριστή"
+
+#: lib/wpdev-settings-general.php:2215 lib/wpdev-settings-general.php:2303
+msgid "Check this box to send copy of this email to Admin"
+msgstr "Επιλέξτε αυτό το πλαίσιο για να σταλθεί αντίγραφο email στον διαχειριστή "
+
+#: lib/wpdev-settings-general.php:2230
+msgid "Type your email subject for the %sapproved booking%s."
+msgstr "Πληκτρολογήστε το θέμα του email για την %sεπιβεβαίωση κράτησης%s."
+
+#: lib/wpdev-settings-general.php:2250
+msgid "Type your %semail message for the approved booking%s from the website"
+msgstr "Πληκτρολογήστε το δικό σας %semail μήνυμα για την έγκριση της κράτησης%s από την Ιστοσελίδα"
+
+#: lib/wpdev-settings-general.php:2259
+msgid "For example: \"Your reservation %s on these date(s): %s has been approved.%s Thank you, Reservation service.\""
+msgstr "Για παράδειγμα: \"Η κράτησή σας %s για αυτές τις μέρες: %s έχουν εγκριθεί.%s Ευχαριστούμε, Υπηρεσία κρατήσεων.\""
+
+#: lib/wpdev-settings-general.php:2274
+msgid "Email to \"Person\" after their booking has been denied"
+msgstr "Email στο \"Πρόσωπο\" μετά την άρνηση για τις συγκεκριμένες κρατήσεις"
+
+#: lib/wpdev-settings-general.php:2319
+msgid "Type your email subject for the %sdenied booking%s."
+msgstr "Πληκτρολογήστε το δικό σας θέμα του email για την %sάρνηση κράτησης%s."
+
+#: lib/wpdev-settings-general.php:2339
+msgid "Type your %semail message for the denied booking%s from the website"
+msgstr "Πληκτρολογήστε το δικό σας %sμήνυμα στο email  για την άρνηση της κράτησης%s από την ιστοσελίδα"
+
+#: lib/wpdev-settings-general.php:2349
+msgid "For example: \"Your reservation %s on these date(s): %s has been canceled. Please contact us for more information. %s Thank you, Reservation service.\""
+msgstr "Για παράδειγμα: \"Η κράτησή σας %s γι' αυτές τις ημερομηνίες: %s έχει ακυρωθεί. Παρακαλώ επικοινωνήστε μαζί μας για περισσότερες πληροφορίες. %s Ευχαριστώ, Υπηρεσία κρατήσεων.\""
+
+#: lib/wpdev-settings-general.php:2385
+msgid "You can use (in subject and content of email template) any shortcodes, which you used in the booking form. Use the shortcodes in the same way as you used them in the content form at Settings Fields page."
+msgstr "Μπορείτε να χρησιμοποιήσετε (σε θέμα και το περιεχόμενο πρότυπα email) οποιοδήποτε σύντομο κώδικα, το οποίο θα χρησιμοποιείται στη φόρμα κράτησης. Χρησιμοποιήστε σύντομους κώδικες με τον ίδιο τρόπο όπως το  χρησιμοποιούσατε στο περιεχόμενο της φόρμας στην σελίδα ρυθμίσεις."
+
+#: lib/wpdev-settings-general.php:2387 lib/wpdev-settings-general.php:2389
+msgid "You can use following shortcodes in content of this template"
+msgstr "Μπορείτε να χρησιμοποιήσετε τους ακόλουθους σύντομους κώδικες στο περιεχόμενο των προτύπων"
+
+#: lib/wpdev-settings-general.php:2393
+msgid "%s - inserting data info about the booking"
+msgstr "%s - εισάγοντας πληροφορίες δεδομένων σχετικά με την κράτηση"
+
+#: lib/wpdev-settings-general.php:2395
+msgid "%s - inserting data info about the booking, which you configured in the content form at Settings Fields page"
+msgstr "%s - εισάγοντας δεδομένα πληροφοριών σχετικά με την κράτηση, την οποία διαμορφώσατε στο περιεχόμενο της φόρμας στην σελίδα ρυθμίσεων"
+
+#: lib/wpdev-settings-general.php:2397
+msgid "%s - inserting ID of booking "
+msgstr "%s - εισάγοντας ID κράτησης "
+
+#: lib/wpdev-settings-general.php:2399
+msgid "%s or %s - inserting the title of the booking resource "
+msgstr "%s ή %s - εισαγωγή τίτλου της πηγής κράτησης "
+
+#: lib/wpdev-settings-general.php:2401
+msgid "%s - inserting the cost of  booking "
+msgstr "%s - εισάγοντας το κόστος κράτησης "
+
+#: lib/wpdev-settings-general.php:2405
+msgid "%s - inserting the dates of booking"
+msgstr "%s - εισάγοντας τις ημερομηνίες κράτησης"
+
+#: lib/wpdev-settings-general.php:2407
+msgid "%s - inserting check-in date (first day of reservation),"
+msgstr "%s - εισάγοντας ημερομηνία check-in (πρώτη μέρα κράτησης),"
+
+#: lib/wpdev-settings-general.php:2409 lib/wpdev-settings-general.php:2410
+msgid "%s - inserting check-out date (last day of reservation),"
+msgstr "%s - εισάγοντας ημερομηνία check-out (τελευταία μέρα κράτησης),"
+
+#: lib/wpdev-settings-general.php:2412
+msgid "%s - inserting the number of booking dates "
+msgstr "%s - εισάγοντας τον αριθμό των ημερομηνιών κράτησης "
+
+#: lib/wpdev-settings-general.php:2416 lib/wpdev-settings-general.php:2424
+msgid "%s - inserting your site URL "
+msgstr "%s - εισάγοντας τη διεύθυνση URL ιστοσελίδα σας"
+
+#: lib/wpdev-settings-general.php:2417
+msgid "%s - inserting IP address of the user who made this action "
+msgstr "%s - εισάγοντας IP διεύθυνση του χρήστη που έκανε αυτή την ενέργεια "
+
+#: lib/wpdev-settings-general.php:2418
+msgid "%s - inserting contents of the User-Agent: header from the current request, if there is one "
+msgstr "%s - εισάγοντας το περιεχόμενου του χρήστη: επικεφαλίδα από την τρέχουσα αίτηση, εάν υπάρχει "
+
+#: lib/wpdev-settings-general.php:2419
+msgid "%s - inserting address of the page (if any), where visitor make this action "
+msgstr "%s - εισάγοντας διεύθυνσης της σελίδας (οποιαδήποτε), όταν ο επισκέπτης κάνει αυτήν την ενέργεια "
+
+#: lib/wpdev-settings-general.php:2420
+msgid "%s - inserting date of this action "
+msgstr "%s - εισάγοντας ημερομηνία της παρούσας δράσης "
+
+#: lib/wpdev-settings-general.php:2421
+msgid "%s - inserting time of this action "
+msgstr "%s - εισάγοντας το χρόνο της εν λόγω δράσης "
+
+#: lib/wpdev-settings-general.php:2428
+msgid "%s - inserting moderate link of new booking "
+msgstr "%s - εισάγοντας μέτρια σύνδεση της νέας κράτησης "
+
+#: lib/wpdev-settings-general.php:2432
+msgid "%s - inserting link to the page where visitor can edit the reservation,  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - εισάγοντας link στην σελίδα όπου ο επισκέπτης μπορεί να διαμορφώσει την κράτηση,  (πιθανόν να χρησιμοποιηθεί η %s παράμετρος για τον καθορισμό διαφορετικών %s αυτής της σελίδας. παράδειγμα: %s )"
+
+#: lib/wpdev-settings-general.php:2434
+msgid "%s - inserting link to the page where visitor can cancel the reservation, (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - εισάγοντας το link στη σελίδα όπου ο επισκέπτης μπορεί να ακυρώσει την κράτηση, (πιθανόν να χρησιμοποιηθεί η %s παράμετρος για τον καθορισμό διαφορετικών %s σε αυτή την σελίδα. Παράδειγμα: %s )"
+
+#: lib/wpdev-settings-general.php:2436
+msgid "%s - inserting link to payment page where visitor can pay for the reservation  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - εισάγοντας τη σύνδεση στη σελίδα πληρωμής όπου ο επισκέπτης μπορεί να πληρώσει για την κράτηση (δυνατό να χρησιμοποιηθεί η %s παράμετρος για τον καθορισμό διαφορετικών %s από αυτή την σελίδα. Παράδειγμα: %s )"
+
+#: lib/wpdev-settings-general.php:2440
+msgid "%s - add the reason for booking payment, you can enter it before sending email, "
+msgstr "%s - προσθέστε το λόγο για την πληρωμή κράτησης, μπορείτε να τον εισάγετε πριν την αποστολή e-mail, "
+
+#: lib/wpdev-settings-general.php:2444
+msgid "%s - add the reason booking was cancelled, you can enter it before sending email, "
+msgstr "%s - προσθέστε το λόγο που ακυρώσατε την κράτηση, μπορείτε να τον εισάγετε πριν την αποστολή e-mail, "
+
+#: lib/wpdev-settings-general.php:2447
+msgid "HTML tags is accepted."
+msgstr "HTML ετικέτα είναι αποδεκτή."
+
+#: lib/wpdev-settings-general.php:2465
+msgid "Customization of email template, which is sending to Admin after new booking"
+msgstr "Προσαρμογή στο πρότυπο email, το οποίο διαβιβάζει στο διαχειριστή μετά από νέα κράτηση"
+
+#: lib/wpdev-settings-general.php:2466
+msgid "New for Admin"
+msgstr "Νέα για τον Διαχειριστή"
+
+#: lib/wpdev-settings-general.php:2474
+msgid "Customization of email template, which is sending to Visitor after new booking"
+msgstr "Προσαρμογή στο πρότυπο email, το οποίο στέλνει στον επισκέπτη μετά από νέα κράτηση"
+
+#: lib/wpdev-settings-general.php:2475
+msgid "New for Visitor"
+msgstr "Νέα για τον Επισκέπτη"
+
+#: lib/wpdev-settings-general.php:2483
+msgid "Customization of email template, which is sending to Visitor after approval of booking"
+msgstr "Προσαρμογή στο πρότυπο email, το οποίο στέλνει στον επισκέπτη μετά την έγκριση της κράτησης"
+
+#: lib/wpdev-settings-general.php:2492
+msgid "Customization of email template, which is sending to Visitor after Cancellation of booking"
+msgstr "Προσαρμογή στο πρότυπο email, το οποίο στέλνει στον επισκέπτη μετά την ακύρωση της κράτησης"
+
+#: lib/wpdev-settings-general.php:2493
+msgid "Declined"
+msgstr "Απορρίφθηκε"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:486 lib/wpdev-settings-general.php:585
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:487 lib/wpdev-settings-general.php:589
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:488 lib/wpdev-settings-general.php:593
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:489 lib/wpdev-settings-general.php:597
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:483 lib/wpdev-settings-general.php:573
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:146
+#: lib/wpdev-bk-timeline.php:153
+msgid "M"
+msgstr "Δ"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Tu"
+msgstr "Τρ"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:146
+#: lib/wpdev-bk-timeline.php:153
+msgid "W"
+msgstr "Τ"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Th"
+msgstr "Πε"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:146
+#: lib/wpdev-bk-timeline.php:153
+msgid "F"
+msgstr "Π"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Sa"
+msgstr "Σα"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Su"
+msgstr "Κυ"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Mon"
+msgstr "Δευ"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Tue"
+msgstr "Τρι"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Wed"
+msgstr "Τετ"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Thu"
+msgstr "Πεμ"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Fri"
+msgstr "Παρ"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Sat"
+msgstr "Σαβ"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Sun"
+msgstr "Κυρ"
+
+#: lib/wpdev-bk-timeline.php:146
+msgid "T"
+msgstr "Τ"
+
+#: lib/wpdev-bk-timeline.php:146
+msgid "S"
+msgstr "Σ"
+
+#: lib/wpdev-bk-timeline.php:225 lib/wpdev-bk-timeline.php:583
+msgid "Times"
+msgstr "Ώρες"
+
+#: lib/wpdev-bk-timeline.php:779 lib/wpdev-booking-class.php:664
+#: lib/wpdev-settings-general.php:1246
+msgid "Resources"
+msgstr "Όλα τα δωμάτια"
+
+#: lib/wpdev-bk-timeline.php:963
+msgid "Payment"
+msgstr "Πληρωμή"
+
+#. #-#-#-#-#  tmp-booking.pot (Booking Calendar 6.2.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: lib/wpdev-booking-class.php:145 lib/wpdev-booking-widget.php:14
+msgid "Booking Calendar"
+msgstr "Booking Calendar"
+
+#: lib/wpdev-booking-class.php:343
+msgid "Statistic"
+msgstr "Στατιστικά"
+
+#: lib/wpdev-booking-class.php:347
+msgid "New (unverified) booking(s)"
+msgstr "Νέα (ανεπιβεβαίωτη) κράτησης"
+
+#: lib/wpdev-booking-class.php:351
+msgid "Pending booking(s)"
+msgstr "Κρατήσεις σε αναμονή"
+
+#: lib/wpdev-booking-class.php:357
+msgid "Agenda"
+msgstr "Ημερήσια λίστα"
+
+#: lib/wpdev-booking-class.php:361
+msgid "New booking(s) made today"
+msgstr "Νέα κράτηση που έγινε σήμερα"
+
+#: lib/wpdev-booking-class.php:365
+msgid "Bookings for today"
+msgstr "Κράτηση για σήμερα"
+
+#: lib/wpdev-booking-class.php:379
+msgid "Upgrade to higher versions"
+msgstr "Αναβάθμιση σε νεότερη έκδοση"
+
+#: lib/wpdev-booking-class.php:396
+msgid "Current version"
+msgstr "Τρέχουσα έκδοση"
+
+#: lib/wpdev-booking-class.php:399
+msgid "Version"
+msgstr "Έκδοση"
+
+#: lib/wpdev-booking-class.php:415
+msgid "Type"
+msgstr "Τύπος"
+
+#: lib/wpdev-booking-class.php:419
+msgid "Used for"
+msgstr "Χρησιμοποιείται για"
+
+#: lib/wpdev-booking-class.php:428
+msgid "websites"
+msgstr "ιστότοποι"
+
+#: lib/wpdev-booking-class.php:430
+msgid "website"
+msgstr "ιστοτοπος"
+
+#: lib/wpdev-booking-class.php:436
+msgid "Release date"
+msgstr "Ημερομηνία κυκλοφορίας"
+
+#: lib/wpdev-booking-class.php:446
+msgid "Check Premium Features"
+msgstr "Ελέγξτε την πλήρης έκδοση με όλες τις δυνατότητες"
+
+#: lib/wpdev-booking-class.php:448 lib/wpdev-booking-class.php:1187
+#: lib/wpdev-booking-class.php:1188 lib/wpdev-booking-class.php:1196
+#: lib/wpdev-booking-class.php:1197
+msgid "Upgrade"
+msgstr "Αναβάθμιση"
+
+#: lib/wpdev-booking-class.php:450
+msgid "Explore Premium Features"
+msgstr "Μεταφερθείτε στην πλήρης έκδοση με όλες τις δυνατότητες"
+
+#: lib/wpdev-booking-class.php:459
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: lib/wpdev-booking-class.php:464
+msgid "Getting Started"
+msgstr "Ξεκινώντας"
+
+#: lib/wpdev-booking-class.php:468
+msgid "Help Info"
+msgstr "Βοήθεια"
+
+#: lib/wpdev-booking-class.php:474
+msgid "Contact email"
+msgstr "Email επικοινωνίας"
+
+#: lib/wpdev-booking-class.php:477
+msgid "Rate plugin (thanks:)"
+msgstr "Βαθμολογήστε το plugin (Ευχαριστώ :)"
+
+#: lib/wpdev-booking-class.php:540
+msgid "Warning !!!"
+msgstr "Προειδοποίηση!!!"
+
+#: lib/wpdev-booking-class.php:541
+msgid "All booking data will be deleted when the plugin is deactivated."
+msgstr "Όλα τα δεδομένα της εφαρμογής booking θα διαγραφούν εάν απενεργοποιήσετε το συγκεκριμένο plugin."
+
+#: lib/wpdev-booking-class.php:542
+msgid "If you want to save your booking data, please uncheck the %s\"Delete booking data\"%s at the"
+msgstr "Εάν θέλετε να αποθηκεύσετε όλα τα δεδομένα της εφαρμογής booking, παρακαλώ καταργήστε την επιλογή %s\"Διαγραφή δεδομένων Booking\"%s στο"
+
+#: lib/wpdev-booking-class.php:543
+msgid "settings page"
+msgstr "Ρυθμίσεις σελίδας"
+
+#: lib/wpdev-booking-class.php:593 lib/wpdev-booking-class.php:673
+#: lib/wpdev-booking-functions.php:2567 lib/wpdev-settings-general.php:1260
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: lib/wpdev-booking-class.php:597
+msgid "Check new functionality in this plugin update."
+msgstr "Ελέγξτε νέες λειτουργίες σε αυτή την ενημέρωση plugin."
+
+#: lib/wpdev-booking-class.php:597
+msgid "What's New"
+msgstr "Τι νέο υπάρχει"
+
+#: lib/wpdev-booking-class.php:635
+msgid "Booking"
+msgstr "Κράτηση"
+
+#: lib/wpdev-booking-class.php:653 lib/wpdev-booking-class.php:720
+#: lib/wpdev-settings-general.php:1232
+msgid "Add booking"
+msgstr "Προσθήκη κράτησης"
+
+#: lib/wpdev-booking-class.php:673
+msgid "Booking Calendar Settings"
+msgstr "Ρυθμίσεις Booking Calendar"
+
+#: lib/wpdev-bk-lib.php:1745 lib/wpdev-booking-class.php:683
+#: lib/wpdev-booking-functions.php:2533 lib/wpdev-settings-general.php:1219
+msgid "Bookings"
+msgstr "Κρατήσεις"
+
+#: lib/wpdev-booking-class.php:714
+msgid "Bookings listing"
+msgstr "Λίστα κρατήσεων"
+
+#: lib/wpdev-booking-class.php:726 lib/wpdev-booking-class.php:1155
+msgid "General Settings"
+msgstr "Γενικές ρυθμίσεις"
+
+#: lib/wpdev-booking-class.php:732
+msgid "Booking resources management"
+msgstr "Διαχείριση κρατήσεων"
+
+#: lib/wpdev-booking-class.php:1075
+msgid "Send email notification to customer about this operation"
+msgstr "Ειδοποίηση με email στον πελάτη για αυτή τη λειτουργία"
+
+#: lib/wpdev-booking-class.php:1154
+msgid "General"
+msgstr "Γενικά"
+
+#: lib/wpdev-booking-class.php:1159
+msgid "Fields"
+msgstr "Πεδία"
+
+#: lib/wpdev-booking-class.php:1160
+msgid "Fields Settings"
+msgstr "Ρυθμίσεις Πεδίον"
+
+#: lib/wpdev-booking-class.php:1163
+msgid "Emails"
+msgstr "Emails"
+
+#: lib/wpdev-booking-class.php:1164
+msgid "Emails Settings"
+msgstr "Ρυθμίσεις Emails"
+
+#: lib/wpdev-booking-class.php:1171
+msgid "Payments"
+msgstr "Πληρωμές"
+
+#: lib/wpdev-booking-class.php:1172
+msgid "Payments Settings"
+msgstr "Ρυθμίσεις Πληρωμών"
+
+#: lib/wpdev-booking-class.php:1176
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: lib/wpdev-booking-class.php:1177
+msgid "Search Settings"
+msgstr "Ρυθμίσεις Αναζήτησης"
+
+#: lib/wpdev-booking-class.php:1181
+msgid "Users"
+msgstr "Χρήστες"
+
+#: lib/wpdev-booking-class.php:1182
+msgid "Users Settings"
+msgstr "Ρυθμίσεις Χρηστών"
+
+#: lib/wpdev-booking-class.php:1218
+msgid "Features"
+msgstr "Χαρακτηριστικά"
+
+#: lib/wpdev-booking-class.php:1218
+msgid "Live Demos"
+msgstr "Ζωντανές Επιδείξεις"
+
+#: lib/wpdev-booking-class.php:1218 lib/wpdev-booking-class.php:1220
+msgid "Contact"
+msgstr "Επικοινωνία"
+
+#: lib/wpdev-booking-class.php:1218
+msgid "Buy"
+msgstr "Αγωρά"
+
+#: lib/wpdev-booking-class.php:1508
+msgid "Calendar is loading..."
+msgstr "Το ημερολόγιο φορτώνει..."
+
+#: lib/wpdev-booking-class.php:1637
+msgid "Send"
+msgstr "Αποστολή"
+
+#: lib/wpdev-booking-class.php:1680 lib/wpdev-booking-class.php:1737
+msgid "Wrong booking hash in URL (probably expired)"
+msgstr "Λάθος κράτηση σε URL (Πιθανώς έχει λήξη)"
+
+#: lib/wpdev-booking-class.php:1688
+msgid "Booking resource type is not defined. Its can be, when at the URL is wrong booking hash."
+msgstr "Τύπος πόρου κράτησης δεν ορίζεται. Μπορεί να είναι, όταν στη διεύθυνση URL είναι λάθος δείκτης της κράτησης."
+
+#: lib/wpdev-booking-class.php:1843
+msgid "%sWarning! Booking calendar for this booking resource are already at the page, please check more about this issue at %sthis page%s"
+msgstr "%sΠροσοχή! Κράτηση ημερολόγιου γι’ αυτή την πηγή κράτησης είναι ήδη στη σελίδα, παρακαλούμε να ελέγξετε περισσότερα σχετικά με αυτό το θέμα στο %sσε αυτή την σελίδα%s"
+
+#: lib/wpdev-booking-class.php:1937 lib/wpdev-booking-widget.php:39
+msgid "You need to use special shortcode [bookingedit] for booking editing."
+msgstr "Θα πρέπει να χρησιμοποιήσετε ειδικά σύντομους κώδικες [bookingedit] για παραμετροποίηση κρατήσεων."
+
+#: lib/wpdev-booking-class.php:2039 lib/wpdev-booking-class.php:2041
+msgid "Wrong booking hash in URL. Probably hash is expired."
+msgstr "Λάθος δείκτης κράτησης στη διεύθυνση URL. Πιθανώς έχει λήξει."
+
+#: lib/wpdev-booking-class.php:2045
+msgid "You do not set any parameters for booking editing"
+msgstr "Δεν ορίσατε οποιαδήποτε παράμετρο για την επεξεργασία κράτησης"
+
+#: lib/wpdev-booking-class.php:2167
+msgid "Thank you for your online booking. %s We will send confirmation of your booking as soon as possible."
+msgstr "Ευχαριστώ για την online κράτηση. %s Θα σας σταλθεί επιβεβαίωση για την κράτηση το συντομότερο δυνατόν."
+
+#: lib/wpdev-booking-class.php:2247 lib/wpdev-booking-class.php:2252
+msgid "New booking"
+msgstr "Νέα κράτηση"
+
+#: lib/wpdev-booking-class.php:2248
+msgid "You need to approve a new booking %s for: %s Person detail information:%s Currently a new booking is waiting for approval. Please visit the moderation panel%sThank you, %s"
+msgstr "Θα πρέπει να εγκρίνετε μια νέα κράτηση %s για: %s Πληροφορίες προσώπου:%s Επί του παρόντος, μια νέα κράτηση είναι σε αναμονή για έγκριση. Παρακαλώ επισκεφτείτε τον πίνακα μετριάσεων%sΕυχαριστώ, %s"
+
+#: lib/wpdev-booking-class.php:2254
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %sYou can edit this booking at this page: %s  Thank you, %s"
+msgstr "Η κράτησή σας %s για: %s είναι σε διαδικασία εκτέλεσης! Θα σας αποσταλεί επιβεβαίωση με email. %sΜπορείτε να τροποποιήσετε αυτή την κράτηση σε αυτήν την σελίδα: %s  Ευχαριστώ, %s"
+
+#: lib/wpdev-booking-class.php:2256
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %s Thank you, %s"
+msgstr "Η κράτησή σας %s για: %s είναι σε διαδικασία εκτέλεσης! Θα σας αποσταλεί επιβεβαίωση με email. %s Ευχαριστώ, %s"
+
+#: lib/wpdev-booking-class.php:2261
+msgid "Your booking has been approved"
+msgstr "Η κράτησή σας έχει εγκριθεί"
+
+#: lib/wpdev-booking-class.php:2263
+msgid "Your reservation %s for: %s has been approved.%sYou can edit the booking on this page: %s Thank you, %s"
+msgstr "Η κράτησή σας %s για: %s έχει εγκριθεί.%sΜπορείτε να τροποποιήσετε αυτή την κράτηση σε αυτή την σελίδα: %s Ευχαριστώ, %s"
+
+#: lib/wpdev-booking-class.php:2264
+msgid "Your booking %s for: %s has been approved.%sThank you, %s"
+msgstr "Η κράτησή σας %s για: %s έχει εγκριθεί.%sΕυχαριστώ, %s"
+
+#: lib/wpdev-booking-class.php:2267
+msgid "Your booking has been declined"
+msgstr "Η κράτησή σας απορρίφθηκε"
+
+#: lib/wpdev-booking-class.php:2268
+msgid "Your booking %s for: %s has been  canceled. %sThank you, %s"
+msgstr "Η κράτησή σας %s για: %s έχει ακυρωθεί. %sΕυχαριστώ, %s"
+
+#: lib/wpdev-booking-class.php:2278
+msgid "Booking form"
+msgstr "Φόρμα κράτησης"
+
+#: lib/wpdev-booking-class.php:2289
+msgid "Available"
+msgstr "Διαθέσιμο"
+
+#: lib/wpdev-booking-class.php:2293
+msgid "Booked"
+msgstr "Κράτηση"
+
+#: lib/wpdev-booking-class.php:2296
+msgid "Partially booked"
+msgstr "Μερικώς κράτηση"
+
+#: lib/wpdev-booking-class.php:3047
+msgid "Technical support section"
+msgstr "Τμήμα τεχνικής υποστήριξης"
+
+#: lib/wpdev-booking-class.php:3051
+msgid "Reindex booking data"
+msgstr "Αναδημιουργία δεδομένων κράτησης"
+
+#: lib/wpdev-booking-class.php:3053
+msgid "Reindex"
+msgstr "Αναδημιουργία"
+
+#: lib/wpdev-booking-class.php:3059
+msgid " Click, if you want to reindex booking data by booking dates sort field (Your installation/update of the plugin must be successful)."
+msgstr " Κάντε κλικ, αν θέλετε να αναπροσαρμόσετε τα στοιχεία κράτησης με ημερομηνίες κράτησης πεδίο ταξινόμησης (Η εγκατάσταση / ενημέρωση του plugin πρέπει να είναι επιτυχής)."
+
+#: lib/wpdev-booking-class.php:3104
+msgid "%s Found %s not indexed bookings %s"
+msgstr "%s Βρέθηκε %s δεν έγινε αναπροσαρμογή στις κρατήσεις %s"
+
+#: lib/wpdev-booking-class.php:3119
+msgid "%s Finish getting sort dates. %s"
+msgstr "%s Τελειώστε με τις ημερομηνίες ταξινόμησης. %s"
+
+#: lib/wpdev-booking-class.php:3128
+msgid "Updated booking: %s"
+msgstr "Ενημερώθηκε η κράτηση: %s"
+
+#: lib/wpdev-booking-functions.php:392
+msgid "yes"
+msgstr "Ναι"
+
+#: lib/wpdev-booking-functions.php:396
+msgid "no"
+msgstr "όχι"
+
+#: lib/wpdev-booking-functions.php:1348 lib/wpdev-booking-functions.php:1795
+msgid "Booking system"
+msgstr "Σύστημα κρατήσεων"
+
+#: lib/wpdev-booking-functions.php:2675
+msgid "Warning! Some error occur, during sending registration request."
+msgstr "Προσοχή! Εμφανίστηκαν κάποια λάθει, κατά την αποστολή αίτησης καταχώρισης."
+
+#: lib/wpdev-booking-functions.php:2680
+msgid "Please refresh this page and if the same error appear again contact support by email (with  info about order number and website) for finishing the registrations"
+msgstr "Παρακαλώ αν μετά την ανανέωση της σελίδας το μήνυμα λάθους εξακολουθεί να εμφανίζεται, επικοινωνήστε με την τεχνική υποστήριξη μέσο email(με τον αριθμό παραγγελίας και το Web Site) για να ολοκληρωθεί η καταχώρηση"
+
+#: lib/wpdev-booking-functions.php:2740
+msgid "version"
+msgstr "έκδοση"
+
+#: lib/wpdev-booking-functions.php:2742
+msgid "Add your %s on %swordpress.org%s, if you enjoyed by this plugin."
+msgstr "Προσθέστε το δικό σας %s στο %swordpress.org%s, αν σας άρεσε αυτό το plugin."
+
+#: lib/wpdev-booking-widget.php:115
+msgid "Booking resource"
+msgstr "Πηγή κράτησης"
+
+#: lib/wpdev-booking-widget.php:132
+msgid "Visible months"
+msgstr "Εμφάνιση - Μήνες"
+
+#: lib/wpdev-booking-widget.php:147
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: lib/wpdev-booking-widget.php:152
+msgid "Example: %sMake booking here%s"
+msgstr "Παράδειγμα: %sΚάνε μία κράτηση εδώ%s"
+
+#: lib/wpdev-booking-widget.php:156
+msgid "%sImportant!!!%s Please note, if you show booking calendar (inserted into post/page) with widget at the same page, then the last will not be visible."
+msgstr "%sΣημαντικό!!!%s Παρακαλώ σημειώστε, αν εμφανίσετε το ημερολόγιο των κρατήσεων (εισαχθεί σε θέση / σελίδα) με το widget στην ίδια σελίδα, τότε ο τελευταίος δεν θα είναι ορατό."
+
+#: lib/wpdev-booking-widget.php:160
+msgid "%sSeveral widgets are supported at %spaid versions%s."
+msgstr "%sΠολλά widgets υποστηρίζονται σε %sέκδοση πληρωμής%s."
+
+#: lib/wpdev-settings-general.php:38 lib/wpdev-settings-general.php:407
+msgid "Calendar"
+msgstr "Ημερολόγιο"
+
+#: lib/wpdev-settings-general.php:44 lib/wpdev-settings-general.php:626
+msgid "Form"
+msgstr "Φόρμα"
+
+#: lib/wpdev-settings-general.php:53
+msgid "Costs"
+msgstr "Κόστη"
+
+#: lib/wpdev-settings-general.php:56
+msgid "Auto cancellation / approval"
+msgstr "Αυτόματη ακύρωση / έγκριση"
+
+#: lib/wpdev-settings-general.php:66 lib/wpdev-settings-general.php:976
+msgid "Advanced"
+msgstr "Προχωρημένα"
+
+#: lib/wpdev-settings-general.php:70
+msgid "Menu access"
+msgstr "Πρόσβαση στις λειτουργίες"
+
+#: lib/wpdev-settings-general.php:73
+msgid "Uninstall"
+msgstr "Απεγκατάσταση"
+
+#: lib/wpdev-settings-general.php:76
+msgid "Technical"
+msgstr "Τεχνικός"
+
+#: lib/wpdev-settings-general.php:374
+msgid "Settings saved"
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν"
+
+#: lib/wpdev-settings-general.php:411
+msgid "Calendar Skin"
+msgstr "Εμφάνιση Ημερολόγιου"
+
+#: lib/wpdev-settings-general.php:457
+msgid "Select the skin of the booking calendar"
+msgstr "Επιλέξτε εμφάνιση για το ημερολόγιο κρατήσεων"
+
+#: lib/wpdev-settings-general.php:462
+msgid "Number of months"
+msgstr "Μέρες του μήνα"
+
+#: lib/wpdev-settings-general.php:467
+msgid "month(s)"
+msgstr "μήνας"
+
+#: lib/wpdev-settings-general.php:472
+msgid "year(s)"
+msgstr "έτος"
+
+#: lib/wpdev-settings-general.php:475
+msgid "Select the maximum number of months to show (scroll)"
+msgstr "Επιλέξτε το μέγιστο αριθμό εμφάνισης (Μήνες) "
+
+#: lib/wpdev-settings-general.php:480
+msgid "Start Day of the week"
+msgstr "Ημέρα έναρξης της εβδομάδας"
+
+#: lib/wpdev-settings-general.php:491
+msgid "Select your start day of the week"
+msgstr "Επιλέξτε την ημέρα έναρξης της εβδομάδας"
+
+#: lib/wpdev-settings-general.php:607
+msgid "Unavailable days from today"
+msgstr "Μη διαθέσιμες μέρες από σήμερα"
+
+#: lib/wpdev-settings-general.php:614
+msgid "Select number of unavailable days in calendar start from today."
+msgstr "Επιλέξτε αριθμό από τις διαθέσιμες ημέρες στο ημερολόγιο που να ξεκινάει από σήμερα."
+
+#: lib/wpdev-settings-general.php:569
+msgid "Unavailable week days"
+msgstr "Μη διαθέσιμες μέρες της εβδομάδας"
+
+#: lib/wpdev-settings-general.php:599
+msgid "Check unavailable days in calendars. This option will overwrite all other settings."
+msgstr "Επιλέξτε μη διαθέσιμες ημέρες στο ημερολόγιο. Αυτή η επιλογή θα αντικαταστήσει όλες τις άλλες ρυθμίσεις."
+
+#: lib/wpdev-settings-general.php:500
+msgid "Type of days selection in calendar"
+msgstr "Τύπος των επιλεγμένων ημερών στο ημερολόγιο"
+
+#: lib/wpdev-settings-general.php:503
+msgid "Type of days selection"
+msgstr "Τύπος των επιλεγμένων ημερών"
+
+#: lib/wpdev-settings-general.php:516
+msgid "Single day"
+msgstr "Απλή μέρα"
+
+#: lib/wpdev-settings-general.php:526
+msgid "Multiple days"
+msgstr "Πολλαπλές ημέρες"
+
+#: lib/wpdev-settings-general.php:537
+msgid "Range days"
+msgstr "Εύρος ημερών"
+
+#: lib/wpdev-settings-general.php:638
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: lib/wpdev-settings-general.php:641
+msgid "Check the box to activate CAPTCHA inside the booking form."
+msgstr "Επιλέξτε αυτό το πλαίσιο για να ενεργοποιήσετε το CAPTCHA μέσα στην φόρμα κράτησης."
+
+#: lib/wpdev-settings-general.php:648
+msgid "Auto-fill fields"
+msgstr "Αυτόματο γέμισμα πεδίων"
+
+#: lib/wpdev-settings-general.php:651
+msgid "Check the box to activate auto-fill form fields for logged in users."
+msgstr "Επιλέξτε αυτό το πεδίο για να ενεργοποιήσετε το αυτόματο γέμισμα των πεδίων για τους χρήστες που είναι login"
+
+#: lib/wpdev-settings-general.php:658
+msgid "Use CSS BootStrap"
+msgstr "Χρησιμοποιείστε CSS BootStrap"
+
+#: lib/wpdev-settings-general.php:663
+msgid "Using BootStrap CSS for the form fields"
+msgstr "Χρησιμοποιώντας το BootStrap CSS για τα πεδία φόρμας"
+
+#: lib/wpdev-settings-general.php:666 lib/wpdev-settings-general.php:702
+#: lib/wpdev-settings-general.php:1002 lib/wpdev-settings-general.php:1484
+msgid "Note"
+msgstr "Σημείωση"
+
+#: lib/wpdev-settings-general.php:666
+msgid "You must not deactivate loading BootStrap files at advanced section of these settings!"
+msgstr "Δεν πρέπει να απενεργοποιήσετε τα αρχεία φόρτωσης bootstrap στο τμήμα ρυθμίσεις για προχωρημένους!"
+
+#: lib/wpdev-settings-general.php:683
+msgid "Action after booking is done"
+msgstr "Ενέργεια μετά την ολοκλήρωση της κράτησης"
+
+#: lib/wpdev-settings-general.php:691
+msgid "Show \"Thank You\" message"
+msgstr "Εμφάνιση μηνύματος \"Ευχαριστούμε\""
+
+#: lib/wpdev-settings-general.php:698
+msgid "Redirect visitor to a new \"Thank You\" page"
+msgstr "Ανακατεύθυνση επισκέπτη σε μια νέα \"Ευχαριστούμε\" Σελίδα"
+
+#: lib/wpdev-settings-general.php:702
+msgid "This action will have no effect, if the payment form(s) is active!"
+msgstr "Η δράση αυτή δεν θα έχει καμία επίδραση, εάν η φόρμα (ες) πληρωμής είναι ενεργή!"
+
+#: lib/wpdev-settings-general.php:711
+msgid "Message title"
+msgstr "Τίτλος μηνύματος"
+
+#: lib/wpdev-settings-general.php:714
+msgid "Type title of message %safter booking has done by user%s"
+msgstr "Πληκτρολογήστε τύπο μηνύματος %sΜετά την καταχώρηση κράτησης από τι χρήστη%s"
+
+#: lib/wpdev-settings-general.php:719
+msgid "Time of message showing"
+msgstr "Χρόνος εμφάνισης μηνύματος"
+
+#: lib/wpdev-settings-general.php:722
+msgid "Set duration of time (milliseconds) to show this message"
+msgstr "Ρυθμίστε τη διάρκεια του χρόνου (χιλιοστά του δευτερολέπτου) για να εμφανιστεί αυτό το μήνυμα"
+
+#: lib/wpdev-settings-general.php:729
+msgid "URL of \"thank you\" page"
+msgstr "URL από \"ευχαριστώ\" σελίδα"
+
+#: lib/wpdev-settings-general.php:734
+msgid "Type URL of %s\"Thank You\" page%s"
+msgstr "Πληκτρολογήστε το URL από %s\"Ευχαριστώ\" σελίδα%s"
+
+#: lib/wpdev-settings-general.php:749
+msgid "Listing of bookings"
+msgstr "Καταχώρηση κρατήσεων"
+
+#: lib/wpdev-settings-general.php:752
+msgid "Default booking admin page"
+msgstr "Προεπιλεγμένη σελίδα κρατήσεων διαχειριστή"
+
+#: lib/wpdev-settings-general.php:755
+msgid "Bookings Listing"
+msgstr "Καταχώρηση κρατήσεων"
+
+#: lib/wpdev-settings-general.php:763
+msgid "Select your default view mode of bookings at the booking listing page"
+msgstr "Επιλέξτε προεπιλεγμένη εμφάνιση για τις κρατήσεις"
+
+#: lib/wpdev-settings-general.php:773
+msgid "Default calendar view mode"
+msgstr "Προεπιλεγμένος τρόπος εμφάνισης ημερολογίου"
+
+#: lib/wpdev-settings-general.php:825
+msgid "Select your default calendar view mode at booking calendar overview page"
+msgstr "Επιλέξτε προεπιλεγμένη εμφάνιση στο ημερολογίου κατά την κράτηση"
+
+#: lib/wpdev-settings-general.php:835
+msgid "Default toolbar tab"
+msgstr "Προεπιλεγμένη γραμμή εργαλείων"
+
+#: lib/wpdev-settings-general.php:837
+msgid "Filter tab"
+msgstr "Καρτέλα φίλτρο"
+
+#: lib/wpdev-settings-general.php:838
+msgid "Actions tab"
+msgstr "Καρτέλα ενεργειών"
+
+#: lib/wpdev-settings-general.php:845
+msgid "Select your default opened tab in toolbar at booking listing page"
+msgstr "Επιλέξτε καρτέλα ως προεπιλογή για τις καταχωρήσεις κρατήσεων στην γραμμή εργαλείων."
+
+#: lib/wpdev-settings-general.php:850
+msgid "Bookings number per page"
+msgstr "Αριθμός κρατήσεων ανά σελίδα"
+
+#: lib/wpdev-settings-general.php:859
+msgid "Select number of bookings per page in booking listing"
+msgstr "Επιλέξτε τον αριθμό των κρατήσεων ανά σελίδα στη λίστα κρατήσεων"
+
+#: lib/wpdev-settings-general.php:865
+msgid "Bookings default order"
+msgstr "Προεπιλεγμένη ταξινόμηση κρατήσεων"
+
+#: lib/wpdev-settings-general.php:868 lib/wpdev-settings-general.php:870
+#: lib/wpdev-settings-general.php:880 lib/wpdev-settings-general.php:885
+msgid "ASC"
+msgstr "Αύξουσα"
+
+#: lib/wpdev-settings-general.php:869 lib/wpdev-settings-general.php:871
+#: lib/wpdev-settings-general.php:881 lib/wpdev-settings-general.php:886
+msgid "DESC"
+msgstr "Φθίνουσα"
+
+#: lib/wpdev-settings-general.php:880 lib/wpdev-settings-general.php:881
+msgid "Resource"
+msgstr "Πηγή"
+
+#: lib/wpdev-settings-general.php:885 lib/wpdev-settings-general.php:886
+msgid "Cost"
+msgstr "Κόστος"
+
+#: lib/wpdev-settings-general.php:894
+msgid "Select your default order of bookings in the booking listing"
+msgstr "Επιλέξτε την προεπιλεγμένη ταξινόμηση κρατήσεων στις καταχωρίσεις κρατήσεων."
+
+#: lib/wpdev-settings-general.php:905
+msgid "Date Format"
+msgstr "Μορφή Ημερομηνίας"
+
+#: lib/wpbc-gcal.php:616 lib/wpbc-gcal.php:680
+msgid "minutes"
+msgstr "λεπτά"
+
+#: lib/wpbc-gcal.php:617 lib/wpbc-gcal.php:681 lib/wpbc-gcal.php:802
+msgid "hours"
+msgstr "ώρες"
+
+#: lib/wpbc-gcal.php:618 lib/wpbc-gcal.php:682 lib/wpbc-gcal.php:808
+#: lib/wpdev-bk-lib.php:300 lib/wpdev-bk-lib.php:301 lib/wpdev-bk-lib.php:302
+#: lib/wpdev-bk-lib.php:303 lib/wpdev-bk-lib.php:304
+msgid "days"
+msgstr "ημέρες"
+
+#: lib/wpbc-gcal.php:625
+msgid "You can specify an additional offset from you chosen start point. The offset can be negative."
+msgstr "Μπορείτε να καθορίσετε μια πρόσθετη μετατόπιση από την επιλογή σας ως σημείο εκκίνησης. Η μετατόπιση μπορεί να είναι αρνητική."
+
+#: lib/wpbc-gcal.php:628 lib/wpbc-gcal.php:692
+msgid "Type your date in format %s. Example: %s"
+msgstr "Πληκτρολογήστε την ημερομηνία σας σε μορφή %s. Παράδειγμα: %s"
+
+#: lib/wpbc-gcal.php:645
+msgid "Until"
+msgstr "Μέχρι"
+
+#: lib/wpbc-gcal.php:663
+msgid "The end of time"
+msgstr "Το τέλος του χρόνου"
+
+#: lib/wpbc-gcal.php:671
+msgid "Select option, when to stop retrieving events."
+msgstr "Επιλέξτε την επιλογή, πότε να σταματήσει την ανάκτηση γεγονότα."
+
+#: lib/wpbc-gcal.php:689
+msgid "You can specify an additional offset from you chosen end point. The offset can be negative."
+msgstr "Μπορείτε να καθορίσετε μια πρόσθετη μετατόπιση από το δικό σας σημείο τερματισμού. Η μετατόπιση μπορεί να είναι αρνητική."
+
+#: lib/wpbc-gcal.php:705
+msgid "Maximum number"
+msgstr "Μέγιστος αριθμός"
+
+#: lib/wpbc-gcal.php:708
+msgid "You can specify the maximum number of events to import during one session."
+msgstr "Μπορείτε να ορίσετε το μέγιστο αριθμό γεγονότων για την εισαγωγή κατά τη διάρκεια μιας συνεδρίας."
+
+#: lib/wpbc-gcal.php:719
+msgid "Google API Key"
+msgstr "Google API Key"
+
+#: lib/wpbc-gcal.php:721
+msgid "Please enter your Google API key. This field required to import events."
+msgstr "Παρακαλώ εισάγετε το δικό σας Google API key. Αυτό το πεδίο απαιτείται για να εισάγετε γεγονότα."
+
+#: lib/wpbc-gcal.php:723
+msgid "You can check in this %sinstruction how to generate and use your Google API key%s."
+msgstr "Μπορείτε να επιλέξετε σε αυτό %sοδηγίες για το πώς δημιουργείτε και χρησιμοποιείτε το Google API key %s."
+
+#: lib/wpbc-gcal.php:737
+msgid "Timezone"
+msgstr "Ζώνη ώρας"
+
+#: lib/wpbc-gcal.php:742 lib/wpdev-bk-lib.php:1988
+msgid "Default"
+msgstr "Προεπιλεγμένο"
+
+#: lib/wpbc-gcal.php:771
+msgid "Select a city in your required timezone, if you are having problems with dates and times."
+msgstr "Επιλέξτε μια πόλη στην απαιτούμενη ζώνη ώρας, αν έχετε προβλήματα με τις ημερομηνίες και ώρες."
+
+#: lib/wpbc-gcal.php:781
+msgid "Activate auto import"
+msgstr "Ενεργοποιήσετε την αυτόματη εισαγωγή"
+
+#: lib/wpbc-gcal.php:787
+msgid "Check this box to %sactivate%s auto import events and creation bookings from them"
+msgstr "Επιλέξτε αυτό το πλαίσιο %sενεργοποίηση%s αυτόματη εισαγωγή γεγονότων και δημιουργία κρατήσεων από αυτές"
+
+#: lib/wpbc-gcal.php:794
+msgid "Import events every"
+msgstr "Εισαγωγή γεγονότων κάθε"
+
+#: lib/wpbc-gcal.php:799
+msgid "hour"
+msgstr "ώρα"
+
+#: lib/wpbc-gcal.php:805 lib/wpdev-bk-lib.php:299
+#: lib/wpdev-settings-general.php:2410
+msgid "day"
+msgstr "ημέρα"
+
+#: lib/wpbc-gcal.php:812
+msgid "Select time duration of import requests."
+msgstr "Επιλέξτε τη διάρκεια του χρόνου των αιτήσεων εισαγωγής."
+
+#: lib/wpbc-gcal.php:853 lib/wpbc-notices.php:25
+msgid "Warning!"
+msgstr "Προειδοποίηση!"
+
+#: lib/wpbc-gcal.php:855
+msgid "Retrieve Google Calendar Events "
+msgstr "Ανάκτηση Γεγονότων από το ημερολόγιο της Google"
+
+#: lib/wpbc-gcal.php:861
+msgid "Please configure settings for import Google Calendar events"
+msgstr "Παρακαλούμε να διαμορφώσετε τις ρυθμίσεις για την εισαγωγή των γεγονότων από το ημερολόγιο της Google"
+
+#: lib/wpbc-gcal.php:862 lib/wpdev-booking-functions.php:1771
+#: lib/wpdev-settings-general.php:2099
+msgid "here"
+msgstr "εδώ"
+
+#: lib/wpbc-gcal.php:889
+msgid "Configure"
+msgstr "Διαμόρφωση"
+
+#: lib/wpbc-gcal.php:899 lib/wpbc-gcal.php:905
+msgid "Import Google Calendar Events"
+msgstr "Εισαγωγή γεγονότων από το Ημερολόγιο της Google"
+
+#: lib/wpbc-gcal.php:901 lib/wpdev-bk-lib.php:523 lib/wpdev-bk-lib.php:586
+#: lib/wpdev-bk-lib.php:642
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: lib/wpbc-gcal.php:170 lib/wpbc-gcal.php:912
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: lib/wpbc-gcal.php:913
+msgid "Export only current page of bookings to CSV format"
+msgstr "Εξαγωγή μόνο την τρέχουσα σελίδα των κρατήσεων σε μορφή CSV"
+
+#: lib/wpbc-notices.php:26
+msgid "Probabaly you updated your paid version of Booking Calendar by free version or update process failed. You can request the new update of your paid version at %1sthis page%2s."
+msgstr "Πιθανώς ενημερώσατε την πληρωμένη έκδοση σας με μία ελεύθερη έκδοση ή διαδικασία ενημέρωσης απέτυχε. Μπορείτε να ζητήσετε τη νέα ενημερωμένη έκδοση που έχετε πληρώσει %1sεδώ%2s."
+
+#: lib/wpbc-scripts.php:57
+msgid "This field is required"
+msgstr "Αυτό το πεδίο είναι υποχρεωτικό"
+
+#: lib/wpbc-scripts.php:58
+msgid "This checkbox must be checked"
+msgstr "Αυτό το πεδίο πρέπει υποχρεωτικά να είναι επιλεγμένο"
+
+#: lib/wpbc-scripts.php:59
+msgid "At least one option must be selected"
+msgstr "Πρέπει να επιλέξετε τουλάχιστον μία επιλογή"
+
+#: lib/wpbc-scripts.php:60
+msgid "Incorrect email field"
+msgstr "Λάθος πεδίο e-mail"
+
+#: lib/wpbc-scripts.php:62
+msgid "Please, select booking date(s) at Calendar."
+msgstr "Παρακαλώ επιλέξτε ημερομηνία κράτησης από το Ημερολόγιο"
+
+#: lib/wpbc-welcome.php:801 lib/wpbc-welcome.php:1250
+#: lib/wpdev-booking-class.php:381 lib/wpdev-settings-general.php:1358
+msgid "Purchase"
+msgstr "Αγορά"
+
+#: lib/wpbc-welcome.php:801 lib/wpbc-welcome.php:1250 lib/wpdev-bk-lib.php:696
+#: lib/wpdev-booking-class.php:381 lib/wpdev-settings-general.php:1358
+msgid "Upgrade Now"
+msgstr "Αναβάθμιση Τώρα"
+
+#: lib/wpbc-welcome.php:1427
+msgid "We&#8217;ve assembled some links to get you started:"
+msgstr "We&#8217;ve συναρμολογούνται μερικές συνδέσεις για να ξεκινήσετε:"
+
+#: lib/wpbc-welcome.php:1430
+msgid "Get Started"
+msgstr "Ξεκινώντας"
+
+#: lib/wpbc-welcome.php:1433
+msgid "Insert booking form %sshortcode%s into your %sPost%s or %sPage%s"
+msgstr "Εισαγωγή φόρμα κράτησης %sσύντομος κώδικας%s στο %sPost%s ή %sΣελίδα%s"
+
+#: lib/wpbc-welcome.php:1441
+msgid "or add booking calendar %sWidget%s to your sidebar."
+msgstr "ή να προσθέσετε το ημερολόγιο της κράτησης% sWidget% s στο sidebar."
+
+#: lib/wpbc-welcome.php:1447
+msgid "Check %show todo%s that and what %sshortcodes%s are available."
+msgstr "Ελέγξτε %sπως να το κάνω%s αυτό και τι %sσύντομος κώδικας%s είναι διαθέσιμο."
+
+#: lib/wpbc-welcome.php:1453
+msgid "Add new booking from your post/page or from %sAdmin Panel%s."
+msgstr "Προσθήκη νέας κράτησης από τη post /page σας ή από %sΠάνελ διαχείρισης%s."
+
+#: lib/wpbc-welcome.php:1460
+msgid "Next Steps"
+msgstr "Επόμενα Βήματα"
+
+#: lib/wpbc-welcome.php:1463
+msgid "Check %sBooking Listing%s page for new bookings."
+msgstr "Ελέγξτε %sΚαταχώριση Κράτησης%s σελίδα για νέες κρατήσεις."
+
+#: lib/wpbc-welcome.php:1469
+msgid "Configure booking %sSettings%s."
+msgstr "Παραμετροποίηση κράτησης %sΡυθμίσεις%s."
+
+#: lib/wpbc-welcome.php:1474
+msgid "Configure predefined set of your %sForm Fields%s."
+msgstr "Διαμορφώστε το προκαθορισμένο σύνολο σας %sΠεδία φόρμας%s."
+
+#: lib/wpbc-welcome.php:1479
+msgid "Configure your predefined %sEmail Templates%s."
+msgstr "Διαμορφώστε τα προκαθορισμένα %sΠρότυπα Email%s."
+
+#: lib/wpbc-welcome.php:1486
+msgid "Have a questions?"
+msgstr "Έχετε ερωτήσεις?"
+
+#: lib/wpbc-welcome.php:1489
+msgid "Check out our %sHelp%s"
+msgstr "Check out %sΒοήθεια%s"
+
+#: lib/wpbc-welcome.php:1494
+msgid "See %sFAQ%s."
+msgstr "Δες %sFAQ%s."
+
+#: lib/wpbc-welcome.php:1499
+msgid "Still having questions? Contact %sSupport%s."
+msgstr "Ακόμα έχετε απορίες? Επικοινωνήστε μαζί μας %sΥποστήριξη%s."
+
+#: lib/wpbc-welcome.php:1507
+msgid "Need even more functionality? Check %s higher versions %s"
+msgstr "Χρειάζεστε ακόμη περισσότερες λειτουργίες? Ελέγξτε %s νεότερες εκδόσεις %s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:30
+msgid "Insert booking calendar"
+msgstr "Εισαγωγή ημερολόγιο κρατήσεων"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:31 lib/wpdev-booking-class.php:646
+msgid "Booking calendar"
+msgstr "Ημερολόγιο Κρατήσεων"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:143
+#: lib/wpdev-bk-edit-toolbar-buttons.php:165
+msgid "Ok"
+msgstr "Οκ"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:144
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:373
+msgid "Booking resource:"
+msgstr "Πηγή κράτησης:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:381
+msgid "Select booking resource"
+msgstr "Επιλέξτε πηγή κράτησης"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:393
+msgid "Visible months:"
+msgstr "Εμφανίζει τους μήνες:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:408
+msgid "Select number of month to show for calendar."
+msgstr "Επιλέξτε πόσους μήνες θα εμφανίζει το ημερολόγιο. "
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:414
+msgid "Start month:"
+msgstr "Μήνας έναρξης:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:424
+msgid "Select start month of calendar"
+msgstr "Επιλέξτε μήνα έναρξης του ημερολόγιου"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:431
+msgid "Show in the page:"
+msgstr "Εμφάνιση σε αυτή τη σελίδα:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:437 lib/wpdev-booking-widget.php:105
+msgid "Booking form with calendar"
+msgstr "Φόρμα κράτησης με ημερολόγιο"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:438 lib/wpdev-booking-widget.php:106
+msgid "Only availability calendar"
+msgstr "Μόνο τα διαθέσιμα ημερολόγια"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:439
+msgid "Only booking form"
+msgstr "Μόνο φόρμα κρατήσεων"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:444
+msgid "for"
+msgstr "για"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:447
+msgid "date"
+msgstr "ημερομηνία"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:451
+msgid "Select to show the entire booking form or the availability calendar only."
+msgstr "Επιλέξτε για εμφάνιση ολόκληρης της φόρμας κράτησης ή μόνο το ημερολόγιο της διαθεσιμότητας."
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:466
+msgid "Show advanced settings"
+msgstr "Εμφάνιση σύνθετων ρυθμίσεων"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:467
+msgid "Hide advanced settings"
+msgstr "Απόκρυψη σύνθετων ρυθμίσεων"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:471
+msgid "Setting advanced parameters of the calendar. %sLike width, height and structure %s"
+msgstr "Προηγμένες ρυθμίσεις παραμέτρων στο ημερολογίου. %sΌπως το πλάτος, το ύψος και τη δομή %s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:473
+msgid "%s or minimum and fixed number of days selection for the specific day of week or season.%s"
+msgstr "%s ή ελάχιστο και σταθερό αριθμό των επιλεγμένων ημερών για τη συγκεκριμένη ημέρα της εβδομάδας ή της εποχής.%s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:479
+msgid "Please read more about the possible customizations of these %soptions%s %shere%s"
+msgstr "Παρακαλούμε διαβάστε περισσότερα σχετικά με τις πιθανές προσαρμογές από αυτά %sεπιλογές%s %sεδώ%s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:480
+msgid "Options:"
+msgstr "Επιλογές"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:483
+msgid "Specify the full width of calendar, height of date cell and number of months in one row. "
+msgstr "Καθορίστε το πλήρες πλάτος του ημερολογίου, το ύψος της ημερομηνίας των κελιών και τον αριθμό των μηνών σε μια σειρά."
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:485
+#: lib/wpdev-bk-edit-toolbar-buttons.php:493
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:486
+msgid "Calendar have 2 months in a row, the cell height is 30px and calendar full width 568px (possible to use percentage for width: 100%)"
+msgstr "Το Ημερολόγιο έχει 2 μήνες σε μια σειρά, το ύψος των κελιών είναι 30px και το ημερολόγιο πλήρη 568px πλάτος (είναι δυνατόν να χρησιμοποιήσετε το ποσοστό για το πλάτος: 100%)"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:487
+#: lib/wpdev-bk-edit-toolbar-buttons.php:495
+msgid "Code Example"
+msgstr "Κώδικος Παράδειγμα"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:491
+msgid "Specify that during certain seasons (or days of week), the specific minimum number of days must be booked. "
+msgstr "Καθορίστε ότι κατά τη διάρκεια ορισμένων εποχών (ή ημέρες της εβδομάδας), ο συγκεκριμένος ελάχιστος αριθμός ημερών πρέπει να είναι κρατημένα. "
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:494
+msgid "Visitor can select only 4 days starting at Monday, 3 or 7 days – Friday, 2 days – Saturday, etc…"
+msgstr "Ο Επισκέπτης μπορεί να επιλέξει μόνο το 4 ημέρες ξεκινώντας από την Δευτέρα, 3 ή 7 ημέρες - Παρασκευή, 2 μέρες - Σάββατο, κλπ ..."
+
+#: lib/wpdev-bk-lib.php:305
+msgid "week"
+msgstr "εβδομάδα"
+
+#: lib/wpdev-bk-lib.php:306
+msgid "weeks"
+msgstr "εβδομάδες"
+
+#: lib/wpdev-bk-lib.php:307
+msgid "month"
+msgstr "μήνας"
+
+#: lib/wpdev-bk-lib.php:308 lib/wpdev-bk-lib.php:309 lib/wpdev-bk-lib.php:310
+msgid "months"
+msgstr "μήνες"
+
+#: lib/wpdev-bk-lib.php:311 lib/wpdev-bk-lib.php:2435
+#: lib/wpdev-settings-general.php:785 lib/wpdev-settings-general.php:791
+msgid "Year"
+msgstr "Έτος"
+
+#: lib/wpdev-bk-lib.php:314
+msgid "Current dates"
+msgstr "Τρέχουσες ημερομηνίες"
+
+#: lib/wpdev-bk-lib.php:315
+msgid "Today"
+msgstr "Σήμερα"
+
+#: lib/wpdev-bk-lib.php:316
+msgid "Previous dates"
+msgstr "Προηγούμενες ημερομηνίες"
+
+#: lib/wpdev-bk-lib.php:317
+msgid "All dates"
+msgstr "Όλες οι ημερομηνίες"
+
+#: lib/wpdev-bk-lib.php:318 lib/wpdev-bk-lib.php:439 lib/wpdev-bk-lib.php:2293
+msgid "Next"
+msgstr "Επόμενο"
+
+#: lib/wpdev-bk-lib.php:319 lib/wpdev-bk-lib.php:462
+msgid "Prior"
+msgstr "Πριν"
+
+#: lib/wpdev-bk-lib.php:321
+msgid "Check In - Tomorrow"
+msgstr "Check In - Αύριο"
+
+#: lib/wpdev-bk-lib.php:322
+msgid "Check Out - Tomorrow"
+msgstr "Check Out - Αύριο"
+
+#: lib/wpdev-bk-lib.php:487
+msgid "Check-in"
+msgstr "Check-in"
+
+#: lib/wpdev-bk-lib.php:497
+msgid "Check-out"
+msgstr "Check-out"
+
+#: lib/wpdev-bk-lib.php:520 lib/wpdev-bk-lib.php:582 lib/wpdev-bk-lib.php:638
+#: lib/wpdev-bk-lib.php:1611
+msgid "Apply"
+msgstr "Επιβεβαίωση"
+
+#: lib/wpdev-bk-lib.php:562 lib/wpdev-bk-lib.php:612
+#: lib/wpdev-settings-general.php:923
+msgid "Custom"
+msgstr "Προσαρμοσμένη"
+
+#: lib/wpdev-bk-lib.php:620
+msgid "Start Date"
+msgstr "Ημερομηνία Έναρξης"
+
+#: lib/wpdev-bk-lib.php:663 lib/wpdev-settings-general.php:47
+msgid "Booking Listing"
+msgstr "Καταχώριση κράτησης"
+
+#: lib/wpdev-bk-lib.php:667 lib/wpdev-settings-general.php:756
+msgid "Calendar Overview"
+msgstr "Ημερολόγιο Επισκόπηση"
+
+#: lib/wpdev-bk-lib.php:676
+msgid "Booking Calendar - Overview"
+msgstr "Ημερολόγιο Κρατήσεων - Επισκόπηση"
+
+#: lib/wpdev-bk-lib.php:684 lib/wpdev-bk-lib.php:692
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: lib/wpdev-bk-lib.php:690
+msgid "About Booking Calendar"
+msgstr "Σχετικά με το Booking Calendar"
+
+#: lib/wpdev-bk-lib.php:693 lib/wpdev-booking-class.php:471
+#: lib/wpdev-booking-class.php:1218 lib/wpdev-booking-class.php:1220
+msgid "FAQ"
+msgstr "Συχνές ερωτήσεις"
+
+#: lib/wpdev-bk-lib.php:694
+msgid "Technical Support"
+msgstr "Τεχνική Υποστήριξη"
+
+#: lib/wpdev-bk-lib.php:1512
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: lib/wpdev-bk-lib.php:1522 lib/wpdev-bk-lib.php:1941
+#: lib/wpdev-bk-lib.php:1956 lib/wpdev-bk-lib.php:2358
+msgid "Actions"
+msgstr "Δράσεις"
+
+#: lib/wpdev-bk-lib.php:1557
+msgid "Expand Advanced Filter"
+msgstr "Άνοιγμα σύνθετου φίλτρου"
+
+#: lib/wpdev-bk-lib.php:1558
+msgid "Collapse Advanced Filter"
+msgstr "Κλείσιμο σύνθετου φίλτρου"
+
+#: lib/wpdev-bk-lib.php:1575
+msgid "Send email notification to customer after approval, cancellation or deletion of bookings"
+msgstr "Ειδοποίηση με email στον πελάτη μετά την έγκριση, ακύρωσης ή διαγραφής των κρατήσεων"
+
+#: lib/wpdev-bk-lib.php:1576
+msgid "Emails sending"
+msgstr "Αποστολή Emails"
+
+#: lib/wpdev-bk-lib.php:1599
+msgid "Booking ID"
+msgstr "ID Κράτησης"
+
+#: lib/wpdev-bk-lib.php:1600
+msgid "Go"
+msgstr "Έναρξη"
+
+#: lib/wpdev-bk-lib.php:1608
+msgid "Refresh booking listing"
+msgstr "Ανανέωση λίστα κρατήσεων"
+
+#: lib/wpdev-bk-lib.php:1612
+msgid "Reset filter to default values"
+msgstr "Ορισμός φίλτρου στις αρχικές τιμές"
+
+#: lib/wpdev-bk-lib.php:1650 lib/wpdev-bk-lib.php:2144
+#: lib/wpdev-booking-class.php:2291
+msgid "Pending"
+msgstr "Εκκρεμεί"
+
+#: lib/wpdev-bk-lib.php:1651 lib/wpdev-bk-lib.php:2145
+#: lib/wpdev-settings-general.php:2484
+msgid "Approved"
+msgstr "Εγκρίθηκε"
+
+#: lib/wpdev-bk-lib.php:1653 lib/wpdev-bk-lib.php:1743
+msgid "Any"
+msgstr "Οποιαδήποτε"
+
+#: lib/wpdev-bk-lib.php:1655 lib/wpdev-settings-general.php:2039
+#: lib/wpdev-settings-general.php:2120 lib/wpdev-settings-general.php:2192
+#: lib/wpdev-settings-general.php:2281
+msgid "Status"
+msgstr "Αποτέλεσμα"
+
+#: lib/wpdev-bk-lib.php:1680
+msgid "All bookings"
+msgstr "Όλες οι κρατήσεις"
+
+#: lib/wpdev-bk-lib.php:1681
+msgid "New bookings"
+msgstr "Νέες κρατήσεις"
+
+#: lib/wpdev-bk-lib.php:1684 lib/wpdev-booking-widget.php:101
+msgid "Show"
+msgstr "Εμφάνιση"
+
+#: lib/wpdev-bk-lib.php:1696
+msgid "Creation"
+msgstr "Δημιουργία"
+
+#: lib/wpdev-bk-lib.php:1730
+msgid "Order by"
+msgstr "Ταξινόμηση με"
+
+#: lib/wpdev-bk-lib.php:1760
+msgid "Save filter settings as default template (Please, click Apply filter button, before saving!)"
+msgstr "Αποθηκεύστε τις ρυθμίσεις του φίλτρου ως προεπιλεγμένο πρότυπο (Παρακαλώ, κάντε κλικ στο κουμπί Εφαρμογή φίλτρου, πριν από την αποθήκευση!)"
+
+#: lib/wpdev-bk-lib.php:1763
+msgid "Save as Default"
+msgstr "Αποθήκευση ως προεπιλεγμένο"
+
+#: lib/wpdev-bk-lib.php:1768
+msgid "Delete your previously saved default filer template!"
+msgstr "Διαγραφή του προηγουμένου αποθηκεμένου φίλτρου που ήταν προεπιλεγμένου!"
+
+#: lib/wpdev-bk-lib.php:1771
+msgid "Delete template"
+msgstr "Διαγραφή προτύπου"
+
+#: lib/wpdev-bk-lib.php:1842
+msgid "Approve selected bookings"
+msgstr "Έγκριση στις επιλεγμένες κρατήσεις"
+
+#: lib/wpdev-bk-lib.php:1846 lib/wpdev-bk-lib.php:2176
+msgid "Approve"
+msgstr "Εγκρίνω"
+
+#: lib/wpdev-bk-lib.php:1847
+msgid "Set selected bookings as pending"
+msgstr "Ορίστε την επιλεγμένη κράτηση ως εκκρεμότητα"
+
+#: lib/wpdev-bk-lib.php:1849 lib/wpdev-bk-lib.php:2180
+msgid "Do you really want to set booking as pending ?"
+msgstr "Θέλετε πραγματικά να ορίσετε αυτήν την κράτηση σε αναμονή?"
+
+#: lib/wpdev-bk-lib.php:1852 lib/wpdev-bk-lib.php:2181
+msgid "Reject"
+msgstr "Απόρριψη "
+
+#: lib/wpdev-bk-lib.php:1870
+msgid "Delete selected bookings"
+msgstr "Διαγραφή επιλεγμένων κρατήσεων"
+
+#: lib/wpdev-bk-lib.php:1876
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: lib/wpdev-bk-lib.php:1878
+msgid "Reason of cancellation"
+msgstr "Αιτιολογία ακύρωσης"
+
+#: lib/wpdev-bk-lib.php:1883
+msgid "Mark as read all bookings"
+msgstr "Μαρκάρισμα όλων των κρατήσεων ως διαβασμένες"
+
+#: lib/wpdev-bk-lib.php:1887
+msgid "Read All"
+msgstr "Εμφάνιση όλων"
+
+#: lib/wpdev-bk-lib.php:1888
+msgid "Mark as read selected bookings"
+msgstr "Μαρκάρισμα ως διαβασμένη την συγκεκριμένη κράτηση"
+
+#: lib/wpdev-bk-lib.php:1892
+msgid "Read"
+msgstr "Ανάγνωση"
+
+#: lib/wpdev-bk-lib.php:1893
+msgid "Mark as Unread selected bookings"
+msgstr "Μαρκάρισμα ως αδιάβαστη την συγκεκριμένη κράτηση"
+
+#: lib/wpdev-bk-lib.php:1897 lib/wpdev-bk-lib.php:2117
+msgid "Unread"
+msgstr "Μη Αναγνωσμένο"
+
+#: lib/wpdev-bk-lib.php:1941
+msgid "Labels"
+msgstr "Ετικέτες"
+
+#: lib/wpdev-bk-lib.php:1942
+msgid "Booking Data"
+msgstr "Δεδομένα Κράτησης"
+
+#: lib/wpdev-bk-lib.php:1943
+msgid "Booking Dates"
+msgstr "Ημερομηνίες Κράτησης"
+
+#: lib/wpdev-bk-lib.php:1948
+msgid "Show ALL dates of booking"
+msgstr "Εμφάνιση όλων των ημερομηνιών των κρατήσεων"
+
+#: lib/wpdev-bk-lib.php:1953
+msgid "Show only check in/out dates"
+msgstr "Εμφάνιση μόνο ημερομηνίες check in/out"
+
+#: lib/wpdev-bk-lib.php:1960
+msgid "Nothing found!"
+msgstr "Δεν βρέθηκε τίποτα!"
+
+#: lib/wpdev-bk-lib.php:1996
+msgid "Resource not exist"
+msgstr "Δεν υπάρχει πηγή"
+
+#: lib/wpdev-bk-lib.php:2091
+msgid "Paid OK"
+msgstr "Πληρωμή ΟΚ"
+
+#: lib/wpdev-bk-lib.php:2094
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: lib/wpdev-bk-lib.php:2117
+msgid "Mark"
+msgstr "Μαρκάρισμα"
+
+#: lib/wpdev-bk-lib.php:2188 lib/wpdev-bk-lib.php:2198
+msgid "Do you really want to delete this booking ?"
+msgstr "Θέλετε πραγματικά να διαγράψετε αυτή την κράτηση?"
+
+#: lib/wpdev-bk-lib.php:2229
+msgid "Created"
+msgstr "Δημιουργήθηκε"
+
+#: lib/wpdev-bk-lib.php:2275
+msgid "Prev"
+msgstr "Προηγ."
+
+#: lib/wpdev-bk-lib.php:2424 lib/wpdev-bk-lib.php:2456
+msgid "Show month"
+msgstr "Εμφάνιση μήνα"
+
+#: lib/wpdev-bk-lib.php:2427 lib/wpdev-bk-lib.php:2459
+#: lib/wpdev-settings-general.php:780 lib/wpdev-settings-general.php:789
+msgid "Month"
+msgstr "Μήνας"
+
+#: lib/wpdev-bk-lib.php:2428
+msgid "Show 3 months"
+msgstr "Εμφάνιση 3 μήνες"
+
+#: lib/wpdev-bk-lib.php:2431 lib/wpdev-settings-general.php:784
+#: lib/wpdev-settings-general.php:790
+msgid "3 Months"
+msgstr "3 Μήνες"
+
+#: lib/wpdev-bk-lib.php:2432
+msgid "Show year"
+msgstr "Εμφάνιση έτους"
+
+#: lib/wpdev-bk-lib.php:2441 lib/wpdev-bk-lib.php:2475
+msgid "Calendar view mode"
+msgstr "Λειτουργία προβολής ημερολογίου"
+
+#: lib/wpdev-bk-lib.php:2448
+msgid "Show day"
+msgstr "Εμφάνιση ημέρας"
+
+#: lib/wpdev-bk-lib.php:2451 lib/wpdev-settings-general.php:777
+msgid "Day"
+msgstr "Μέρα"
+
+#: lib/wpdev-bk-lib.php:2452
+msgid "Show week"
+msgstr "Εμφάνιση εβδομάδας"
+
+#: lib/wpdev-bk-lib.php:2455 lib/wpdev-settings-general.php:778
+msgid "Week"
+msgstr "Εβδομάδα"
+
+#: lib/wpdev-bk-lib.php:2460
+msgid "Show 2 months"
+msgstr "Εμφάνιση 2 μήνες"
+
+#: lib/wpdev-bk-lib.php:2463 lib/wpdev-settings-general.php:782
+msgid "2 Months"
+msgstr "2 μήνες"
+
+#: lib/wpdev-bk-lib.php:2501 lib/wpdev-bk-lib.php:2515
+#: lib/wpdev-bk-lib.php:2562
+msgid "Previous 4 weeks"
+msgstr "4 προηγούμενες εβδομάδες"
+
+#: lib/wpdev-bk-lib.php:2502 lib/wpdev-bk-lib.php:2516
+#: lib/wpdev-bk-lib.php:2563
+msgid "Previous week"
+msgstr "Την προηγούμενη εβδομάδα"
+
+#: lib/wpdev-bk-lib.php:2503 lib/wpdev-bk-lib.php:2517
+#: lib/wpdev-bk-lib.php:2564
+msgid "Current week"
+msgstr "Την τρέχουσα εβδομάδα"
+
+#: lib/wpdev-bk-lib.php:2504 lib/wpdev-bk-lib.php:2518
+#: lib/wpdev-bk-lib.php:2565
+msgid "Next week"
+msgstr "Την επόμενη εβδομάδα"
+
+#: lib/wpdev-bk-lib.php:2505 lib/wpdev-bk-lib.php:2519
+#: lib/wpdev-bk-lib.php:2566
+msgid "Next 4 weeks"
+msgstr "Τις επόμενες 4 εβδομάδες"
+
+#: lib/wpdev-bk-lib.php:2529 lib/wpdev-bk-lib.php:2579
+#: lib/wpdev-bk-lib.php:2594
+msgid "Previous 3 months"
+msgstr "3 προηγούμενοι μήνες"
+
+#: lib/wpdev-bk-lib.php:2530 lib/wpdev-bk-lib.php:2580
+#: lib/wpdev-bk-lib.php:2595
+msgid "Previous month"
+msgstr "Προηγούμενος μήνας"
+
+#: lib/wpdev-bk-lib.php:2531 lib/wpdev-bk-lib.php:2581
+#: lib/wpdev-bk-lib.php:2596
+msgid "Current month"
+msgstr "Τρέχον μήνας"
+
+#: lib/wpdev-bk-lib.php:2532 lib/wpdev-bk-lib.php:2582
+#: lib/wpdev-bk-lib.php:2597
+msgid "Next month"
+msgstr "Τον επόμενο μήνα"
+
+#: lib/wpdev-bk-lib.php:2533 lib/wpdev-bk-lib.php:2583
+#: lib/wpdev-bk-lib.php:2598
+msgid "Next 3 months"
+msgstr "Τους επόμενους 3 μήνες"
+
+#: lib/wpdev-bk-lib.php:2547
+msgid "Previous 7 days"
+msgstr "Τις προηγούμενες 7 μέρες"
+
+#: lib/wpdev-bk-lib.php:2548
+msgid "Previous day"
+msgstr "Προηγούμενη μέρα"
+
+#: lib/wpdev-bk-lib.php:2549
+msgid "Current day"
+msgstr "Τρέχουσα μέρα"
+
+#: lib/wpdev-bk-lib.php:2550
+msgid "Next day"
+msgstr "Επόμενη μέρα"
+
+#: lib/wpdev-bk-lib.php:2551
+msgid "Next 7 days"
+msgstr "Τις επόμενες 7 μέρες"
+
+#: lib/wpdev-bk-lib.php:2622
+msgid "Calendar Navigation"
+msgstr "Ημερολόγιο Πλοήγηση"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:484 lib/wpdev-settings-general.php:577
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:485 lib/wpdev-settings-general.php:581
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: lib/wpbc-ajax.php:35
+msgid "%sError!%s Request do not pass security check! Please refresh the page and try one more time."
+msgstr "%sΛάθος!%s Το αίτημα δεν πέρασε τον έλεγχο ασφαλείας! Παρακαλούμε ανανεώστε τη σελίδα και προσπαθήστε για μια ακόμη φορά."
+
+#: lib/wpbc-ajax.php:114
+msgid "Set as Read"
+msgstr "Ορισμός ως διαβασμένο"
+
+#: lib/wpbc-ajax.php:114
+msgid "Set as Unread"
+msgstr "Ορισμός ως αδιάβαστο"
+
+#: lib/wpbc-ajax.php:171
+msgid "Set as Approved"
+msgstr "Ορισμός ως Εγκεκριμένο"
+
+#: lib/wpbc-ajax.php:171
+msgid "Set as Pending"
+msgstr "Ορισμός ως εκκρεμότητα"
+
+#: lib/wpbc-ajax.php:189 lib/wpbc-ajax.php:250
+msgid "Reason for cancellation here"
+msgstr "Λόγος για την ακύρωση εδώ"
+
+#: lib/wpbc-ajax.php:190 lib/wpbc-ajax.php:251
+msgid "Reason of cancellation here"
+msgstr "Αιτία της ακύρωσης εδώ"
+
+#: lib/wpbc-ajax.php:279
+msgid "Deleted"
+msgstr "Διαγράφηκε"
+
+#: lib/wpbc-booking-new.php:37
+msgid "The code you entered is incorrect"
+msgstr "Ο κωδικός που εισάγατε είναι λανθασμένος"
+
+#: lib/wpbc-booking-new.php:137
+msgid "Updating..."
+msgstr "Ενημερώνεται..."
+
+#: lib/wpbc-booking-new.php:161 lib/wpbc-booking-new.php:163
+msgid "Updated successfully"
+msgstr "Ενημερώθηκε επιτυχώς"
+
+#: lib/wpbc-booking-new.php:679
+msgid "Error!"
+msgstr "Λάθος!"
+
+#: lib/wpbc-booking-new.php:680
+msgid "Probably these date(s) just was booking by other visitor. Please reload this page and make booking again."
+msgstr "Μάλλον αυτές οι ημερομηνίες απλά έχουν κρατηθεί από άλλο επισκέπτη. Φορτώστε ξανά αυτή τη σελίδα και κάντε νέα κράτηση."
+
+#: lib/wpbc-class-dismiss.php:79 lib/wpbc-welcome.php:1411
+msgid "Dismiss"
+msgstr "Απόρριψη"
+
+#: lib/wpbc-class-settings.php:46 lib/wpdev-settings-general.php:78
+#: lib/wpdev-settings-general.php:1310 lib/wpdev-settings-general.php:1829
+#: lib/wpdev-settings-general.php:2371 lib/wpdev-settings-general.php:2499
+msgid "Save Changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: lib/wpbc-gcal-class.php:293
+msgid "Importing Feed"
+msgstr "Εισαγωγή Feed"
+
+#: lib/wpbc-gcal-class.php:309
+msgid "Data Parsing"
+msgstr "Parsing δεδομένων"
+
+#: lib/wpbc-gcal-class.php:416
+msgid "Some data was retrieved, but could not be parsed successfully. Please ensure your feed URL is correct."
+msgstr "Ορισμένα δεδομένα ανακτήθηκαν, αλλά δεν θα μπορούσανε να αναλυθούν με επιτυχία. Παρακαλούμε βεβαιωθείτε με τη διεύθυνση URL αν είναι σωστή."
+
+#: lib/wpbc-gcal-class.php:422
+msgid "The feed could not be found (404). Please ensure your feed URL is correct."
+msgstr "Το Feed δεν θα μπορούσε να βρεθεί (404). Παρακαλούμε βεβαιωθείτε ότι η διεύθυνση URL της ροής σας είναι σωστή."
+
+#: lib/wpbc-gcal-class.php:425
+msgid "Access to this feed was denied (403). Please ensure you have public sharing enabled for your calendar."
+msgstr "Η πρόσβαση σε αυτό το Feed απορρίφθηκε  (403). Παρακαλώ βεβαιωθείτε ότι έχετε ενεργοποιημένη την κοινή δημόσια για το ημερολόγιό σας."
+
+#: lib/wpbc-gcal-class.php:428
+msgid "The feed data could not be retrieved. Error code: %s. Please ensure your feed URL is correct."
+msgstr "Τα δεδομένα Feed δεν θα μπορούσανε να ανακτηθούν. Error code: %s. Παρακαλούμε βεβαιωθείτε η διεύθυνση URL της ροής σας είναι σωστή."
+
+#: lib/wpbc-ajax.php:224 lib/wpbc-ajax.php:229 lib/wpbc-gcal-class.php:444
+#: lib/wpbc-gcal.php:102
+msgid "Done"
+msgstr "Ολοκληρώθηκε"
+
+#: lib/wpbc-gcal-class.php:577 lib/wpbc-gcal-class.php:595
+#: lib/wpdev-bk-lib.php:1720 lib/wpdev-bk-lib.php:1723
+#: lib/wpdev-bk-lib.php:2138 lib/wpdev-settings-general.php:868
+#: lib/wpdev-settings-general.php:869
+msgid "ID"
+msgstr "Κωδικός"
+
+#: lib/wpbc-gcal-class.php:578 lib/wpbc-gcal-class.php:597
+#: lib/wpdev-booking-widget.php:93
+msgid "Title"
+msgstr "Τίτλος"
+
+#: lib/wpbc-gcal-class.php:579 lib/wpbc-gcal-class.php:601
+msgid "Info"
+msgstr "Πληροφορίες"
+
+#: lib/wpbc-gcal-class.php:580 lib/wpbc-gcal-class.php:611
+#: lib/wpdev-bk-lib.php:1664 lib/wpdev-bk-lib.php:1721
+#: lib/wpdev-bk-lib.php:1724 lib/wpdev-bk-timeline.php:780
+#: lib/wpdev-settings-general.php:870 lib/wpdev-settings-general.php:871
+msgid "Dates"
+msgstr "Ημερομηνίες"
+
+#: lib/wpbc-gcal-class.php:581 lib/wpbc-gcal-class.php:626
+msgid "GID"
+msgstr "GID"
+
+#: lib/wpbc-gcal-class.php:594
+msgid "Selection"
+msgstr "Επιλογή"
+
+#: lib/wpbc-gcal-class.php:605
+msgid "Location:"
+msgstr "Περιοχή:"
+
+#: lib/wpbc-gcal-class.php:633
+msgid "Reload page"
+msgstr "Ανανέωση της σελίδας"
+
+#: lib/wpbc-gcal-class.php:635 lib/wpbc-notices.php:104
+#: lib/wpdev-settings-general.php:989 lib/wpdev-settings-general.php:1691
+msgid "Hide"
+msgstr "Απόκρυψη"
+
+#: lib/wpbc-gcal-class.php:637 lib/wpdev-bk-lib.php:1872
+msgid "Do you really want to delete selected booking(s) ?"
+msgstr "έλετε πραγματικά να διαγράψετε την επιλεγμένη κράτηση?"
+
+#: lib/wpbc-gcal-class.php:646
+msgid "Delete selected booking(s)"
+msgstr "Διαγραφή επιλεγμένων κράτησεων"
+
+#: lib/wpbc-gcal.php:103
+msgid "Imported 0 events."
+msgstr "Εισαγόμενα 0 γεγονότα."
+
+#: lib/wpbc-gcal.php:171
+msgid "Synchronization Bookings Settings"
+msgstr "Συγχρονισμός ρυθμίσεων κράτησης"
+
+#: lib/wpbc-gcal.php:184
+msgid "Google Calendar"
+msgstr "ημερολόγιο Google"
+
+#: lib/wpbc-gcal.php:184
+msgid "Events Import"
+msgstr "Εισαγωγή γεγονότων"
+
+#: lib/wpbc-gcal.php:185
+msgid "Customization of synchronization with Google Calendar"
+msgstr "Προσαρμογή συγχρονισμού με το ημερολόγιο της Google"
+
+#: lib/wpbc-gcal.php:311 lib/wpbc-gcal.php:331 lib/wpbc-gcal.php:349
+#: lib/wpbc-gcal.php:420 lib/wpdev-booking-class.php:3046
+#: lib/wpdev-settings-general.php:406 lib/wpdev-settings-general.php:563
+#: lib/wpdev-settings-general.php:625 lib/wpdev-settings-general.php:748
+#: lib/wpdev-settings-general.php:975 lib/wpdev-settings-general.php:1185
+#: lib/wpdev-settings-general.php:1214 lib/wpdev-settings-general.php:1284
+#: lib/wpdev-settings-general.php:1534 lib/wpdev-settings-general.php:2033
+#: lib/wpdev-settings-general.php:2113 lib/wpdev-settings-general.php:2186
+#: lib/wpdev-settings-general.php:2273
+msgid "Click to toggle"
+msgstr "Κάντε κλικ για αλλαγή"
+
+#: lib/wpbc-gcal.php:312
+msgid "Assign events fields to specific booking form field"
+msgstr "Εκχώρηση γεγονότων(πεδία) σε συγκεκριμένα πεδία στη φόρμα κρατήσεων"
+
+#: lib/wpbc-gcal.php:332
+msgid "Auto import events"
+msgstr "Αυτόματη εισαγωγή γεγονότων"
+
+#: lib/wpbc-gcal.php:350
+msgid "Google Calendar - General Settings"
+msgstr " Google Ημερολόγιο - Γενικές ρυθμίσεις"
+
+#: lib/wpbc-gcal.php:377
+msgid "Default settings for retrieving events"
+msgstr "Οι προεπιλεγμένες ρυθμίσεις για την ανάκτηση των γεγονότων"
+
+#: lib/wpbc-gcal.php:391
+msgid "Google Calendar ID"
+msgstr "Google ID ημερολόγιου"
+
+#: lib/wpbc-gcal.php:421
+msgid "Google Calendar - Help Info"
+msgstr " Google Ημερολόγιο - Βοήθεια"
+
+#: lib/wpbc-gcal.php:430
+msgid "To get Google Calendar API key please follow this instruction"
+msgstr "Για να πάρετε το Google API key παρακαλώ ακολουθήστε αυτές τις οδηγίες "
+
+#: lib/wpbc-gcal.php:432
+msgid "Go to Google Developer Console: %s."
+msgstr "Πηγαίνετε στην κονσόλα προγραμματιστών της Google: %s."
+
+#: lib/wpbc-gcal.php:433
+msgid "Give your project a name and click \"Create\"."
+msgstr "Δώστε στο έργο σας ένα όνομα και κάντε κλικ \"Δημιουργία\"."
+
+#: lib/wpbc-gcal.php:434
+msgid "In the sidebar click on \"APIs & auth\"."
+msgstr "Στην πλαϊνή γραμμή, κάντε κλικ στο \"APIs & auth\"."
+
+#: lib/wpbc-gcal.php:435
+msgid "Click APIs and make sure \"Calendar API\" is set to ON."
+msgstr "Κλικ στο APIs και σιγουρευτείτε ότι το \"Ημερολόγιο API\" είναι ON."
+
+#: lib/wpbc-gcal.php:436
+msgid "Now click on \"Credentials\" in the sidebar."
+msgstr "Τώρα κάντε κλικ στο \"Πιστοποιητικά\" στην πλαϊνή γραμμή."
+
+#: lib/wpbc-gcal.php:437
+msgid "Under the section \"Public API access\" click the button \"Create new Key\"."
+msgstr "Κάτω από το τμήμα \"Δημόσιο API πρόσβαση\" κλικ στο κουμπί \"Δημιουργία νέο Key\"."
+
+#: lib/wpbc-gcal.php:438
+msgid "On the popup click the button \"Server Key\" and click \"Create\"."
+msgstr "Στο αναδυόμενο παράθυρο, κάντε κλικ στο κουμπί \"Server Key\" και κλικ \"Δημιουργία\"."
+
+#: lib/wpbc-gcal.php:439
+msgid "You will now see a table loaded with the top item being the API Key. Copy this and paste it into %sGoogle API Key%s field at this page."
+msgstr "Θα δείτε τώρα ένα πίνακα φορτωμένο με τα πρώτα στοιχείο της λίστας API keys. Αντιγράψτε το και επικολλήστε το μέσα στο  %sGoogle API Key%s πεδίο σε αυτή την σελίδα."
+
+#: lib/wpbc-gcal.php:445
+msgid "Set Your Calendar to Public"
+msgstr "Δημοσιεύστε το ημερολόγιό σας"
+
+#: lib/wpbc-gcal.php:447 lib/wpbc-gcal.php:455
+msgid "Navigate to your Google calendars."
+msgstr "Πλοηγηθείτε στα Google ημερολόγιά σας."
+
+#: lib/wpbc-gcal.php:448 lib/wpbc-gcal.php:456
+msgid "Open the settings for the calendar."
+msgstr "Ανοίξτε τις ρυθμίσεις για το ημερολόγιο"
+
+#: lib/wpbc-gcal.php:449
+msgid "Click the \"Share this Calendar\" link."
+msgstr "Κάντε κλικ στο \"Μοιραστείτε αυτό το Ημερολόγιο\" σύνδεσμος."
+
+#: lib/wpbc-gcal.php:450
+msgid "Click the checkbox to make calendar public. Do not check the other option."
+msgstr "Κάντε κλικ στο πλαίσιο για να δημοσιεύσετε το ημερολόγιό σας. Μην επιλέξετε τις άλλες επιλογές. "
+
+#: lib/wpbc-gcal.php:453
+msgid "Find Your Calendar ID"
+msgstr "Βρείτε το ID από το ημερολόγιό σας"
+
+#: lib/wpbc-gcal.php:457
+msgid "Now copy the Calendar ID to use in the plugin settings in your WordPress admin. Make sure to %suse the Calendar ID only, not the entire XML feed URL%s."
+msgstr "Τώρα αντιγράψτε το ID από το ημερολόγιο που θέλετε να χρησιμοποιήσετε στις ρυθμίσεις Feed στην διαχείριση του WordPress. Σιγουρευτείτε oti %sχρησιμοποιείτε μόνο το ID του ημερολόγιου και όχι το XML feed URL%s."
+
+#: lib/wpbc-gcal.php:516 lib/wpbc-gcal.php:929
+msgid "None"
+msgstr "Κανένα"
+
+#: lib/wpbc-gcal.php:557
+msgid "Select field for assigning to %sevent property%s"
+msgstr "Επιλέξτε το πεδίο για τη διάθεση στο %sιδιότητα γεγονότος%s"
+
+#: lib/wpbc-gcal.php:567
+msgid "Event Title"
+msgstr "Τίτλος Γεγονότος"
+
+#: lib/wpbc-gcal.php:568
+msgid "Event Description (optional field)"
+msgstr "Περιγραφή Γεγονότος (προαιρετικό πεδίο)"
+
+#: lib/wpbc-gcal.php:569
+msgid "Location"
+msgstr "Περιοχή"
+
+#: lib/wpbc-gcal.php:581 lib/wpdev-settings-general.php:2061
+#: lib/wpdev-settings-general.php:2135 lib/wpdev-settings-general.php:2221
+#: lib/wpdev-settings-general.php:2310
+msgid "From"
+msgstr "Από"
+
+#: lib/wpbc-gcal.php:594 lib/wpbc-gcal.php:658
+msgid "Now"
+msgstr "Τώρα"
+
+#: lib/wpbc-gcal.php:595 lib/wpbc-gcal.php:659
+msgid "00:00 today"
+msgstr "00:00 σήμερα"
+
+#: lib/wpbc-gcal.php:596 lib/wpbc-gcal.php:660
+msgid "Start of current week"
+msgstr "Έναρξη της τρέχουσας εβδομάδας"
+
+#: lib/wpbc-gcal.php:597 lib/wpbc-gcal.php:661
+msgid "Start of current month"
+msgstr "Έναρξη του τρέχοντος μήνα"
+
+#: lib/wpbc-gcal.php:598 lib/wpbc-gcal.php:662
+msgid "End of current month"
+msgstr "Τέλος του τρέχοντος μήνα"
+
+#: lib/wpbc-gcal.php:599
+msgid "The start of time"
+msgstr "Η έναρξη του χρόνου"
+
+#: lib/wpbc-gcal.php:600 lib/wpbc-gcal.php:664
+msgid "Specific date / time"
+msgstr "Συγκεκριμένη ημερομηνία / ώρα"
+
+#: lib/wpbc-gcal.php:607
+msgid "Select option, when to start retrieving events."
+msgstr "Επιλέξτε την επιλογή, όταν ξεκινήσει η ανάκτηση γεγονότος."
+
+#: lib/wpbc-gcal.php:609 lib/wpbc-gcal.php:673
+msgid "Offset"
+msgstr "Μετατόπιση"
+
+#: lib/wpbc-gcal.php:609 lib/wpbc-gcal.php:673
+msgid "Enter date / time"
+msgstr "Εισάγετε την ημερομηνία / ώρα"
+
+#: lib/wpbc-gcal.php:615 lib/wpbc-gcal.php:679
+msgid "seconds"
+msgstr "δευτερόλεπτα"

@@ -1,0 +1,2402 @@
+# Translation of Development (trunk) in Finnish
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-30 18:03:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#: lib/wpdev-settings-general.php:909
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: lib/wpdev-settings-general.php:931
+msgid "Type your date format for emails and the booking table. %sDocumentation on date formatting%s"
+msgstr "Anna oma päivämäärämuoto sähköposteille ja varaustaulukolle. %sDokumentaatio päivämääräformaateista%s"
+
+#: lib/wpdev-settings-general.php:939
+msgid "Dates view"
+msgstr "Päivänäkymä"
+
+#: lib/wpdev-settings-general.php:942
+msgid "Short days view"
+msgstr "Lyhyt päivänäkymä"
+
+#: lib/wpdev-settings-general.php:943
+msgid "Wide days view"
+msgstr "Leveä päivänäkymä"
+
+#: lib/wpdev-settings-general.php:945
+msgid "Select the default view for dates on the booking tables"
+msgstr "Valitse oletusnäkymä päivämäärille varaustaulukossa"
+
+#: lib/wpdev-settings-general.php:953
+msgid "Show / hide hints"
+msgstr "Näytä / piilota vihjeet"
+
+#: lib/wpdev-settings-general.php:959
+msgid "Check this box if you want to show help hints on the admin panel."
+msgstr "Valitse tämä jos haluat näyttää ohje-vinkit ylläpitonäkymässä."
+
+#: lib/wpdev-settings-general.php:990
+msgid "Checking to prevent double booking, during submitting booking"
+msgstr "Tarkistus tuplavarauksen estämiseksi varausta tehtäessä"
+
+#: lib/wpdev-settings-general.php:997 lib/wpdev-settings-general.php:1022
+#: lib/wpdev-settings-general.php:1056 lib/wpdev-settings-general.php:1071
+#: lib/wpdev-settings-general.php:1088 lib/wpdev-settings-general.php:1294
+msgid "Warning"
+msgstr "Varoitus"
+
+#: lib/wpdev-settings-general.php:997
+msgid "This feature can impact to speed of submitting booking. Do you really want to do this?"
+msgstr "Tämä ominaisuus voi vaikuttaa varauksen lähetysnopeuteen. Haluatko todella käyttää sitä?"
+
+#: lib/wpdev-settings-general.php:999
+msgid "Check this box, if you want to %sre-check if the selected dates available during submitting booking%s."
+msgstr "Valitse tämä, jos haluat %suudelleen tarkistaa, että valitut päivät ovat vapaana kun varaus lähetetään%s"
+
+#: lib/wpdev-settings-general.php:1003
+msgid "This feature useful to prevent double booking of the same date(s) or time(s), if several visitors try to book the same date(s) in same calendar during the same time."
+msgstr "Tämä ominaisuus on hyödyllinen, jos halutaan estää tuplavaraukset samalle päivälle/ajalle, siinä tapauksessa että useampi varaaja yrittää tehdä varausta yhtäaikaa."
+
+#: lib/wpdev-settings-general.php:1006
+msgid "This feature does not work for booking resources with capacity higher than one."
+msgstr "Tämä ominaisuus ei toimi kohteiden kanssa, joiden kapasiteetti on suurempi kuin yksi."
+
+#: lib/wpdev-settings-general.php:1015
+msgid "Allow unlimited bookings per same day(s)"
+msgstr "Salli rajoittamaton määrä varauksia päivittäin"
+
+#: lib/wpdev-settings-general.php:1022
+msgid "You allow unlimited number of bookings per same dates, its can be a reason of double bookings on the same date. Do you really want to do this?"
+msgstr "Jos sallit rajoittamattomasti varauksia kaikille päiville, siitä saattaa seurata päällekkäisiä varauksia. Haluatko todella tehdä tämän?"
+
+#: lib/wpdev-settings-general.php:1024
+msgid "Check this box, if you want to %sset any days as available%s in calendar. Your visitors will be able to make %sunlimited bookings per same date(s) in calendar and do not see any booked date(s)%s of other visitors."
+msgstr "Valitse tämä, jos haluat %ssallia varaukset kaikkina päivänä%s. Asiakkaat voivat tehdä %srajoittamattomasti varauksia, eivätkä näe toisten asiakkaden varauspäiviä%s."
+
+#: lib/wpdev-settings-general.php:1040
+msgid "Show advanced settings of JavaScript loading"
+msgstr "Näytä lisäasetukset JavaScriptin latauksesta"
+
+#: lib/wpdev-settings-general.php:1041
+msgid "Hide advanced settings of JavaScript loading"
+msgstr "Piilota JavaScript latauksen lisäasetukset"
+
+#: lib/wpdev-settings-general.php:1050
+msgid "Disable Bootstrap loading on Front-End"
+msgstr "Poista Bootstrap käytöstä etusivulta "
+
+#: lib/wpdev-settings-general.php:1056 lib/wpdev-settings-general.php:1071
+#: lib/wpdev-settings-general.php:1088
+msgid "You are need to be sure what you are doing. You are disable of loading some JavaScripts Do you really want to do this?"
+msgstr "Sinun pitää tietää mitä olet tekemässä. Olet poistamassa käytöstä JavaScriptin latauksen. Haluatko todella tähdä tämän?"
+
+#: lib/wpdev-settings-general.php:1058 lib/wpdev-settings-general.php:1073
+msgid " If your theme or some other plugin is load the BootStrap JavaScripts, you can disable  loading of this script by this plugin."
+msgstr "Voit ottaa pois käytöstä BootStrap JavaScriptit, jos teema tai jokin toinen lisäosa lataa ne."
+
+#: lib/wpdev-settings-general.php:1065
+msgid "Disable Bootstrap loading on Back-End"
+msgstr "Poista BootStrapin lataaminen käytöstä hallintapaneelista"
+
+#: lib/wpdev-settings-general.php:1082
+msgid "Load JS and CSS files only on specific pages"
+msgstr "Lataa JS ja CSS vain valituille sivuille"
+
+#: lib/wpdev-settings-general.php:1090
+msgid "Activate loading of CSS and JavaScript files of plugin only at specific pages."
+msgstr "Aktivoi JS ja CSS lataaminen vain valituille sivuille."
+
+#: lib/wpdev-settings-general.php:1104
+msgid "Relative URLs of pages, where to load plugin CSS and JS files"
+msgstr "Suhtelliset URL:t sivuille, joilla ladataan lisäosan JS ja CSS tiedostot"
+
+#: lib/wpdev-settings-general.php:1109
+msgid "Enter relative URLs of pages, where you have Booking Calendar elements (booking forms or availability calendars). Please enter one URL per line. Example: %s"
+msgstr "Anna suhtelliset URL:t sivuille, joilla on varauskalenterin osia (lomakkeita tai kalentereita). Syötä yksi URL per rivi. Esimerkki: %s"
+
+#: lib/wpdev-settings-general.php:1127
+msgid "Show settings of powered by notice"
+msgstr "Näytä powered by notice-asetukset"
+
+#: lib/wpdev-settings-general.php:1128
+msgid "Hide settings of powered by notice"
+msgstr "Piilota powered by notice-asetukset"
+
+#: lib/wpdev-settings-general.php:1136
+msgid "Powered by notice"
+msgstr "Powered by notice-ilmoitus"
+
+#: lib/wpdev-settings-general.php:1141
+msgid " Turn On/Off powered by \"Booking Calendar\" notice under the calendar."
+msgstr "Ota käyttöön/poista käytöstä powered by \"Booking Calendar\" ilmoitus kalenterin alta"
+
+#: lib/wpdev-settings-general.php:1151
+msgid "Help and info notices"
+msgstr "Ohje ja info ilmoitukset"
+
+#: lib/wpdev-settings-general.php:1157
+msgid " Turn On/Off version notice and help info links at booking admin panel."
+msgstr "Ota käyttöön/poista käytöstä versioilmoitukset ja ohje-linkit varauksen hallintapaneelista"
+
+#: lib/wpdev-settings-general.php:1186
+msgid "Information"
+msgstr "Tiedot"
+
+#: lib/wpdev-settings-general.php:1215
+msgid "User permissions for plugin menu pages"
+msgstr "Käyttöoikeudet lisäosan valikoihin"
+
+#: lib/wpdev-settings-general.php:1275
+msgid "Select user access level for the menu pages of plugin"
+msgstr "Valitse käyttäjältä vaadittu oikeustaso lisäosan valikoihin"
+
+#: lib/wpdev-settings-general.php:1285
+msgid "Uninstall / deactivation"
+msgstr "Poistamien / de-aktivointi"
+
+#: lib/wpdev-settings-general.php:1289
+msgid "Delete booking data, when plugin deactivated"
+msgstr "Poista kaikki varaukset, kun lisäosa de-aktivoidaan"
+
+#: lib/wpdev-settings-general.php:1294
+msgid "If you check this option, all booking data will be deleted when you uninstall this plugin. Do you really want to do this?"
+msgstr "Jos valitset tämän asetuksen, kaikki varauksiin liittyvä tieto tuhotaan kun lisäosa poistetaan. Haluatko varmasti tähdä tämän?"
+
+#: lib/wpdev-settings-general.php:1296
+msgid "Check this box to delete all booking data when you uninstal this plugin."
+msgstr "Valitset tämä, jotta kaikki varausilmoitukset tuhotaan kun lisäosa poistetaan"
+
+#: lib/wpdev-settings-general.php:1423
+msgid "Show legend below calendar"
+msgstr "Näytä kuvateksti kalenterin alla"
+
+#: lib/wpdev-settings-general.php:1431
+msgid "Check this box to display a legend of dates below the booking calendar."
+msgstr "Valitse tämä, jotta päivät näytetään kuvatekstinä varauskalenterin alla"
+
+#: lib/wpdev-settings-general.php:1441
+msgid "Available item"
+msgstr "Vapaa kohde"
+
+#: lib/wpdev-settings-general.php:1447
+msgid "Activate and type your %stitle of available%s item in legend"
+msgstr "Aktivoi ja anna %sotsikko vapaalle%s kohteelle kuvatekstissä"
+
+#: lib/wpdev-settings-general.php:1453
+msgid "Pending item"
+msgstr "Avoin kohde"
+
+#: lib/wpdev-settings-general.php:1459
+msgid "Activate and type your %stitle of pending%s item in legend"
+msgstr "Aktivoi ja anna %sotsikko avoimelle%s kohteelle kuvatekstissä"
+
+#: lib/wpdev-settings-general.php:1465
+msgid "Approved item"
+msgstr "Vahvistettu kohde"
+
+#: lib/wpdev-settings-general.php:1471
+msgid "Activate and type your %stitle of approved%s item in legend"
+msgstr "Aktivoi ja anna %sotsikko vahvistetulle%s kohteelle kuvatekstissä"
+
+#: lib/wpdev-settings-general.php:1477
+msgid "Partially booked item"
+msgstr "Osittain varattu kohde"
+
+#: lib/wpdev-settings-general.php:1483
+msgid "Activate and type your %stitle of partially booked%s item in legend"
+msgstr "Aktivoi ja anna %sotsikko osittain varatulle%s kohteelle kuvatekstissä"
+
+#: lib/wpdev-settings-general.php:1484
+msgid "Partially booked item - day, which is booked for the specific time-slot(s)."
+msgstr "Osittain varattu kohde - päivä, jolla varaus/varauksia tiettyinä tunteina"
+
+#: lib/wpdev-settings-general.php:1535
+msgid "Form fields labels"
+msgstr "Lomakkeen kenttien nimet"
+
+#: lib/wpdev-settings-general.php:1559 lib/wpdev-settings-general.php:1602
+#: lib/wpdev-settings-general.php:1747
+msgid "Field Label"
+msgstr "Kentän nimi"
+
+#: lib/wpdev-settings-general.php:1569 lib/wpdev-settings-general.php:1612
+#: lib/wpdev-settings-general.php:1657 lib/wpdev-settings-general.php:1703
+#: lib/wpdev-settings-general.php:1757 lib/wpdev-settings-general.php:1800
+#: lib/wpdev-settings-general.php:2048 lib/wpdev-settings-general.php:2129
+#: lib/wpdev-settings-general.php:2201 lib/wpdev-settings-general.php:2289
+msgid "Active"
+msgstr "Aktiivinen"
+
+#: lib/wpdev-settings-general.php:1576 lib/wpdev-settings-general.php:1619
+#: lib/wpdev-settings-general.php:1664 lib/wpdev-settings-general.php:1710
+#: lib/wpdev-settings-general.php:1764 lib/wpdev-settings-general.php:1807
+msgid "Required"
+msgstr "Pakollinen"
+
+#: lib/wpdev-settings-general.php:1579 lib/wpdev-settings-general.php:1622
+#: lib/wpdev-settings-general.php:1722 lib/wpdev-settings-general.php:1767
+#: lib/wpdev-settings-general.php:1810
+msgid "Activate or deactivate field and change the label title"
+msgstr "Aktivoi tai poista käytöstä ja muuta valikon nimi."
+
+#: lib/wpdev-settings-general.php:1647
+msgid "Email Label"
+msgstr "Sähköpostikentän nimi"
+
+#: lib/wpdev-settings-general.php:1667
+msgid "Change the label title of this field. Email is obligatory field in booking form."
+msgstr "Muuta kentän nimi. Sähköposti on pakollinen kenttä varauslomakkeella."
+
+#: lib/wpdev-settings-general.php:1693
+msgid "Selectbox Label"
+msgstr "Valintalaatikon nimi"
+
+#: lib/wpdev-settings-general.php:1716
+msgid "Selectbox Values"
+msgstr "Valintalaatikon arvot"
+
+#: lib/wpdev-settings-general.php:1723
+msgid "Enter dropdown options. One option per line."
+msgstr "Alasvetovalikon arvot. Yksi arvo per rivi."
+
+#: lib/wpdev-settings-general.php:1790
+msgid "Textarea Label"
+msgstr "Tekstikentän nimi"
+
+#: lib/wpdev-settings-general.php:2034
+msgid "Email to \"Admin\" after a new booking"
+msgstr "Sähköposti \"Ylläpitäjälle\" uudesta varauksesta"
+
+#: lib/wpdev-settings-general.php:2054
+msgid "To"
+msgstr "Vastaanottaja"
+
+#: lib/wpdev-settings-general.php:2056
+msgid "Type default %sadmin email%s for booking confirmation"
+msgstr "Varausilmoituksen vastaanottavan %sylläpitäjän sähköpostiosoite%s"
+
+#: lib/wpdev-settings-general.php:2063
+msgid "Type the default %sadmin email%s sending the booking confimation. You can use this %s shortcode."
+msgstr "Varausilmoituksen lähettävän %sylläpitäjän sähköpostiosoite%s. Voit käyttää tätä %s shortcodea"
+
+#: lib/wpdev-settings-general.php:2068 lib/wpdev-settings-general.php:2142
+#: lib/wpdev-settings-general.php:2228 lib/wpdev-settings-general.php:2317
+msgid "Subject"
+msgstr "Aihe"
+
+#: lib/wpdev-settings-general.php:2070
+msgid "Type your email %ssubject%s for the booking confimation message."
+msgstr "Sähköpostin %sotsikko%s uudelle varaukselle"
+
+#: lib/wpdev-settings-general.php:2075 lib/wpdev-settings-general.php:2150
+#: lib/wpdev-settings-general.php:2235 lib/wpdev-settings-general.php:2324
+msgid "Content"
+msgstr "Sisältö"
+
+#: lib/wpdev-settings-general.php:2090
+msgid "Type your %semail message content for checking booking%s in. "
+msgstr "Kirjoita tähän %ssähköpostiviesti uuden varauksen saapumisesta%s"
+
+#: lib/wpdev-settings-general.php:2099
+msgid "For example: \"You have a new reservation %s on the following date(s): %s Contact information: %s You can approve or cancel this booking at: %s Thank you, Reservation service.\""
+msgstr "Esimerkiksi: \"Teillä on uusi varaus %s seuraaville päiville: %s Yhteystiedot: %s Voitte hyväksyä tai perua tämän varauksen: %s Ystävällisin terveisin, Varauspalvelu\""
+
+#: lib/wpdev-settings-general.php:2114
+msgid "Email to \"Person\" after they make a new reservation"
+msgstr "Sähköposti \"Varaajalle\" kun hän tekee uuden varauksen"
+
+#: lib/wpdev-settings-general.php:2137 lib/wpdev-settings-general.php:2223
+#: lib/wpdev-settings-general.php:2312
+msgid "Type the default %sadmin email%s sending the booking confimation"
+msgstr "Varausvahvistuksen lähettävän %sylläpitäjän sähköpostiosoite%s"
+
+#: lib/wpdev-settings-general.php:2144
+msgid "Type email subject for %svisitor after creating a new reservation%s."
+msgstr "Sähköpostin otsikko %svaraajalle uudesta varauksesta%s"
+
+#: lib/wpdev-settings-general.php:2165
+msgid "Type your %semail message for visitor after creating a new reservation%s"
+msgstr "Kirjoita tähän %ssähköpostiviesti varaajalle kun varaus on otettu vastaan%s"
+
+#: lib/wpdev-settings-general.php:2173
+msgid "For example: \"Your reservation %s on these date(s): %s is processing now! We will send confirmation by email. %s Thank you, Reservation service.\""
+msgstr "Esimerkki: \"Varauksenne %s päiville: %s on käsiteltävänä. Lähetämme teille vahvistuksesta sähköpostin. %s  Ystävällisin terveisin,  Varauspalvelu\""
+
+#: lib/wpdev-settings-general.php:2187
+msgid "Email to \"Person\" after booking is approved"
+msgstr "Sähköposti \"Varaajalle\" kun varaus on vahvistettu"
+
+#: lib/wpdev-settings-general.php:2207 lib/wpdev-settings-general.php:2295
+msgid "Send to Admin"
+msgstr "Lähetä ylläpitäjälle"
+
+#: lib/wpdev-settings-general.php:2215 lib/wpdev-settings-general.php:2303
+msgid "Check this box to send copy of this email to Admin"
+msgstr "Lähetä kopio tästä sähköpostista ylläpitäjälle"
+
+#: lib/wpdev-settings-general.php:2230
+msgid "Type your email subject for the %sapproved booking%s."
+msgstr "Sähköpostin otsikko %svahvistetulle varaukselle%s"
+
+#: lib/wpdev-settings-general.php:2250
+msgid "Type your %semail message for the approved booking%s from the website"
+msgstr "Kirjoita tähän %ssähköpostiviesti varauksen vahvistamisesta%s verkkosivuilta"
+
+#: lib/wpdev-settings-general.php:2259
+msgid "For example: \"Your reservation %s on these date(s): %s has been approved.%s Thank you, Reservation service.\""
+msgstr "Esimerkki: \"Varauksenne %s näille päiville: %s on vahvistettu.%s . Ystävälliisin terveisin, Varauspalvelu\""
+
+#: lib/wpdev-settings-general.php:2274
+msgid "Email to \"Person\" after their booking has been denied"
+msgstr "Sähköposti \"Varaajalle\" kun varaus on evätty"
+
+#: lib/wpdev-settings-general.php:2319
+msgid "Type your email subject for the %sdenied booking%s."
+msgstr "Sähköpostin otsikko %sevätylle varaukselle%s"
+
+#: lib/wpdev-settings-general.php:2339
+msgid "Type your %semail message for the denied booking%s from the website"
+msgstr "Kirjoita tähän %ssähköpostiviesti varauksen eväämisestä%s"
+
+#: lib/wpdev-settings-general.php:2349
+msgid "For example: \"Your reservation %s on these date(s): %s has been canceled. Please contact us for more information. %s Thank you, Reservation service.\""
+msgstr "Esimerkki: \"Varauksenne %s näille päiville: %s on peruttu. Tarpeen vaatiessa ottakaa yhteyttä. %s Kiitos, Varauspalvelu\""
+
+#: lib/wpdev-settings-general.php:2385
+msgid "You can use (in subject and content of email template) any shortcodes, which you used in the booking form. Use the shortcodes in the same way as you used them in the content form at Settings Fields page."
+msgstr "Voit käyttää (sähköpostin otsikossa ja sisältöpohjassa) kaikkia samoja shortcodeja kuin varauslomakkeessa. Käytä shortcodeja samalla tavalla kuin lomakkeessa Asetuskentät-sivulla."
+
+#: lib/wpdev-settings-general.php:2387 lib/wpdev-settings-general.php:2389
+msgid "You can use following shortcodes in content of this template"
+msgstr "Voit käyttää seuraavia shortcodeja tämän pohjan sisällössä"
+
+#: lib/wpdev-settings-general.php:2393
+msgid "%s - inserting data info about the booking"
+msgstr "%s - lisää varauksen tiedot"
+
+#: lib/wpdev-settings-general.php:2395
+msgid "%s - inserting data info about the booking, which you configured in the content form at Settings Fields page"
+msgstr "%s - lisää tämän varauksen tiedot, jotka on määritelty sisältölomakkeella Asetuskentät-sivulla"
+
+#: lib/wpdev-settings-general.php:2397
+msgid "%s - inserting ID of booking "
+msgstr "%s - lisää varauksen ID"
+
+#: lib/wpdev-settings-general.php:2399
+msgid "%s or %s - inserting the title of the booking resource "
+msgstr "%s tai %s - lisää varattavan kohteen otsikko"
+
+#: lib/wpdev-settings-general.php:2401
+msgid "%s - inserting the cost of  booking "
+msgstr "%s - lisää varauksen hinta"
+
+#: lib/wpdev-settings-general.php:2405
+msgid "%s - inserting the dates of booking"
+msgstr "%s - lisää varauksen päivät"
+
+#: lib/wpdev-settings-general.php:2407
+msgid "%s - inserting check-in date (first day of reservation),"
+msgstr "%s - lisää sisäänkirjautumispäivä (varauksen ensimmäinen päivä)"
+
+#: lib/wpdev-settings-general.php:2409 lib/wpdev-settings-general.php:2410
+msgid "%s - inserting check-out date (last day of reservation),"
+msgstr "%s - lisää lähtopäivä (varauksen viimeinen päivä)"
+
+#: lib/wpdev-settings-general.php:2412
+msgid "%s - inserting the number of booking dates "
+msgstr "%s - lisää varattujen päivien määrä"
+
+#: lib/wpdev-settings-general.php:2416 lib/wpdev-settings-general.php:2424
+msgid "%s - inserting your site URL "
+msgstr "%s - lisää sivuston URLn"
+
+#: lib/wpdev-settings-general.php:2417
+msgid "%s - inserting IP address of the user who made this action "
+msgstr "%s - lisää varauksen tehneen henkilön IP-osoitteen"
+
+#: lib/wpdev-settings-general.php:2418
+msgid "%s - inserting contents of the User-Agent: header from the current request, if there is one "
+msgstr "%s - lisää User-Agent: otsikon nykyisestä pyynnöstä, mikäli sellainen on"
+
+#: lib/wpdev-settings-general.php:2419
+msgid "%s - inserting address of the page (if any), where visitor make this action "
+msgstr "%s - lisää sivuston osoitteen(mikäli on), mistä käyttäjä suorittaa toimenpiteen"
+
+#: lib/wpdev-settings-general.php:2420
+msgid "%s - inserting date of this action "
+msgstr "%s - lisää toimenpiteen päiväyksen"
+
+#: lib/wpdev-settings-general.php:2421
+msgid "%s - inserting time of this action "
+msgstr "%s - lisää toimenpiteen ajan"
+
+#: lib/wpdev-settings-general.php:2428
+msgid "%s - inserting moderate link of new booking "
+msgstr "%s - lisää linkin uuden varauksen muokkaamiseen"
+
+#: lib/wpdev-settings-general.php:2432
+msgid "%s - inserting link to the page where visitor can edit the reservation,  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - lisää linkin sivulle, jolla vierailija voi muokata varausta, (tässä on mahdollista käytää %s parametria eri %s asettamiseksi. Esimerkki: %s)"
+
+#: lib/wpdev-settings-general.php:2434
+msgid "%s - inserting link to the page where visitor can cancel the reservation, (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - lisää linkin sivulle, jolla vierailija voi peruuttaa varauksen, (tässä on mahdollista käytää %s parametria eri %s asettamiseksi. Esimerkki: %s)"
+
+#: lib/wpdev-settings-general.php:2436
+msgid "%s - inserting link to payment page where visitor can pay for the reservation  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - lisää linkin sivulle, jolla vierailija voi maksaa varauksen, (tässä on mahdollista käytää %s parametria eri %s asettamiseksi. Esimerkki: %s)"
+
+#: lib/wpdev-settings-general.php:2440
+msgid "%s - add the reason for booking payment, you can enter it before sending email, "
+msgstr "%s - lisää syy varauksen maksamiselle. Voit syöttää sen ennen sähköpostin lähettämistä, "
+
+#: lib/wpdev-settings-general.php:2444
+msgid "%s - add the reason booking was cancelled, you can enter it before sending email, "
+msgstr "%s - lisää syy varauksen peruuttamiselle. Voit syöttää sen ennen sähköpostin lähettämistä, "
+
+#: lib/wpdev-settings-general.php:2447
+msgid "HTML tags is accepted."
+msgstr "HTML tägit hyväksytään."
+
+#: lib/wpdev-settings-general.php:2465
+msgid "Customization of email template, which is sending to Admin after new booking"
+msgstr "Uuden varauksen tekemisen jälkeen ylläpitäjälle lähetettävän sähköpostin mallin räätälöinti"
+
+#: lib/wpdev-settings-general.php:2466
+msgid "New for Admin"
+msgstr "Uusi Ylläpitäjälle"
+
+#: lib/wpdev-settings-general.php:2474
+msgid "Customization of email template, which is sending to Visitor after new booking"
+msgstr "Uuden varauksen tekemisen jälkeen vierailijalle lähetettävän sähköpostin mallin räätälöinti"
+
+#: lib/wpdev-settings-general.php:2475
+msgid "New for Visitor"
+msgstr "Uusi Varaajalle"
+
+#: lib/wpdev-settings-general.php:2483
+msgid "Customization of email template, which is sending to Visitor after approval of booking"
+msgstr "Varauksen vahvistamisen jälkeen vierailijalle lähetettävän sähköpostin mallin räätälöinti"
+
+#: lib/wpdev-settings-general.php:2492
+msgid "Customization of email template, which is sending to Visitor after Cancellation of booking"
+msgstr "Varauksen peruuttamisen jälkeen vierailijalle lähetettävän sähköpostin mallin räätälöinti"
+
+#: lib/wpdev-settings-general.php:2493
+msgid "Declined"
+msgstr "Evätty"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:486 lib/wpdev-settings-general.php:585
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:487 lib/wpdev-settings-general.php:589
+msgid "Thursday"
+msgstr "Torstai"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:488 lib/wpdev-settings-general.php:593
+msgid "Friday"
+msgstr "Perjantai"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:489 lib/wpdev-settings-general.php:597
+msgid "Saturday"
+msgstr "Lauantai"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:483 lib/wpdev-settings-general.php:573
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:146
+#: lib/wpdev-bk-timeline.php:153
+msgid "M"
+msgstr "M"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Tu"
+msgstr "Ti"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:146
+#: lib/wpdev-bk-timeline.php:153
+msgid "W"
+msgstr "K"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Th"
+msgstr "To"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:146
+#: lib/wpdev-bk-timeline.php:153
+msgid "F"
+msgstr "P"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Sa"
+msgstr "La"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Su"
+msgstr "Su"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Mon"
+msgstr "Ma"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Tue"
+msgstr "Ti"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Wed"
+msgstr "Ke"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Thu"
+msgstr "To"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Fri"
+msgstr "Pe"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Sat"
+msgstr "La"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Sun"
+msgstr "Su"
+
+#: lib/wpdev-bk-timeline.php:146
+msgid "T"
+msgstr "T"
+
+#: lib/wpdev-bk-timeline.php:146
+msgid "S"
+msgstr "S"
+
+#: lib/wpdev-bk-timeline.php:225 lib/wpdev-bk-timeline.php:583
+msgid "Times"
+msgstr "Ajat"
+
+#: lib/wpdev-bk-timeline.php:779 lib/wpdev-booking-class.php:664
+#: lib/wpdev-settings-general.php:1246
+msgid "Resources"
+msgstr "Kohteet"
+
+#: lib/wpdev-bk-timeline.php:963
+msgid "Payment"
+msgstr "Maksu"
+
+#. #-#-#-#-#  tmp-booking.pot (Booking Calendar 6.2.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: lib/wpdev-booking-class.php:145 lib/wpdev-booking-widget.php:14
+msgid "Booking Calendar"
+msgstr "Varauskalenteri"
+
+#: lib/wpdev-booking-class.php:343
+msgid "Statistic"
+msgstr "Tilastot"
+
+#: lib/wpdev-booking-class.php:347
+msgid "New (unverified) booking(s)"
+msgstr "Uudet (vahvistamattomat) varaukset"
+
+#: lib/wpdev-booking-class.php:351
+msgid "Pending booking(s)"
+msgstr "Odottavat varaukset"
+
+#: lib/wpdev-booking-class.php:357
+msgid "Agenda"
+msgstr "Tehtävälista"
+
+#: lib/wpdev-booking-class.php:361
+msgid "New booking(s) made today"
+msgstr "Tänään tehdyt uudet varaukset"
+
+#: lib/wpdev-booking-class.php:365
+msgid "Bookings for today"
+msgstr "Varaukset tälle päivälle"
+
+#: lib/wpdev-booking-class.php:379
+msgid "Upgrade to higher versions"
+msgstr "Päivitä ylempääm versioon"
+
+#: lib/wpdev-booking-class.php:396
+msgid "Current version"
+msgstr "Nykyinen versio"
+
+#: lib/wpdev-booking-class.php:399
+msgid "Version"
+msgstr "Versio"
+
+#: lib/wpdev-booking-class.php:415
+msgid "Type"
+msgstr "tyyppi"
+
+#: lib/wpdev-booking-class.php:419
+msgid "Used for"
+msgstr "Käytetään"
+
+#: lib/wpdev-booking-class.php:428
+msgid "websites"
+msgstr "sivustoilla"
+
+#: lib/wpdev-booking-class.php:430
+msgid "website"
+msgstr "sivustolla"
+
+#: lib/wpdev-booking-class.php:436
+msgid "Release date"
+msgstr "Julkaisupäivä"
+
+#: lib/wpdev-booking-class.php:446
+msgid "Check Premium Features"
+msgstr "Katso Premium vaihtoehdot"
+
+#: lib/wpdev-booking-class.php:448 lib/wpdev-booking-class.php:1187
+#: lib/wpdev-booking-class.php:1188 lib/wpdev-booking-class.php:1196
+#: lib/wpdev-booking-class.php:1197
+msgid "Upgrade"
+msgstr "Päivitä"
+
+#: lib/wpdev-booking-class.php:450
+msgid "Explore Premium Features"
+msgstr "Katso Premium vaihtoehdot"
+
+#: lib/wpdev-booking-class.php:459
+msgid "Support"
+msgstr "Tuki"
+
+#: lib/wpdev-booking-class.php:464
+msgid "Getting Started"
+msgstr "Aloita tästä"
+
+#: lib/wpdev-booking-class.php:468
+msgid "Help Info"
+msgstr "Tukitiedot"
+
+#: lib/wpdev-booking-class.php:474
+msgid "Contact email"
+msgstr "Ota yhteyttä"
+
+#: lib/wpdev-booking-class.php:477
+msgid "Rate plugin (thanks:)"
+msgstr "Arvostele lisäosa (kiitos:)"
+
+#: lib/wpdev-booking-class.php:540
+msgid "Warning !!!"
+msgstr "Varoitus !!!"
+
+#: lib/wpdev-booking-class.php:541
+msgid "All booking data will be deleted when the plugin is deactivated."
+msgstr "Kaikki varauksiin liittyvä tieto poistataan kun lisäosa otetaan pois käytöstä"
+
+#: lib/wpdev-booking-class.php:542
+msgid "If you want to save your booking data, please uncheck the %s\"Delete booking data\"%s at the"
+msgstr "Jos haluat pitää varaustiedot tallessa, ole hyvä ja poista valinta %sPoista varaustiedot%s"
+
+#: lib/wpdev-booking-class.php:543
+msgid "settings page"
+msgstr "Asetukset"
+
+#: lib/wpdev-booking-class.php:593 lib/wpdev-booking-class.php:673
+#: lib/wpdev-booking-functions.php:2567 lib/wpdev-settings-general.php:1260
+msgid "Settings"
+msgstr "Asetukset"
+
+#: lib/wpdev-booking-class.php:597
+msgid "Check new functionality in this plugin update."
+msgstr "Katso tämän lisäosan päivityksessä tulleet uudet toiminnallisuudet."
+
+#: lib/wpdev-booking-class.php:597
+msgid "What's New"
+msgstr "Uutta"
+
+#: lib/wpdev-booking-class.php:635
+msgid "Booking"
+msgstr "Varaus"
+
+#: lib/wpdev-booking-class.php:653 lib/wpdev-booking-class.php:720
+#: lib/wpdev-settings-general.php:1232
+msgid "Add booking"
+msgstr "Lisää varaus"
+
+#: lib/wpdev-booking-class.php:673
+msgid "Booking Calendar Settings"
+msgstr "Varauskalenterin asetukset"
+
+#: lib/wpdev-bk-lib.php:1745 lib/wpdev-booking-class.php:683
+#: lib/wpdev-booking-functions.php:2533 lib/wpdev-settings-general.php:1219
+msgid "Bookings"
+msgstr "Varaukset"
+
+#: lib/wpdev-booking-class.php:714
+msgid "Bookings listing"
+msgstr "Varauslistaus"
+
+#: lib/wpdev-booking-class.php:726 lib/wpdev-booking-class.php:1155
+msgid "General Settings"
+msgstr "Yleiset asetukset"
+
+#: lib/wpdev-booking-class.php:732
+msgid "Booking resources management"
+msgstr "Varauskohteiden hallinta"
+
+#: lib/wpdev-booking-class.php:1075
+msgid "Send email notification to customer about this operation"
+msgstr "Lähetä sähköposti asiakkaalle tästä operaatiosta"
+
+#: lib/wpdev-booking-class.php:1154
+msgid "General"
+msgstr "Yleiset"
+
+#: lib/wpdev-booking-class.php:1159
+msgid "Fields"
+msgstr "Kentät"
+
+#: lib/wpdev-booking-class.php:1160
+msgid "Fields Settings"
+msgstr "Kenttien asetukset"
+
+#: lib/wpdev-booking-class.php:1163
+msgid "Emails"
+msgstr "Sähköpostit"
+
+#: lib/wpdev-booking-class.php:1164
+msgid "Emails Settings"
+msgstr "Sähköpostiasetukset"
+
+#: lib/wpdev-booking-class.php:1171
+msgid "Payments"
+msgstr "Maksut"
+
+#: lib/wpdev-booking-class.php:1172
+msgid "Payments Settings"
+msgstr "Maksuasetukset"
+
+#: lib/wpdev-booking-class.php:1176
+msgid "Search"
+msgstr "Etsi"
+
+#: lib/wpdev-booking-class.php:1177
+msgid "Search Settings"
+msgstr "Hakuasetukset"
+
+#: lib/wpdev-booking-class.php:1181
+msgid "Users"
+msgstr "Käyttäjät"
+
+#: lib/wpdev-booking-class.php:1182
+msgid "Users Settings"
+msgstr "Käyttäjäasetukset"
+
+#: lib/wpdev-booking-class.php:1218
+msgid "Features"
+msgstr "Ominaisuudet"
+
+#: lib/wpdev-booking-class.php:1218
+msgid "Live Demos"
+msgstr "Live demot"
+
+#: lib/wpdev-booking-class.php:1218 lib/wpdev-booking-class.php:1220
+msgid "Contact"
+msgstr "Yhteystiedot"
+
+#: lib/wpdev-booking-class.php:1218
+msgid "Buy"
+msgstr "Osta"
+
+#: lib/wpdev-booking-class.php:1508
+msgid "Calendar is loading..."
+msgstr "Kalenteri latautuu..."
+
+#: lib/wpdev-booking-class.php:1637
+msgid "Send"
+msgstr "Lähetä"
+
+#: lib/wpdev-booking-class.php:1680 lib/wpdev-booking-class.php:1737
+msgid "Wrong booking hash in URL (probably expired)"
+msgstr "Virheellinen varauksen tiiviste URLssa. (luultavasti vanhentunut)"
+
+#: lib/wpdev-booking-class.php:1688
+msgid "Booking resource type is not defined. Its can be, when at the URL is wrong booking hash."
+msgstr "Tuntemat varauskohteen tyyppi. Mahdollisesti URLssa on virheellinen varauksen tiiviste."
+
+#: lib/wpdev-booking-class.php:1843
+msgid "%sWarning! Booking calendar for this booking resource are already at the page, please check more about this issue at %sthis page%s"
+msgstr "%sVaroitus Sivulla on jo varauskalenteri tälle kohteelle. Lue lisää tästä ongelmasta %stäältä%s"
+
+#: lib/wpdev-booking-class.php:1937 lib/wpdev-booking-widget.php:39
+msgid "You need to use special shortcode [bookingedit] for booking editing."
+msgstr "Varausten muokkaamista varten on käytettävä erityistä shortcodea [bookingedit]"
+
+#: lib/wpdev-booking-class.php:2039 lib/wpdev-booking-class.php:2041
+msgid "Wrong booking hash in URL. Probably hash is expired."
+msgstr "Virheellinen varauksen tiiviste URLssa. Luultavasti tiiviste on vanhentunut."
+
+#: lib/wpdev-booking-class.php:2045
+msgid "You do not set any parameters for booking editing"
+msgstr "Et ole antanut parametreja varauksen muokkausta varten."
+
+#: lib/wpdev-booking-class.php:2167
+msgid "Thank you for your online booking. %s We will send confirmation of your booking as soon as possible."
+msgstr "Kiitos varauksesta. %s Vahvistamme varauksen mahdollisimman nopeasti. "
+
+#: lib/wpdev-booking-class.php:2247 lib/wpdev-booking-class.php:2252
+msgid "New booking"
+msgstr "Uusi varaus"
+
+#: lib/wpdev-booking-class.php:2248
+msgid "You need to approve a new booking %s for: %s Person detail information:%s Currently a new booking is waiting for approval. Please visit the moderation panel%sThank you, %s"
+msgstr "Vahvista varaus %s kohteelle: %s Varaajan tiedot :%s Varaus odottaa vahvistusta. Tarkista varaushallinto %sKiitos, %s"
+
+#: lib/wpdev-booking-class.php:2254
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %sYou can edit this booking at this page: %s  Thank you, %s"
+msgstr "Varauksesi %s kohteessa %s on otettu käsittelyyn. Vahvistamme varauksen sähköpostilla. %sVoit muokata varausta tältä sivulta: %s  Kiitos, %s"
+
+#: lib/wpdev-booking-class.php:2256
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %s Thank you, %s"
+msgstr "Varauksesi %s kohteessa: %s on kävittelyssä. Vahvistamme varauksen sähköpostilla. %s Kiitos, %s"
+
+#: lib/wpdev-booking-class.php:2261
+msgid "Your booking has been approved"
+msgstr "Varauksenne on vahvistettu"
+
+#: lib/wpdev-booking-class.php:2263
+msgid "Your reservation %s for: %s has been approved.%sYou can edit the booking on this page: %s Thank you, %s"
+msgstr "Varauksesi %s kohteessa %s on vahvistettu.  %sVoit muokata varausta tältä sivulta: %s  Kiitos, %s"
+
+#: lib/wpdev-booking-class.php:2264
+msgid "Your booking %s for: %s has been approved.%sThank you, %s"
+msgstr "Varauksesi %s kohteessa %s on vahvistettu.  %s  Kiitos, %s"
+
+#: lib/wpdev-booking-class.php:2267
+msgid "Your booking has been declined"
+msgstr "Varaus on hylätty"
+
+#: lib/wpdev-booking-class.php:2268
+msgid "Your booking %s for: %s has been  canceled. %sThank you, %s"
+msgstr "Varauksesi %s kohteessa: %s on peruttu. %sKiitos, %s"
+
+#: lib/wpdev-booking-class.php:2278
+msgid "Booking form"
+msgstr "Varauslomake"
+
+#: lib/wpdev-booking-class.php:2289
+msgid "Available"
+msgstr "Vapaa"
+
+#: lib/wpdev-booking-class.php:2293
+msgid "Booked"
+msgstr "Varattu"
+
+#: lib/wpdev-booking-class.php:2296
+msgid "Partially booked"
+msgstr "Osittain varattu"
+
+#: lib/wpdev-booking-class.php:3047
+msgid "Technical support section"
+msgstr "Tekninen tuki"
+
+#: lib/wpdev-booking-class.php:3051
+msgid "Reindex booking data"
+msgstr "Indeksoi varausdata uudelleen"
+
+#: lib/wpdev-booking-class.php:3053
+msgid "Reindex"
+msgstr "Indeksoi uudelleen"
+
+#: lib/wpdev-booking-class.php:3059
+msgid " Click, if you want to reindex booking data by booking dates sort field (Your installation/update of the plugin must be successful)."
+msgstr "Klikkaa, jos haluat indeksoida varaukset uudelleen varauspäivän perusteella"
+
+#: lib/wpdev-booking-class.php:3104
+msgid "%s Found %s not indexed bookings %s"
+msgstr "%s Löytyi %s indeksoimatonta varausta %s"
+
+#: lib/wpdev-booking-class.php:3119
+msgid "%s Finish getting sort dates. %s"
+msgstr "%s Keskeytä indeksointi. %s"
+
+#: lib/wpdev-booking-class.php:3128
+msgid "Updated booking: %s"
+msgstr "Varaus päivitetty: %s"
+
+#: lib/wpdev-booking-functions.php:392
+msgid "yes"
+msgstr "kyllä"
+
+#: lib/wpdev-booking-functions.php:396
+msgid "no"
+msgstr "ei"
+
+#: lib/wpdev-booking-functions.php:1348 lib/wpdev-booking-functions.php:1795
+msgid "Booking system"
+msgstr "Varausjärjestelmä"
+
+#: lib/wpdev-booking-functions.php:2675
+msgid "Warning! Some error occur, during sending registration request."
+msgstr "Varoitus! Jokin virhe tapahtui lähetettäessä varauspyyntöä."
+
+#: lib/wpdev-booking-functions.php:2680
+msgid "Please refresh this page and if the same error appear again contact support by email (with  info about order number and website) for finishing the registrations"
+msgstr "Päivitä sivu ja jos sama virhe esiintyy uudelleen, ota yhteyttä sähköpostitse käyttötukeen tehdäksesi varaus loppuun (liitä varausnumero mukaan)"
+
+#: lib/wpdev-booking-functions.php:2740
+msgid "version"
+msgstr "versio"
+
+#: lib/wpdev-booking-functions.php:2742
+msgid "Add your %s on %swordpress.org%s, if you enjoyed by this plugin."
+msgstr "Jos pidät tästä lisäosasta, lisää %s %swordpress.org:iin%s "
+
+#: lib/wpdev-booking-widget.php:115
+msgid "Booking resource"
+msgstr "Varattava kohde"
+
+#: lib/wpdev-booking-widget.php:132
+msgid "Visible months"
+msgstr "Näkyvät kuukaudet"
+
+#: lib/wpdev-booking-widget.php:147
+msgid "Footer"
+msgstr "Footer"
+
+#: lib/wpdev-booking-widget.php:152
+msgid "Example: %sMake booking here%s"
+msgstr "Esimerkki: %sTee varaus täällä%s"
+
+#: lib/wpdev-booking-widget.php:156
+msgid "%sImportant!!!%s Please note, if you show booking calendar (inserted into post/page) with widget at the same page, then the last will not be visible."
+msgstr "%sTärkeää!!!%s Huomaa, että jos varauskalenteri on käytössä (sivulla tai postauksessa) yhtäaikaa vimpaimen kanssa, niin jälkimmäinen ei tule näkyviin."
+
+#: lib/wpdev-booking-widget.php:160
+msgid "%sSeveral widgets are supported at %spaid versions%s."
+msgstr "%sMaksulliset versiot%s tukevat %s useita vimpaimia."
+
+#: lib/wpdev-settings-general.php:38 lib/wpdev-settings-general.php:407
+msgid "Calendar"
+msgstr "Kalenteri"
+
+#: lib/wpdev-settings-general.php:44 lib/wpdev-settings-general.php:626
+msgid "Form"
+msgstr "Lomake"
+
+#: lib/wpdev-settings-general.php:53
+msgid "Costs"
+msgstr "Hinnat"
+
+#: lib/wpdev-settings-general.php:56
+msgid "Auto cancellation / approval"
+msgstr "Automaattinen peruutus / hyväksyntä"
+
+#: lib/wpdev-settings-general.php:66 lib/wpdev-settings-general.php:976
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+#: lib/wpdev-settings-general.php:70
+msgid "Menu access"
+msgstr "Valikot"
+
+#: lib/wpdev-settings-general.php:73
+msgid "Uninstall"
+msgstr "Poistaminen"
+
+#: lib/wpdev-settings-general.php:76
+msgid "Technical"
+msgstr "Tekniset"
+
+#: lib/wpdev-settings-general.php:374
+msgid "Settings saved"
+msgstr "Asetukset tallennettu"
+
+#: lib/wpdev-settings-general.php:411
+msgid "Calendar Skin"
+msgstr "Kalenterin teema"
+
+#: lib/wpdev-settings-general.php:457
+msgid "Select the skin of the booking calendar"
+msgstr "Valitse kalenterin teema"
+
+#: lib/wpdev-settings-general.php:462
+msgid "Number of months"
+msgstr "Kuukausien määrä"
+
+#: lib/wpdev-settings-general.php:467
+msgid "month(s)"
+msgstr "kuukautta"
+
+#: lib/wpdev-settings-general.php:472
+msgid "year(s)"
+msgstr "vuotta"
+
+#: lib/wpdev-settings-general.php:475
+msgid "Select the maximum number of months to show (scroll)"
+msgstr "Valitse maksimimäärä näytettäviä kuukausia"
+
+#: lib/wpdev-settings-general.php:480
+msgid "Start Day of the week"
+msgstr "Viikko alkaa"
+
+#: lib/wpdev-settings-general.php:491
+msgid "Select your start day of the week"
+msgstr "Valitse viikon alkupäivä"
+
+#: lib/wpdev-settings-general.php:607
+msgid "Unavailable days from today"
+msgstr "Ei varattavat päivät "
+
+#: lib/wpdev-settings-general.php:614
+msgid "Select number of unavailable days in calendar start from today."
+msgstr "Valitse ei-varattavien päivien määrä nykyisestä päivästä lähtien."
+
+#: lib/wpdev-settings-general.php:569
+msgid "Unavailable week days"
+msgstr "Viikonpäivät jolloin ei varattavissa"
+
+#: lib/wpdev-settings-general.php:599
+msgid "Check unavailable days in calendars. This option will overwrite all other settings."
+msgstr "Valitse ei varattavat viikonpäivät. Tätä valintaa käytetään muiden asetusten sijasta."
+
+#: lib/wpdev-settings-general.php:500
+msgid "Type of days selection in calendar"
+msgstr "Päivävalinnan tyyppi kalenterissa"
+
+#: lib/wpdev-settings-general.php:503
+msgid "Type of days selection"
+msgstr "Kalenterin päivävalinnan tyyppi"
+
+#: lib/wpdev-settings-general.php:516
+msgid "Single day"
+msgstr "Päivä kerrallaan"
+
+#: lib/wpdev-settings-general.php:526
+msgid "Multiple days"
+msgstr "Useita päiviä"
+
+#: lib/wpdev-settings-general.php:537
+msgid "Range days"
+msgstr "Peräkkäiset päivät"
+
+#: lib/wpdev-settings-general.php:638
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: lib/wpdev-settings-general.php:641
+msgid "Check the box to activate CAPTCHA inside the booking form."
+msgstr "Valitse aktivoidaksesi CAPTCHA varauslomakkeelle"
+
+#: lib/wpdev-settings-general.php:648
+msgid "Auto-fill fields"
+msgstr "Kenttien automaattinen täyttö"
+
+#: lib/wpdev-settings-general.php:651
+msgid "Check the box to activate auto-fill form fields for logged in users."
+msgstr "Valitse aktivoidaksesi kenttien automaattinen täyttö kirjautuneille käyttäjille."
+
+#: lib/wpdev-settings-general.php:658
+msgid "Use CSS BootStrap"
+msgstr "Käytä CSS BootStapia"
+
+#: lib/wpdev-settings-general.php:663
+msgid "Using BootStrap CSS for the form fields"
+msgstr "Käytetään BootStrap CSS:ää lomakkeen kentille"
+
+#: lib/wpdev-settings-general.php:666 lib/wpdev-settings-general.php:702
+#: lib/wpdev-settings-general.php:1002 lib/wpdev-settings-general.php:1484
+msgid "Note"
+msgstr "Muistiinpano"
+
+#: lib/wpdev-settings-general.php:666
+msgid "You must not deactivate loading BootStrap files at advanced section of these settings!"
+msgstr "Huom: Älä ota BootStrap tiedostojen latausta pois päältä Lisäasetukset-osiossa!"
+
+#: lib/wpdev-settings-general.php:683
+msgid "Action after booking is done"
+msgstr "Toiminta, kun varaus on tehty"
+
+#: lib/wpdev-settings-general.php:691
+msgid "Show \"Thank You\" message"
+msgstr "Näytä \"Kiitos\"-viesti"
+
+#: lib/wpdev-settings-general.php:698
+msgid "Redirect visitor to a new \"Thank You\" page"
+msgstr "Ohjaa varaaja uudelle \"Kiitos\" sivulle"
+
+#: lib/wpdev-settings-general.php:702
+msgid "This action will have no effect, if the payment form(s) is active!"
+msgstr "Jos maksulomake on aktiivinen, tämä toiminto ei ole käytössä!"
+
+#: lib/wpdev-settings-general.php:711
+msgid "Message title"
+msgstr "Viestin otsikko"
+
+#: lib/wpdev-settings-general.php:714
+msgid "Type title of message %safter booking has done by user%s"
+msgstr "Anna viestin otsikko, joka näytetään %skun varaus on tehty%s"
+
+#: lib/wpdev-settings-general.php:719
+msgid "Time of message showing"
+msgstr "Aika, jonka viesti on näkyvissä"
+
+#: lib/wpdev-settings-general.php:722
+msgid "Set duration of time (milliseconds) to show this message"
+msgstr "Aseta aika (millisekunteina), jonka viesti on näkyvissä"
+
+#: lib/wpdev-settings-general.php:729
+msgid "URL of \"thank you\" page"
+msgstr "\"Kiitos\"-sivun URL"
+
+#: lib/wpdev-settings-general.php:734
+msgid "Type URL of %s\"Thank You\" page%s"
+msgstr "Anna %s\"Kiitos\"-sivun%s URL"
+
+#: lib/wpdev-settings-general.php:749
+msgid "Listing of bookings"
+msgstr "Varausten listaus"
+
+#: lib/wpdev-settings-general.php:752
+msgid "Default booking admin page"
+msgstr "Oletussivu varausten ylläpitäjälle"
+
+#: lib/wpdev-settings-general.php:755
+msgid "Bookings Listing"
+msgstr "Varauslistaus"
+
+#: lib/wpdev-settings-general.php:763
+msgid "Select your default view mode of bookings at the booking listing page"
+msgstr "Valitse oletusnäkymä varauslistaussivulle"
+
+#: lib/wpdev-settings-general.php:773
+msgid "Default calendar view mode"
+msgstr "Kalenterin oletusnäkymä"
+
+#: lib/wpdev-settings-general.php:825
+msgid "Select your default calendar view mode at booking calendar overview page"
+msgstr "Valitse oletus kalenterinäkymälle varauskalenterin yleisnäkymä-sivulla"
+
+#: lib/wpdev-settings-general.php:835
+msgid "Default toolbar tab"
+msgstr "Työkalupalkin oletuslehti"
+
+#: lib/wpdev-settings-general.php:837
+msgid "Filter tab"
+msgstr "Suodatin-lehti"
+
+#: lib/wpdev-settings-general.php:838
+msgid "Actions tab"
+msgstr "Toiminnot-lehti"
+
+#: lib/wpdev-settings-general.php:845
+msgid "Select your default opened tab in toolbar at booking listing page"
+msgstr "Valitse oletuksena avattu työkalupalkin lehti varausten listaussivulla"
+
+#: lib/wpdev-settings-general.php:850
+msgid "Bookings number per page"
+msgstr "Varausten määrä per sivu"
+
+#: lib/wpdev-settings-general.php:859
+msgid "Select number of bookings per page in booking listing"
+msgstr "Valitse näytettävien varausten määrä varausten listaussivulla"
+
+#: lib/wpdev-settings-general.php:865
+msgid "Bookings default order"
+msgstr "Varausten järjestely"
+
+#: lib/wpdev-settings-general.php:868 lib/wpdev-settings-general.php:870
+#: lib/wpdev-settings-general.php:880 lib/wpdev-settings-general.php:885
+msgid "ASC"
+msgstr "Nouseva"
+
+#: lib/wpdev-settings-general.php:869 lib/wpdev-settings-general.php:871
+#: lib/wpdev-settings-general.php:881 lib/wpdev-settings-general.php:886
+msgid "DESC"
+msgstr "Laskeva"
+
+#: lib/wpdev-settings-general.php:880 lib/wpdev-settings-general.php:881
+msgid "Resource"
+msgstr "Kohde"
+
+#: lib/wpdev-settings-general.php:885 lib/wpdev-settings-general.php:886
+msgid "Cost"
+msgstr "Hinta"
+
+#: lib/wpdev-settings-general.php:894
+msgid "Select your default order of bookings in the booking listing"
+msgstr "Valitse järjestelyperuste varauslistaukselle"
+
+#: lib/wpdev-settings-general.php:905
+msgid "Date Format"
+msgstr "Päivämäärän muoto"
+
+#: lib/wpbc-gcal.php:616 lib/wpbc-gcal.php:680
+msgid "minutes"
+msgstr "minuuttia"
+
+#: lib/wpbc-gcal.php:617 lib/wpbc-gcal.php:681 lib/wpbc-gcal.php:802
+msgid "hours"
+msgstr "tunti"
+
+#: lib/wpbc-gcal.php:618 lib/wpbc-gcal.php:682 lib/wpbc-gcal.php:808
+#: lib/wpdev-bk-lib.php:300 lib/wpdev-bk-lib.php:301 lib/wpdev-bk-lib.php:302
+#: lib/wpdev-bk-lib.php:303 lib/wpdev-bk-lib.php:304
+msgid "days"
+msgstr "päivät"
+
+#: lib/wpbc-gcal.php:625
+msgid "You can specify an additional offset from you chosen start point. The offset can be negative."
+msgstr "Voit määritellä lisäksi siirron (offset) valitusta aloitusajasta. Siirto voi olla negatiivinen."
+
+#: lib/wpbc-gcal.php:628 lib/wpbc-gcal.php:692
+msgid "Type your date in format %s. Example: %s"
+msgstr "Anna aika muodossa: %s. Esimerkki: %s"
+
+#: lib/wpbc-gcal.php:645
+msgid "Until"
+msgstr "Mihin saakka"
+
+#: lib/wpbc-gcal.php:663
+msgid "The end of time"
+msgstr "Ajan loppuun saakka"
+
+#: lib/wpbc-gcal.php:671
+msgid "Select option, when to stop retrieving events."
+msgstr "Valitse, koska tapahtumien tuonti lopetetaan"
+
+#: lib/wpbc-gcal.php:689
+msgid "You can specify an additional offset from you chosen end point. The offset can be negative."
+msgstr "Voit määritellä lisäksi offsetin valitusta lopetusajasta. Offset voi olla negatiivinen."
+
+#: lib/wpbc-gcal.php:705
+msgid "Maximum number"
+msgstr "Maksimimäärä"
+
+#: lib/wpbc-gcal.php:708
+msgid "You can specify the maximum number of events to import during one session."
+msgstr "Voit määritellä maksimäärän kerralla tuotaville tapahtumille"
+
+#: lib/wpbc-gcal.php:719
+msgid "Google API Key"
+msgstr "Google API Key"
+
+#: lib/wpbc-gcal.php:721
+msgid "Please enter your Google API key. This field required to import events."
+msgstr "Anna Google API key. Tämä on pakollinen tapahtumien tuomiseksi."
+
+#: lib/wpbc-gcal.php:723
+msgid "You can check in this %sinstruction how to generate and use your Google API key%s."
+msgstr "Ohjeet %skuinka luoda ja käyttää Google API key:tä%s"
+
+#: lib/wpbc-gcal.php:737
+msgid "Timezone"
+msgstr "Aikavyöhyke"
+
+#: lib/wpbc-gcal.php:742 lib/wpdev-bk-lib.php:1988
+msgid "Default"
+msgstr "Oletus"
+
+#: lib/wpbc-gcal.php:771
+msgid "Select a city in your required timezone, if you are having problems with dates and times."
+msgstr "Valitse kaupunki omalla aikavyöhykkeelläsi, jos päivämäärien tai ajan kanssa on ongelmia"
+
+#: lib/wpbc-gcal.php:781
+msgid "Activate auto import"
+msgstr "Aktivoi automaattinen tuonti"
+
+#: lib/wpbc-gcal.php:787
+msgid "Check this box to %sactivate%s auto import events and creation bookings from them"
+msgstr "Valitse tämä %saktivoidaksesi%s automaattinen tapahtumien tuonti ja varauksien luonti niistä"
+
+#: lib/wpbc-gcal.php:794
+msgid "Import events every"
+msgstr "Tuo tapahtumat joka"
+
+#: lib/wpbc-gcal.php:799
+msgid "hour"
+msgstr "tunti"
+
+#: lib/wpbc-gcal.php:805 lib/wpdev-bk-lib.php:299
+#: lib/wpdev-settings-general.php:2410
+msgid "day"
+msgstr "päivä"
+
+#: lib/wpbc-gcal.php:812
+msgid "Select time duration of import requests."
+msgstr "Valitse kuinka usein tapahtumat tuodaan"
+
+#: lib/wpbc-gcal.php:853 lib/wpbc-notices.php:25
+msgid "Warning!"
+msgstr "Varoitus!"
+
+#: lib/wpbc-gcal.php:855
+msgid "Retrieve Google Calendar Events "
+msgstr "Nouda tapahtumat Google-kalenterista"
+
+#: lib/wpbc-gcal.php:861
+msgid "Please configure settings for import Google Calendar events"
+msgstr "Ole hyvä ja määritä Google Kalenterin tuontiasetukset"
+
+#: lib/wpbc-gcal.php:862 lib/wpdev-booking-functions.php:1771
+#: lib/wpdev-settings-general.php:2099
+msgid "here"
+msgstr "tässä"
+
+#: lib/wpbc-gcal.php:889
+msgid "Configure"
+msgstr "Määritä"
+
+#: lib/wpbc-gcal.php:899 lib/wpbc-gcal.php:905
+msgid "Import Google Calendar Events"
+msgstr "Tuo tapahtumat Google-kalenterista"
+
+#: lib/wpbc-gcal.php:901 lib/wpdev-bk-lib.php:523 lib/wpdev-bk-lib.php:586
+#: lib/wpdev-bk-lib.php:642
+msgid "Close"
+msgstr "Sulje"
+
+#: lib/wpbc-gcal.php:170 lib/wpbc-gcal.php:912
+msgid "Import"
+msgstr "Tuo"
+
+#: lib/wpbc-gcal.php:913
+msgid "Export only current page of bookings to CSV format"
+msgstr "Vie vain nykyinen sivu varauksista CSV muotoon"
+
+#: lib/wpbc-notices.php:26
+msgid "Probabaly you updated your paid version of Booking Calendar by free version or update process failed. You can request the new update of your paid version at %1sthis page%2s."
+msgstr "Luultavasti päivitit maksullisen version Varauskalenterista ilmaiseen tai päivitys epäonnistui. Voit pyytää uutta päivitystä maksulliselle versiollesi %1stältä sivulta%2s"
+
+#: lib/wpbc-scripts.php:57
+msgid "This field is required"
+msgstr "Tämä on pakollinen kenttä"
+
+#: lib/wpbc-scripts.php:58
+msgid "This checkbox must be checked"
+msgstr "Tämä valintaruutu täytyy olla valittuna"
+
+#: lib/wpbc-scripts.php:59
+msgid "At least one option must be selected"
+msgstr "Vähintään yksi vaihtoehto täytyy olla valittuna"
+
+#: lib/wpbc-scripts.php:60
+msgid "Incorrect email field"
+msgstr "Virheellinen sähköpostiosoite"
+
+#: lib/wpbc-scripts.php:62
+msgid "Please, select booking date(s) at Calendar."
+msgstr "Valitse varattavat päivät kalenterista."
+
+#: lib/wpbc-welcome.php:801 lib/wpbc-welcome.php:1250
+#: lib/wpdev-booking-class.php:381 lib/wpdev-settings-general.php:1358
+msgid "Purchase"
+msgstr "Osta"
+
+#: lib/wpbc-welcome.php:801 lib/wpbc-welcome.php:1250 lib/wpdev-bk-lib.php:696
+#: lib/wpdev-booking-class.php:381 lib/wpdev-settings-general.php:1358
+msgid "Upgrade Now"
+msgstr "Päivitä nyt"
+
+#: lib/wpbc-welcome.php:1427
+msgid "We&#8217;ve assembled some links to get you started:"
+msgstr "Tässä linkkejä joilla pääset alkuun:"
+
+#: lib/wpbc-welcome.php:1430
+msgid "Get Started"
+msgstr "Aloita tästä"
+
+#: lib/wpbc-welcome.php:1433
+msgid "Insert booking form %sshortcode%s into your %sPost%s or %sPage%s"
+msgstr "Lisää varauslomakkeen %sshortcode%s %sArtikkeliin%s tai %sSivulle%s"
+
+#: lib/wpbc-welcome.php:1441
+msgid "or add booking calendar %sWidget%s to your sidebar."
+msgstr "tai lisää varauskalenteri-%sVimpain%s sivupalkkiin"
+
+#: lib/wpbc-welcome.php:1447
+msgid "Check %show todo%s that and what %sshortcodes%s are available."
+msgstr "Katso %skuinka lisätä varauslomake/kalenteri%s tai mitä %sshortcodeja%s voit käyttää"
+
+#: lib/wpbc-welcome.php:1453
+msgid "Add new booking from your post/page or from %sAdmin Panel%s."
+msgstr "Lisää uusi varaus joko sivulta tai %shallintapaneelista%s"
+
+#: lib/wpbc-welcome.php:1460
+msgid "Next Steps"
+msgstr "Seuraavaksi"
+
+#: lib/wpbc-welcome.php:1463
+msgid "Check %sBooking Listing%s page for new bookings."
+msgstr "Selaa uusi varauksia %sVarauslistauksesta%s"
+
+#: lib/wpbc-welcome.php:1469
+msgid "Configure booking %sSettings%s."
+msgstr "Muokkaa varausten %sasetuksia%s"
+
+#: lib/wpbc-welcome.php:1474
+msgid "Configure predefined set of your %sForm Fields%s."
+msgstr "Muokkaa %sVarauslomakkeen kenttiä%s"
+
+#: lib/wpbc-welcome.php:1479
+msgid "Configure your predefined %sEmail Templates%s."
+msgstr "Muokkaa %sSähköpostien pohjia%s"
+
+#: lib/wpbc-welcome.php:1486
+msgid "Have a questions?"
+msgstr "Kysymyksiä?"
+
+#: lib/wpbc-welcome.php:1489
+msgid "Check out our %sHelp%s"
+msgstr "Katso %sOhje-sivua%s"
+
+#: lib/wpbc-welcome.php:1494
+msgid "See %sFAQ%s."
+msgstr "Lue %sFAQ%s"
+
+#: lib/wpbc-welcome.php:1499
+msgid "Still having questions? Contact %sSupport%s."
+msgstr "Lisää kysymyksiä? Ota yhteyttä %sKäyttötukeen%s"
+
+#: lib/wpbc-welcome.php:1507
+msgid "Need even more functionality? Check %s higher versions %s"
+msgstr "Tarvitsetko enemmän ominaisuuksia? Katso %smuut versiot%s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:30
+msgid "Insert booking calendar"
+msgstr "Sijoita varauskalenteri"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:31 lib/wpdev-booking-class.php:646
+msgid "Booking calendar"
+msgstr "Varauskalenteri"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:143
+#: lib/wpdev-bk-edit-toolbar-buttons.php:165
+msgid "Ok"
+msgstr "Ok"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:144
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:373
+msgid "Booking resource:"
+msgstr "Varattava kohde:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:381
+msgid "Select booking resource"
+msgstr "Valitse varattava kohde"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:393
+msgid "Visible months:"
+msgstr "Näkyvät kuukaudet:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:408
+msgid "Select number of month to show for calendar."
+msgstr "Valitse kalenterissa näytettävien kuukausien määrä"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:414
+msgid "Start month:"
+msgstr "Alkukuukausi"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:424
+msgid "Select start month of calendar"
+msgstr "Valitse kalenterin alkukuukausi"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:431
+msgid "Show in the page:"
+msgstr "Näytä sivulla:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:437 lib/wpdev-booking-widget.php:105
+msgid "Booking form with calendar"
+msgstr "Varauslomake ja kalenteri"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:438 lib/wpdev-booking-widget.php:106
+msgid "Only availability calendar"
+msgstr "Vain saatavuuskalenteri"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:439
+msgid "Only booking form"
+msgstr "Vain varauslomake"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:444
+msgid "for"
+msgstr " "
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:447
+msgid "date"
+msgstr "päivälle"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:451
+msgid "Select to show the entire booking form or the availability calendar only."
+msgstr "Valitse näkyviin joko koko varauslomake tai pelkästään saatavuuskalenteri"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:466
+msgid "Show advanced settings"
+msgstr "Näytä lisäasetukset"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:467
+msgid "Hide advanced settings"
+msgstr "Piilota lisäasetukset"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:471
+msgid "Setting advanced parameters of the calendar. %sLike width, height and structure %s"
+msgstr "Kalenterin lisäasetukset, %skuten leveys, korkeus ja rakenne%s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:473
+msgid "%s or minimum and fixed number of days selection for the specific day of week or season.%s"
+msgstr "%s tai minimi/kiinteän määrän varattavia päiviä tietyille päiville tai viikoille tai kaudelle. %s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:479
+msgid "Please read more about the possible customizations of these %soptions%s %shere%s"
+msgstr "Voit lukea lisää näiden %soptioiden muokkaamisesta%s %stäältä%s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:480
+msgid "Options:"
+msgstr "Lisäasetukset:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:483
+msgid "Specify the full width of calendar, height of date cell and number of months in one row. "
+msgstr "Määrittele kalenterin koko leveys, päivämääsolun korkeus ja kuukausien määrä per rivi"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:485
+#: lib/wpdev-bk-edit-toolbar-buttons.php:493
+msgid "Description"
+msgstr "Kuvaus"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:486
+msgid "Calendar have 2 months in a row, the cell height is 30px and calendar full width 568px (possible to use percentage for width: 100%)"
+msgstr "Kalenterissa on 2 kuukautta rivillä, solun koko on 30px ja kalenterin täysi leveys 568px (leveydelle voidaan käyttää myös prosentteja: 100%)"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:487
+#: lib/wpdev-bk-edit-toolbar-buttons.php:495
+msgid "Code Example"
+msgstr "Koodiesimerkki"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:491
+msgid "Specify that during certain seasons (or days of week), the specific minimum number of days must be booked. "
+msgstr "Määrittele, että tietyllä kaudella (tai päivinä viikossa) on varattava joku tietty määrä päiviä"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:494
+msgid "Visitor can select only 4 days starting at Monday, 3 or 7 days – Friday, 2 days – Saturday, etc…"
+msgstr "Vierailija voi valita 4 päivää alkaen maanantaista, 3 tai 7 päivää alkaen perjantaista, 2 päivää alkaen lauantaista, jne..."
+
+#: lib/wpdev-bk-lib.php:305
+msgid "week"
+msgstr "viikko"
+
+#: lib/wpdev-bk-lib.php:306
+msgid "weeks"
+msgstr "viikkoa"
+
+#: lib/wpdev-bk-lib.php:307
+msgid "month"
+msgstr "kuukausi"
+
+#: lib/wpdev-bk-lib.php:308 lib/wpdev-bk-lib.php:309 lib/wpdev-bk-lib.php:310
+msgid "months"
+msgstr "kuukautta"
+
+#: lib/wpdev-bk-lib.php:311 lib/wpdev-bk-lib.php:2435
+#: lib/wpdev-settings-general.php:785 lib/wpdev-settings-general.php:791
+msgid "Year"
+msgstr "Vuosi"
+
+#: lib/wpdev-bk-lib.php:314
+msgid "Current dates"
+msgstr "Valitut päivät"
+
+#: lib/wpdev-bk-lib.php:315
+msgid "Today"
+msgstr "Tänään"
+
+#: lib/wpdev-bk-lib.php:316
+msgid "Previous dates"
+msgstr "Edelliset päivät"
+
+#: lib/wpdev-bk-lib.php:317
+msgid "All dates"
+msgstr "Kaikki"
+
+#: lib/wpdev-bk-lib.php:318 lib/wpdev-bk-lib.php:439 lib/wpdev-bk-lib.php:2293
+msgid "Next"
+msgstr "Seuraavat"
+
+#: lib/wpdev-bk-lib.php:319 lib/wpdev-bk-lib.php:462
+msgid "Prior"
+msgstr "Edelliset"
+
+#: lib/wpdev-bk-lib.php:321
+msgid "Check In - Tomorrow"
+msgstr "Kirjautuminen - Huomenna"
+
+#: lib/wpdev-bk-lib.php:322
+msgid "Check Out - Tomorrow"
+msgstr "Luovutus - Huomenna"
+
+#: lib/wpdev-bk-lib.php:487
+msgid "Check-in"
+msgstr "Kirjautuminen"
+
+#: lib/wpdev-bk-lib.php:497
+msgid "Check-out"
+msgstr "Luovutus"
+
+#: lib/wpdev-bk-lib.php:520 lib/wpdev-bk-lib.php:582 lib/wpdev-bk-lib.php:638
+#: lib/wpdev-bk-lib.php:1611
+msgid "Apply"
+msgstr "Päivitä"
+
+#: lib/wpdev-bk-lib.php:562 lib/wpdev-bk-lib.php:612
+#: lib/wpdev-settings-general.php:923
+msgid "Custom"
+msgstr "Muokattu"
+
+#: lib/wpdev-bk-lib.php:620
+msgid "Start Date"
+msgstr "Alkaen päivästä"
+
+#: lib/wpdev-bk-lib.php:663 lib/wpdev-settings-general.php:47
+msgid "Booking Listing"
+msgstr "Varauslistaus"
+
+#: lib/wpdev-bk-lib.php:667 lib/wpdev-settings-general.php:756
+msgid "Calendar Overview"
+msgstr "Kalenterin yleisnäkymä"
+
+#: lib/wpdev-bk-lib.php:676
+msgid "Booking Calendar - Overview"
+msgstr "Varauskalenteri - Yleisnäkymä"
+
+#: lib/wpdev-bk-lib.php:684 lib/wpdev-bk-lib.php:692
+msgid "Help"
+msgstr "Ohje"
+
+#: lib/wpdev-bk-lib.php:690
+msgid "About Booking Calendar"
+msgstr "Varauskalenteri"
+
+#: lib/wpdev-bk-lib.php:693 lib/wpdev-booking-class.php:471
+#: lib/wpdev-booking-class.php:1218 lib/wpdev-booking-class.php:1220
+msgid "FAQ"
+msgstr "FAQ"
+
+#: lib/wpdev-bk-lib.php:694
+msgid "Technical Support"
+msgstr "Tekninen tuki"
+
+#: lib/wpdev-bk-lib.php:1512
+msgid "Filter"
+msgstr "Suodatin"
+
+#: lib/wpdev-bk-lib.php:1522 lib/wpdev-bk-lib.php:1941
+#: lib/wpdev-bk-lib.php:1956 lib/wpdev-bk-lib.php:2358
+msgid "Actions"
+msgstr "Toiminnot"
+
+#: lib/wpdev-bk-lib.php:1557
+msgid "Expand Advanced Filter"
+msgstr "Avaa lisäsuodattimet"
+
+#: lib/wpdev-bk-lib.php:1558
+msgid "Collapse Advanced Filter"
+msgstr "Sulje lisäsuodattimet"
+
+#: lib/wpdev-bk-lib.php:1575
+msgid "Send email notification to customer after approval, cancellation or deletion of bookings"
+msgstr "Lähetä sähköposti asiakkaalle varauksen vahvistamisesta, peruuttamisesta tai poistamisesta "
+
+#: lib/wpdev-bk-lib.php:1576
+msgid "Emails sending"
+msgstr "Lähetä sähköposti"
+
+#: lib/wpdev-bk-lib.php:1599
+msgid "Booking ID"
+msgstr "Varauksen ID"
+
+#: lib/wpdev-bk-lib.php:1600
+msgid "Go"
+msgstr "Mene"
+
+#: lib/wpdev-bk-lib.php:1608
+msgid "Refresh booking listing"
+msgstr "Päivitä varauslistaus"
+
+#: lib/wpdev-bk-lib.php:1612
+msgid "Reset filter to default values"
+msgstr "Palauta suodattimien oletusarvot"
+
+#: lib/wpdev-bk-lib.php:1650 lib/wpdev-bk-lib.php:2144
+#: lib/wpdev-booking-class.php:2291
+msgid "Pending"
+msgstr "Avoin"
+
+#: lib/wpdev-bk-lib.php:1651 lib/wpdev-bk-lib.php:2145
+#: lib/wpdev-settings-general.php:2484
+msgid "Approved"
+msgstr "Vahvistettu"
+
+#: lib/wpdev-bk-lib.php:1653 lib/wpdev-bk-lib.php:1743
+msgid "Any"
+msgstr "Kaikki"
+
+#: lib/wpdev-bk-lib.php:1655 lib/wpdev-settings-general.php:2039
+#: lib/wpdev-settings-general.php:2120 lib/wpdev-settings-general.php:2192
+#: lib/wpdev-settings-general.php:2281
+msgid "Status"
+msgstr "Tila"
+
+#: lib/wpdev-bk-lib.php:1680
+msgid "All bookings"
+msgstr "Kaikki varaukset"
+
+#: lib/wpdev-bk-lib.php:1681
+msgid "New bookings"
+msgstr "Uudet varaukset"
+
+#: lib/wpdev-bk-lib.php:1684 lib/wpdev-booking-widget.php:101
+msgid "Show"
+msgstr "Näytä"
+
+#: lib/wpdev-bk-lib.php:1696
+msgid "Creation"
+msgstr "Luominen"
+
+#: lib/wpdev-bk-lib.php:1730
+msgid "Order by"
+msgstr "Järjestä"
+
+#: lib/wpdev-bk-lib.php:1760
+msgid "Save filter settings as default template (Please, click Apply filter button, before saving!)"
+msgstr "Talleta suodatinasetukset oletuspohjaksi (Ennen tallentamista klikkaa Suodata-nappia)"
+
+#: lib/wpdev-bk-lib.php:1763
+msgid "Save as Default"
+msgstr "Talleta oletukseksi"
+
+#: lib/wpdev-bk-lib.php:1768
+msgid "Delete your previously saved default filer template!"
+msgstr "Poista aikaisemmin oletukseksi tallenettu suodatinpohja"
+
+#: lib/wpdev-bk-lib.php:1771
+msgid "Delete template"
+msgstr "Poista pohja"
+
+#: lib/wpdev-bk-lib.php:1842
+msgid "Approve selected bookings"
+msgstr "Vahvista valitut varaukset"
+
+#: lib/wpdev-bk-lib.php:1846 lib/wpdev-bk-lib.php:2176
+msgid "Approve"
+msgstr "Vahvista"
+
+#: lib/wpdev-bk-lib.php:1847
+msgid "Set selected bookings as pending"
+msgstr "Aseta valitut varaukset odottaa-tilaan"
+
+#: lib/wpdev-bk-lib.php:1849 lib/wpdev-bk-lib.php:2180
+msgid "Do you really want to set booking as pending ?"
+msgstr "Haluatko todella asettaa varaukset odottaa-tilaan"
+
+#: lib/wpdev-bk-lib.php:1852 lib/wpdev-bk-lib.php:2181
+msgid "Reject"
+msgstr "Hylkää"
+
+#: lib/wpdev-bk-lib.php:1870
+msgid "Delete selected bookings"
+msgstr "Poista valitut varaukset"
+
+#: lib/wpdev-bk-lib.php:1876
+msgid "Delete"
+msgstr "Poista"
+
+#: lib/wpdev-bk-lib.php:1878
+msgid "Reason of cancellation"
+msgstr "Peruuttamisen syy"
+
+#: lib/wpdev-bk-lib.php:1883
+msgid "Mark as read all bookings"
+msgstr "Merkitse kaikki luetuiksi"
+
+#: lib/wpdev-bk-lib.php:1887
+msgid "Read All"
+msgstr "Lue kaikki"
+
+#: lib/wpdev-bk-lib.php:1888
+msgid "Mark as read selected bookings"
+msgstr "Merkitse valitut luetuiksi"
+
+#: lib/wpdev-bk-lib.php:1892
+msgid "Read"
+msgstr "Lue"
+
+#: lib/wpdev-bk-lib.php:1893
+msgid "Mark as Unread selected bookings"
+msgstr "Merkitse valitut lukemattomiksi"
+
+#: lib/wpdev-bk-lib.php:1897 lib/wpdev-bk-lib.php:2117
+msgid "Unread"
+msgstr "Lukematon"
+
+#: lib/wpdev-bk-lib.php:1941
+msgid "Labels"
+msgstr "Tila"
+
+#: lib/wpdev-bk-lib.php:1942
+msgid "Booking Data"
+msgstr "Varauksen tiedot"
+
+#: lib/wpdev-bk-lib.php:1943
+msgid "Booking Dates"
+msgstr "Varatut päivät"
+
+#: lib/wpdev-bk-lib.php:1948
+msgid "Show ALL dates of booking"
+msgstr "Näytä varauksen kaikki päivät"
+
+#: lib/wpdev-bk-lib.php:1953
+msgid "Show only check in/out dates"
+msgstr "Näytä vain tulo-/lähtöpäivät"
+
+#: lib/wpdev-bk-lib.php:1960
+msgid "Nothing found!"
+msgstr "Ei löytynyt!"
+
+#: lib/wpdev-bk-lib.php:1996
+msgid "Resource not exist"
+msgstr "Kohdetta ei ole olemassa"
+
+#: lib/wpdev-bk-lib.php:2091
+msgid "Paid OK"
+msgstr "Maksu OK"
+
+#: lib/wpdev-bk-lib.php:2094
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: lib/wpdev-bk-lib.php:2117
+msgid "Mark"
+msgstr "Merkki"
+
+#: lib/wpdev-bk-lib.php:2188 lib/wpdev-bk-lib.php:2198
+msgid "Do you really want to delete this booking ?"
+msgstr "Haluatko todella poistaa tämän varauksen?"
+
+#: lib/wpdev-bk-lib.php:2229
+msgid "Created"
+msgstr "Luotu"
+
+#: lib/wpdev-bk-lib.php:2275
+msgid "Prev"
+msgstr "Edellinen"
+
+#: lib/wpdev-bk-lib.php:2424 lib/wpdev-bk-lib.php:2456
+msgid "Show month"
+msgstr "Näytä kuukausi"
+
+#: lib/wpdev-bk-lib.php:2427 lib/wpdev-bk-lib.php:2459
+#: lib/wpdev-settings-general.php:780 lib/wpdev-settings-general.php:789
+msgid "Month"
+msgstr "Kuukausi"
+
+#: lib/wpdev-bk-lib.php:2428
+msgid "Show 3 months"
+msgstr "Näytä 3 kuukautta"
+
+#: lib/wpdev-bk-lib.php:2431 lib/wpdev-settings-general.php:784
+#: lib/wpdev-settings-general.php:790
+msgid "3 Months"
+msgstr "3 kuukautta"
+
+#: lib/wpdev-bk-lib.php:2432
+msgid "Show year"
+msgstr "Näytä vuosi"
+
+#: lib/wpdev-bk-lib.php:2441 lib/wpdev-bk-lib.php:2475
+msgid "Calendar view mode"
+msgstr "Kalenterinäkymän tila"
+
+#: lib/wpdev-bk-lib.php:2448
+msgid "Show day"
+msgstr "Näytä päivä"
+
+#: lib/wpdev-bk-lib.php:2451 lib/wpdev-settings-general.php:777
+msgid "Day"
+msgstr "Päivä"
+
+#: lib/wpdev-bk-lib.php:2452
+msgid "Show week"
+msgstr "Näytä viikko"
+
+#: lib/wpdev-bk-lib.php:2455 lib/wpdev-settings-general.php:778
+msgid "Week"
+msgstr "Viikko"
+
+#: lib/wpdev-bk-lib.php:2460
+msgid "Show 2 months"
+msgstr "Näytä 2 kuukautta"
+
+#: lib/wpdev-bk-lib.php:2463 lib/wpdev-settings-general.php:782
+msgid "2 Months"
+msgstr "2 kuukautta"
+
+#: lib/wpdev-bk-lib.php:2501 lib/wpdev-bk-lib.php:2515
+#: lib/wpdev-bk-lib.php:2562
+msgid "Previous 4 weeks"
+msgstr "Edelliset 4 viikkoa"
+
+#: lib/wpdev-bk-lib.php:2502 lib/wpdev-bk-lib.php:2516
+#: lib/wpdev-bk-lib.php:2563
+msgid "Previous week"
+msgstr "Edellinen viikko"
+
+#: lib/wpdev-bk-lib.php:2503 lib/wpdev-bk-lib.php:2517
+#: lib/wpdev-bk-lib.php:2564
+msgid "Current week"
+msgstr "Tämä viikko"
+
+#: lib/wpdev-bk-lib.php:2504 lib/wpdev-bk-lib.php:2518
+#: lib/wpdev-bk-lib.php:2565
+msgid "Next week"
+msgstr "Seuraava viikko"
+
+#: lib/wpdev-bk-lib.php:2505 lib/wpdev-bk-lib.php:2519
+#: lib/wpdev-bk-lib.php:2566
+msgid "Next 4 weeks"
+msgstr "Seuraavat 4 viikkoa"
+
+#: lib/wpdev-bk-lib.php:2529 lib/wpdev-bk-lib.php:2579
+#: lib/wpdev-bk-lib.php:2594
+msgid "Previous 3 months"
+msgstr "Edelliset 3 kuukautta"
+
+#: lib/wpdev-bk-lib.php:2530 lib/wpdev-bk-lib.php:2580
+#: lib/wpdev-bk-lib.php:2595
+msgid "Previous month"
+msgstr "Edellinen kuukausi"
+
+#: lib/wpdev-bk-lib.php:2531 lib/wpdev-bk-lib.php:2581
+#: lib/wpdev-bk-lib.php:2596
+msgid "Current month"
+msgstr "Tämä kuukausi"
+
+#: lib/wpdev-bk-lib.php:2532 lib/wpdev-bk-lib.php:2582
+#: lib/wpdev-bk-lib.php:2597
+msgid "Next month"
+msgstr "Seuraava kuukausi"
+
+#: lib/wpdev-bk-lib.php:2533 lib/wpdev-bk-lib.php:2583
+#: lib/wpdev-bk-lib.php:2598
+msgid "Next 3 months"
+msgstr "Seuraavat 3 kuukautta"
+
+#: lib/wpdev-bk-lib.php:2547
+msgid "Previous 7 days"
+msgstr "Edelliset 7 päivää"
+
+#: lib/wpdev-bk-lib.php:2548
+msgid "Previous day"
+msgstr "Edellinen päivä"
+
+#: lib/wpdev-bk-lib.php:2549
+msgid "Current day"
+msgstr "Tänään"
+
+#: lib/wpdev-bk-lib.php:2550
+msgid "Next day"
+msgstr "Seuraava päivä"
+
+#: lib/wpdev-bk-lib.php:2551
+msgid "Next 7 days"
+msgstr "Seuraavat 7 päivää"
+
+#: lib/wpdev-bk-lib.php:2622
+msgid "Calendar Navigation"
+msgstr "Kalenterin Navigointi"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:484 lib/wpdev-settings-general.php:577
+msgid "Monday"
+msgstr "Maanantai"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:485 lib/wpdev-settings-general.php:581
+msgid "Tuesday"
+msgstr "Tiistai"
+
+#: lib/wpbc-ajax.php:35
+msgid "%sError!%s Request do not pass security check! Please refresh the page and try one more time."
+msgstr "%sVirhe!%s Pyyntö ei läpäissyt turvatarkistusta! Päivitä sivu ja yritä uudelleen."
+
+#: lib/wpbc-ajax.php:114
+msgid "Set as Read"
+msgstr "Asetettu luetuksi"
+
+#: lib/wpbc-ajax.php:114
+msgid "Set as Unread"
+msgstr "Asetettu lukemattomaksi"
+
+#: lib/wpbc-ajax.php:171
+msgid "Set as Approved"
+msgstr "Asetettu vahvistetuksi"
+
+#: lib/wpbc-ajax.php:171
+msgid "Set as Pending"
+msgstr "Asetettu odottamaan"
+
+#: lib/wpbc-ajax.php:189 lib/wpbc-ajax.php:250
+msgid "Reason for cancellation here"
+msgstr "Peruuttamisen syy"
+
+#: lib/wpbc-ajax.php:190 lib/wpbc-ajax.php:251
+msgid "Reason of cancellation here"
+msgstr "Peruuttamisen syy"
+
+#: lib/wpbc-ajax.php:279
+msgid "Deleted"
+msgstr "Poistettu"
+
+#: lib/wpbc-booking-new.php:37
+msgid "The code you entered is incorrect"
+msgstr "Koodi on virheellinen"
+
+#: lib/wpbc-booking-new.php:137
+msgid "Updating..."
+msgstr "Päivittää…"
+
+#: lib/wpbc-booking-new.php:161 lib/wpbc-booking-new.php:163
+msgid "Updated successfully"
+msgstr "Päivitys onnistui"
+
+#: lib/wpbc-booking-new.php:679
+msgid "Error!"
+msgstr "Virhe"
+
+#: lib/wpbc-booking-new.php:680
+msgid "Probably these date(s) just was booking by other visitor. Please reload this page and make booking again."
+msgstr "Luultavasti joku muu on tehnyt päällekkäisen varauksen. Päivitä sivu ja yritä tehdä varaus uudelleen."
+
+#: lib/wpbc-class-dismiss.php:79 lib/wpbc-welcome.php:1411
+msgid "Dismiss"
+msgstr "Ohita"
+
+#: lib/wpbc-class-settings.php:46 lib/wpdev-settings-general.php:78
+#: lib/wpdev-settings-general.php:1310 lib/wpdev-settings-general.php:1829
+#: lib/wpdev-settings-general.php:2371 lib/wpdev-settings-general.php:2499
+msgid "Save Changes"
+msgstr "Talleta muutokset"
+
+#: lib/wpbc-gcal-class.php:293
+msgid "Importing Feed"
+msgstr "Tuodaan syötettä"
+
+#: lib/wpbc-gcal-class.php:309
+msgid "Data Parsing"
+msgstr "Jäsennetään tietoja"
+
+#: lib/wpbc-gcal-class.php:416
+msgid "Some data was retrieved, but could not be parsed successfully. Please ensure your feed URL is correct."
+msgstr "Osa tiedoista voitiin noutaa, mutta jäsentäminen ei onnistunut. Varmista, että syötteen URL on oikein."
+
+#: lib/wpbc-gcal-class.php:422
+msgid "The feed could not be found (404). Please ensure your feed URL is correct."
+msgstr "Syötettä ei löytynyt (404). Varmista, että syötteen URL on oikein."
+
+#: lib/wpbc-gcal-class.php:425
+msgid "Access to this feed was denied (403). Please ensure you have public sharing enabled for your calendar."
+msgstr "Syötteen lukeminen on estetty (403). Varmista, että kalenteri on julkisesti jaettu."
+
+#: lib/wpbc-gcal-class.php:428
+msgid "The feed data could not be retrieved. Error code: %s. Please ensure your feed URL is correct."
+msgstr "Syötettä ei voitu noutaa. Virhekoodi: %s. Varmista, että syötteen URL on oikein."
+
+#: lib/wpbc-ajax.php:224 lib/wpbc-ajax.php:229 lib/wpbc-gcal-class.php:444
+#: lib/wpbc-gcal.php:102
+msgid "Done"
+msgstr "Valmis"
+
+#: lib/wpbc-gcal-class.php:577 lib/wpbc-gcal-class.php:595
+#: lib/wpdev-bk-lib.php:1720 lib/wpdev-bk-lib.php:1723
+#: lib/wpdev-bk-lib.php:2138 lib/wpdev-settings-general.php:868
+#: lib/wpdev-settings-general.php:869
+msgid "ID"
+msgstr "ID"
+
+#: lib/wpbc-gcal-class.php:578 lib/wpbc-gcal-class.php:597
+#: lib/wpdev-booking-widget.php:93
+msgid "Title"
+msgstr "Otsikko"
+
+#: lib/wpbc-gcal-class.php:579 lib/wpbc-gcal-class.php:601
+msgid "Info"
+msgstr "Lisätieto"
+
+#: lib/wpbc-gcal-class.php:580 lib/wpbc-gcal-class.php:611
+#: lib/wpdev-bk-lib.php:1664 lib/wpdev-bk-lib.php:1721
+#: lib/wpdev-bk-lib.php:1724 lib/wpdev-bk-timeline.php:780
+#: lib/wpdev-settings-general.php:870 lib/wpdev-settings-general.php:871
+msgid "Dates"
+msgstr "Päivämäärät"
+
+#: lib/wpbc-gcal-class.php:581 lib/wpbc-gcal-class.php:626
+msgid "GID"
+msgstr "GID"
+
+#: lib/wpbc-gcal-class.php:594
+msgid "Selection"
+msgstr "Valinta"
+
+#: lib/wpbc-gcal-class.php:605
+msgid "Location:"
+msgstr "Sijainti:"
+
+#: lib/wpbc-gcal-class.php:633
+msgid "Reload page"
+msgstr "Päivitä sivu"
+
+#: lib/wpbc-gcal-class.php:635 lib/wpbc-notices.php:104
+#: lib/wpdev-settings-general.php:989 lib/wpdev-settings-general.php:1691
+msgid "Hide"
+msgstr "Piilota"
+
+#: lib/wpbc-gcal-class.php:637 lib/wpdev-bk-lib.php:1872
+msgid "Do you really want to delete selected booking(s) ?"
+msgstr "Haluatko todella poistaa valitun varauksen?"
+
+#: lib/wpbc-gcal-class.php:646
+msgid "Delete selected booking(s)"
+msgstr "Poista valitut varaukset"
+
+#: lib/wpbc-gcal.php:103
+msgid "Imported 0 events."
+msgstr "Tuotiin 0 tapahtumaa"
+
+#: lib/wpbc-gcal.php:171
+msgid "Synchronization Bookings Settings"
+msgstr "Synkronointi-asetukset"
+
+#: lib/wpbc-gcal.php:184
+msgid "Google Calendar"
+msgstr "Google kalenteri"
+
+#: lib/wpbc-gcal.php:184
+msgid "Events Import"
+msgstr "Tapahtumien tuonti"
+
+#: lib/wpbc-gcal.php:185
+msgid "Customization of synchronization with Google Calendar"
+msgstr "Google kalenterin synkronoinnin muokkaus"
+
+#: lib/wpbc-gcal.php:311 lib/wpbc-gcal.php:331 lib/wpbc-gcal.php:349
+#: lib/wpbc-gcal.php:420 lib/wpdev-booking-class.php:3046
+#: lib/wpdev-settings-general.php:406 lib/wpdev-settings-general.php:563
+#: lib/wpdev-settings-general.php:625 lib/wpdev-settings-general.php:748
+#: lib/wpdev-settings-general.php:975 lib/wpdev-settings-general.php:1185
+#: lib/wpdev-settings-general.php:1214 lib/wpdev-settings-general.php:1284
+#: lib/wpdev-settings-general.php:1534 lib/wpdev-settings-general.php:2033
+#: lib/wpdev-settings-general.php:2113 lib/wpdev-settings-general.php:2186
+#: lib/wpdev-settings-general.php:2273
+msgid "Click to toggle"
+msgstr "Klikkaa vaihtaaksesi"
+
+#: lib/wpbc-gcal.php:312
+msgid "Assign events fields to specific booking form field"
+msgstr "Sijoita tapahtumien kentät määrättyihin varauslomakkeen kenttiin"
+
+#: lib/wpbc-gcal.php:332
+msgid "Auto import events"
+msgstr "Tapahtumien automaattinen tuonti"
+
+#: lib/wpbc-gcal.php:350
+msgid "Google Calendar - General Settings"
+msgstr "Google kalenteri - Yleiset asetukset"
+
+#: lib/wpbc-gcal.php:377
+msgid "Default settings for retrieving events"
+msgstr "Oletusasetukset tapahtumien tuomiseksi"
+
+#: lib/wpbc-gcal.php:391
+msgid "Google Calendar ID"
+msgstr "Google kalenterin ID"
+
+#: lib/wpbc-gcal.php:421
+msgid "Google Calendar - Help Info"
+msgstr "Google kalenteri - Ohje"
+
+#: lib/wpbc-gcal.php:430
+msgid "To get Google Calendar API key please follow this instruction"
+msgstr "Seuraa tätä ohjetta saadaksesi Google kalenterin API key:n"
+
+#: lib/wpbc-gcal.php:432
+msgid "Go to Google Developer Console: %s."
+msgstr "Mene Google kehittäjäkonsoliin: %s"
+
+#: lib/wpbc-gcal.php:433
+msgid "Give your project a name and click \"Create\"."
+msgstr "Anna projektille nimi ja klikkaa \"Luo\"."
+
+#: lib/wpbc-gcal.php:434
+msgid "In the sidebar click on \"APIs & auth\"."
+msgstr "Klikkaa sivupalkista \"APIs & auth\"."
+
+#: lib/wpbc-gcal.php:435
+msgid "Click APIs and make sure \"Calendar API\" is set to ON."
+msgstr "Klikkaa APIs ja varmista, että \"Calendar API\" kohdasta on valittuna ON."
+
+#: lib/wpbc-gcal.php:436
+msgid "Now click on \"Credentials\" in the sidebar."
+msgstr "Klikkaa \"Credentials\" sivupalkista."
+
+#: lib/wpbc-gcal.php:437
+msgid "Under the section \"Public API access\" click the button \"Create new Key\"."
+msgstr "Valitse \"Public API access\" kohta ja klikkaa \"Create a new Key\"."
+
+#: lib/wpbc-gcal.php:438
+msgid "On the popup click the button \"Server Key\" and click \"Create\"."
+msgstr "Ponnahdusikkunasta klikkaa \"Server Key\" ja klikkaa \"Luo\""
+
+#: lib/wpbc-gcal.php:439
+msgid "You will now see a table loaded with the top item being the API Key. Copy this and paste it into %sGoogle API Key%s field at this page."
+msgstr "Näkyviin tulevassa taulukossa ylimpänä pitäisi olla API Key. Kopioi/liimaa se %sGoogle API Key%s kenttään tällä sivulla."
+
+#: lib/wpbc-gcal.php:445
+msgid "Set Your Calendar to Public"
+msgstr "Tee Kalenteristasi julkinen"
+
+#: lib/wpbc-gcal.php:447 lib/wpbc-gcal.php:455
+msgid "Navigate to your Google calendars."
+msgstr "Mene omiin Google kalentereihisi"
+
+#: lib/wpbc-gcal.php:448 lib/wpbc-gcal.php:456
+msgid "Open the settings for the calendar."
+msgstr "Avaa kalenterin asetukset"
+
+#: lib/wpbc-gcal.php:449
+msgid "Click the \"Share this Calendar\" link."
+msgstr "Klikkaa \"Share this Calendar\" linkkiä."
+
+#: lib/wpbc-gcal.php:450
+msgid "Click the checkbox to make calendar public. Do not check the other option."
+msgstr "Klikkaa valintaruutua tehdäksesi kalenterista julkinen. Älä valitse muita vaihtoehtoja."
+
+#: lib/wpbc-gcal.php:453
+msgid "Find Your Calendar ID"
+msgstr "Etsi kalenterisi ID"
+
+#: lib/wpbc-gcal.php:457
+msgid "Now copy the Calendar ID to use in the plugin settings in your WordPress admin. Make sure to %suse the Calendar ID only, not the entire XML feed URL%s."
+msgstr "Kopioi kalenterin ID, jotta voit käyttää sitä lisäosan asetuksissa Wordpressin hallintapaneelissa. Varmista, että %skäytät vain kalenterin ID:tä, etkä koko XML syötteen URL:ia%s"
+
+#: lib/wpbc-gcal.php:516 lib/wpbc-gcal.php:929
+msgid "None"
+msgstr "Ei mitään"
+
+#: lib/wpbc-gcal.php:557
+msgid "Select field for assigning to %sevent property%s"
+msgstr "Valitse kenttä johon %stapahtuman ominaisuus%s asetetaan"
+
+#: lib/wpbc-gcal.php:567
+msgid "Event Title"
+msgstr "Tapahtuman otsikko"
+
+#: lib/wpbc-gcal.php:568
+msgid "Event Description (optional field)"
+msgstr "Tapahtuman kuvaus (valinnainen kenttä)"
+
+#: lib/wpbc-gcal.php:569
+msgid "Location"
+msgstr "Sijainti"
+
+#: lib/wpbc-gcal.php:581 lib/wpdev-settings-general.php:2061
+#: lib/wpdev-settings-general.php:2135 lib/wpdev-settings-general.php:2221
+#: lib/wpdev-settings-general.php:2310
+msgid "From"
+msgstr "Lähettäjä"
+
+#: lib/wpbc-gcal.php:594 lib/wpbc-gcal.php:658
+msgid "Now"
+msgstr "Heti"
+
+#: lib/wpbc-gcal.php:595 lib/wpbc-gcal.php:659
+msgid "00:00 today"
+msgstr "00:00 tänään"
+
+#: lib/wpbc-gcal.php:596 lib/wpbc-gcal.php:660
+msgid "Start of current week"
+msgstr "Tämän viikon alusta"
+
+#: lib/wpbc-gcal.php:597 lib/wpbc-gcal.php:661
+msgid "Start of current month"
+msgstr "Tämän kuukauden alusta"
+
+#: lib/wpbc-gcal.php:598 lib/wpbc-gcal.php:662
+msgid "End of current month"
+msgstr "Tämän kuukauden lopusta"
+
+#: lib/wpbc-gcal.php:599
+msgid "The start of time"
+msgstr "Ajan alusta"
+
+#: lib/wpbc-gcal.php:600 lib/wpbc-gcal.php:664
+msgid "Specific date / time"
+msgstr "Määritelty päivä / aika"
+
+#: lib/wpbc-gcal.php:607
+msgid "Select option, when to start retrieving events."
+msgstr "Valitse, koska tapahtumien tuonti aloitetaan"
+
+#: lib/wpbc-gcal.php:609 lib/wpbc-gcal.php:673
+msgid "Offset"
+msgstr "Siirtymä"
+
+#: lib/wpbc-gcal.php:609 lib/wpbc-gcal.php:673
+msgid "Enter date / time"
+msgstr "Anna päivä / aika"
+
+#: lib/wpbc-gcal.php:615 lib/wpbc-gcal.php:679
+msgid "seconds"
+msgstr "sekuntia"

@@ -1,0 +1,1009 @@
+@media screen and (max-width: 1200px) {
+	.social-head {
+		left: 0;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.screen-1,.screen-2, .screen-3,
+	.screen-4,.screen-5, .screen-6 {
+		background-position: 50% 50%;
+		height: 635px;
+	}
+	.screen-1,.screen-3, .screen-5 {
+		background-image: url(../img/screen1_bg_1200px.png);
+	}
+	.screen-2,.screen-4, .screen-6 {
+		background-image: url(../img/screen2_bg_1200px.png);
+	}
+	.logo-head {
+		margin-left: 0;
+	}
+	.logo-head img {
+		width: 180px;
+		margin: 0 auto;
+		display: block;
+	}
+	.butt button {
+		min-width: 170px;
+		margin: 0 auto;
+		display: block;
+		left: 0;
+	}
+	.menu {
+		margin-left: 0;
+	}
+	#kak-dobra {
+		font-size: 18px;
+	}
+	.screen-7 {
+		height: 790px;
+	}
+	.left-logo-foot img {
+		margin-left: 0;
+	}
+	.left-logo-foot {
+		margin: 0 auto;
+		width: 210px;
+	}
+	.phopho {
+		margin-top: 0;
+		width: 210px;
+		margin: 0 auto;
+	}
+	.phopho p {
+		margin-left: 0;
+	}
+	.phopho img, .map-ma img {
+		margin: 0 auto 10px;
+		display: block;
+	}
+	.map-ma p {
+		margin-left: 0;
+		left: 0;
+	}
+	.bor-bor-r {
+		left: -40px;
+	}
+	.serv {
+		width: 350px;
+	}
+	.img-block {
+		display: none;
+	}
+	.video {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 455px;
+		margin: 0 auto;
+		display: block;
+	}
+	.video iframe {
+		width: 455px;
+		margin: 0 auto;
+		display: block;
+	}
+	.text-content p {
+		padding: 0;
+	}
+	.scroll {
+		top: -170px;
+		left: 0;
+	}
+	.text-content-2 {
+		padding: 0;
+	}
+	#content-gal {
+		left: 0;
+		height: auto;
+	}
+	.header-minus-55 {
+		margin-top: -105px;
+	}
+	button#prev-gal, button#next-gal {
+		font-size: 40px;
+		width: 0;
+		padding: 0;
+	}
+	button#prev-gal {
+		left: 280px;
+		top: -350px;
+		font-size: 60px;
+		width: 35px;
+	}
+	button#next-gal {
+		right: 280px;
+		top: -350px;
+		font-size: 60px;
+		width: 35px;
+	}
+	.gal-1-1 {
+		float: none;
+		width: 277px;
+		margin: 0 auto;
+	}
+	.gal-1-1 img {
+		width: 277px;
+	}
+	.opisanie-1 {
+		margin-top: 10px;
+	}
+	.hr-4 {
+		width: 57.7%;
+	}
+	.news img {
+		float: left;
+		padding-right: 5px;
+		width: 115px;
+		height: auto;
+		margin-top: 35px;
+		margin-bottom: 10px;
+	}
+	.bottom-line-news, .bottom-line-news-2, .bottom-line-news-3 {
+		left: 0;
+	}
+	.butt-screen-3-6-6 {
+		top: -50px;
+		left: 0;
+	}
+	.header-screen h1,
+	.header-screen h2,
+	.header-screen h3 {
+		left: 0;
+	}
+	.head-2 p {
+		margin-left: 0;
+	}
+	.head-2 {
+		left: 0;
+		top: 0;
+	}
+	.hr-2, .hr-4 {
+		width: 62.5%;
+	}
+	.img-block {
+		display: none;
+	}
+	.img-block-2 {
+		display: block;
+		margin: 0 auto;
+		max-width: 455px;
+	}
+	.img-block-2 img {
+		height: 578px;
+		margin-right: 11px;
+	}
+	.img-block-2 img:last-child,
+	a.img-block-2-2:last-child {
+		margin-right: 0;
+	}
+	.for-blog {
+		position: relative;
+		left: 25px;
+	}
+	.for-blog-head-22 {
+		position: relative;
+		left: 30px;
+	}
+	.for-blog-hr {
+		width: 81%;
+	}
+	.content-area {
+		padding: 0;
+	}
+	h3#h3-gal {
+		position: relative;
+	}
+	#hr-223-page {
+		left: -145px;
+	}
+	.butt-screen-3-6-6 {
+		display: none;
+	}
+	a.img-block-2-1, a.img-block-2-2,
+	a.img-block-2-3, a.img-block-2-4 {
+		width: 104px;
+		height: 580px;
+		display: block;
+		float: left;
+		margin-right: 13px;
+	}
+	a.img-block-2-4 {
+		margin-right: 0;
+	}
+	a.img-block-2-1 {
+		background-image: url(../img/11-11.png);
+	}
+	a.img-block-2-2 {
+		background-image: url(../img/22-22.png);
+	}
+	a.img-block-2-3 {
+		background-image: url(../img/33-33.png);
+	}
+	a.img-block-2-4 {
+		background-image: url(../img/44-44.png);
+	}
+	a.img-block-2-1:hover {
+		background-image: url(../img/11-11-hov.png);
+	}
+	a.img-block-2-2:hover {
+		background-image: url(../img/22-22-hov.png);
+	}
+	a.img-block-2-3:hover {
+		background-image: url(../img/33-33-hov.png);
+	}
+	a.img-block-2-4:hover {
+		background-image: url(../img/44-44-hov.png);
+	}
+	.wpdevelop {
+		position: relative;
+		left: -20px !important;
+	}
+	.booking_form .form-group .controls select,
+	.booking_form select,
+	.booking_form textarea,
+	.booking_form input[type="text"]{
+		width:190px !important;
+	}
+	.bk_calendar_frame, .block_hints {
+		left: 220px !important;
+	}
+	.rserv {
+		margin-top: -28px;
+	}
+	.header-minus-55 {
+		margin-top: -85px;
+	}
+	.left-head-block {
+		position: relative;
+		left: -30px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.social-head {
+		left: 0;
+	}
+	.phones p {
+		margin-top: 9px;
+		font-size: 12px;
+		width: 130px;
+	}
+	.kyiev, .vodafon, .lifecell {
+		max-width: 110px;
+	}
+	.kyiev {
+		left: 0;
+	}
+	.vodafon {
+		left: 20px;
+	}
+	.lifecell {
+		left: 40px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.menu {
+		width: 540px;
+		z-index: 2;
+		margin: 0 auto;
+	}
+	.menu ul li {
+		float: left;
+		width: 100px;
+	}
+	.scroll {
+		display: none;
+	}
+	.left-menu {
+		display: none !important;
+	}
+	#kak-dobra {
+		font-size: 18px;
+	}
+	.screen-7 {
+		height: 705px;
+	}
+	.left-logo-foot img {
+		width: 155px;
+	}
+	.phopho {
+		margin-top: 0;
+		width: 130px;
+	}
+	.bor-bor-r, .img-block-2 {
+		display: none;
+	}
+	.logo-head {
+		width: 180px;
+		margin: 0 auto;
+		position: relative;
+		top: 10px;
+	}
+	.screen-1 {
+		background-position: 49.9% 50%;
+		background-color: #000;
+		background-image: none;
+		height: 330px;
+	}
+	button#prev-gal {
+		left: 170px;
+	}
+	button#next-gal {
+		right: 170px;
+	}
+	.hr-2, .hr-4 {
+		width: 94.6%;
+	}
+	.hr-3 {
+		width: 95%;
+	}
+	.hr-5 {
+		width: 90%;
+		position: relative;
+		left: 85px;
+		top: -10px;
+	}
+	.screen-1, .screen-4-after {
+		display: none;
+	}
+	.for-page-blog-screen-1 {
+		display: block;
+	}
+	.area-2-4 {
+		display: block;
+		background-image: url(../img/screen1_bg_1200px.png);
+	}
+	.for-page-blog {
+		background-image: url(../img/screen2_bg_1200px.png);
+	}
+	.contetnt-page-padd-left {
+		left: 0;
+		top: -30px;
+	}
+	.header-screen-page, .head-page-2 {
+		margin-left: 0;
+	}
+	.cont-page-911, .screen-4-blog-4,
+	.pos-991, .row-xs-12-before {
+		display: block;
+	}
+	.for-page-blog-screen-11, .area-2-4-0 {
+		display: none;
+	}
+	.all-block {
+		margin-top: 40px;
+	}
+	.booking_form .form-group {
+		left: 0 !important;
+	}
+}
+@media screen and (max-width: 875px) {
+	.hr-5 {
+		left: 20px;
+		top: 2px;
+	}
+}
+@media screen and (max-width: 810px) {
+	.social-head {
+		left: -40px;
+	}
+}
+@media screen and (max-width: 782px) {
+	.wpdevelop input[type="text"], .wpdevelop select {
+		font-size: 1.1em;
+		height: 36px;
+		padding: 4px 8px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.social-head {
+		left: 0;
+		float: right;
+	}
+	.phones {
+		max-width: 330px;
+		float: left;
+		position: relative;
+		left: -30px;
+	}
+	.social-head {
+		float: right;
+		position: relative;
+		top: 40px;
+		left: -280px;
+	}
+	.header {
+		position: relative;
+		height: 75px;
+	}
+	.screen-1 {
+		margin-top: 0;
+	}
+	#kak-dobra {
+		width: 90px;
+		padding-right: 10px;
+		float: left;
+	}
+	.hr-5 {
+		margin-left: 0;
+		width: 94%;
+	}
+	.hr-5 hr {
+		width: 80%;
+		top: 15px;
+	}
+	.datepick-inline .datepick-one-month {
+		width:100%;
+		float:left;
+	}
+	.booking_form_div input[type="text"],
+	.booking_form_div select,
+	.booking_form_div textarea {
+		margin: auto !important;
+	}
+	.booking_form_div input[type=button]{
+		width:auto !important;
+	}
+	.booking_form_div input[type=button]{
+		font-size: 1.1em;
+		font-weight: 600;
+		padding: 5px 20px !important;
+	}
+	#map-2 {
+		display: none;
+	}
+}
+@media screen and (max-width: 767px) {
+	.left-logo-foot, .search, .soc-foot {
+		display: none;
+	}
+	.serv {
+		max-width: 350px;
+	}
+	.phopho {
+		margin-top: 30px;
+	}
+	.soc-foot-2 {
+		display: block;
+		width: 195px;
+		margin: 0 auto;
+	}
+	.soc-foot-img {
+		width: 210px;
+		margin-top: -10px;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+	.serv {
+		max-width: 350px;
+		margin: 0 auto;
+	}
+	.menu-foot ul {
+		width: 256px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.menu-foot li {
+		float: left;
+		padding-right: 5px;
+	}
+	.menu-foot h3 {
+		text-align: center;
+	}
+	.menu-foot {
+		height: auto;
+	}
+	.screen-1, .screen-2, .screen-3, 
+	.screen-4, .screen-5, .screen-6 {
+		background-color: #fff;
+		background-image: none;
+		height: auto;
+	}
+	.header-screen-page {
+		margin-top: 60px;
+	}
+	.hr-page-2, .for-blog-hr {
+		width: 80%;
+	}
+	.for-blog-head-22 {
+		position: relative;
+		left: 0;
+	}
+	.for-blog h2 {
+		margin-left: 0;
+		margin-top: -50px;
+		margin-bottom: -10px;
+	}
+	.for-blog-head-22 p {
+		margin-left: 0 !important;
+	}
+	.content-area {
+		margin-top: 70px;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+	.row-xs-12-before {
+		display: none;
+	}
+	.row-xs-12-after {
+		display: block;
+	}
+	.hr-page-blog {
+		width: 90% !important;
+	}
+	.wp-pagenavi {
+		margin-bottom: 20px;
+	}
+	.share42init-prev {
+		left: 0;
+	}
+	h3#h3-gal {
+		left: 0;
+	}
+	.phones {
+		float: none;
+	}
+	.social-head {
+		float: none;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.wpdevelop input[type="text"], .wpdevelop select {
+		height: 25px !important;
+	}
+	.block_hints {
+		position: relative !important;
+		top: -5px !important;
+	}
+	.header-30 {
+		margin-top: 70px;
+	}
+	.header-30-2 {
+		margin-top: 0;
+	}
+	#hr-21 {
+		width: 94.6%;
+	}
+	#hrhrh-1 {
+		width: 94.6%;
+	}
+	.screen-7 {
+		height: auto;
+	}
+	.video-text-content {
+		margin: auto;
+	}
+}
+@media screen and (max-width: 740px) {
+	.hr-3 {
+		width: 100%;
+	}
+	.hr-2, .hr-4 {
+		width: 100%;
+	}
+	button#prev-gal {
+		left: 130px;
+	}
+	button#next-gal {
+		right: 130px;
+	}
+}
+@media screen and (max-width: 724px) {
+	.bottom-line-news {
+		margin-bottom: 14px;
+	}
+}
+@media screen and (max-width: 716px) {
+	.bottom-line-news, .bottom-line-news-2, .bottom-line-news-3 {
+		height: 130px;
+	}
+}
+@media screen and (max-width: 705px) {
+	.video {
+		width: 395px;
+	}
+	.video iframe {
+		max-width: 395px;
+	}
+}
+@media screen and (max-width: 665px) {
+	button#prev-gal {
+		left: 100px;
+	}
+	button#next-gal {
+		right: 100px;
+	}
+	.header-screen {
+		margin-top: 40px;
+	}
+	.booking_form .form-group {
+		left: -60px !important;
+	}
+	.header-minus-55 {
+		margin-top: -85px !important;
+	}
+}
+@media screen and (max-width: 635px) {
+	.header-screen {
+		margin-top: 20px;
+	}
+	.screen-1 {
+		margin-bottom: 50px;
+	}
+	.for-blog h2 {
+		margin-top: -20px;
+	}
+	.content-area {
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 615px) {
+	.news img {
+		display: none;
+	}
+	.bottom-line-news, .bottom-line-news-2, .bottom-line-news-3 {
+		height: 110px;
+	}
+	.bk_calendar_frame, .block_hints {
+		left: 160px !important;
+	}
+}
+@media screen and (max-width: 600px) {
+	.menu-foot {
+		top: 235px;
+	}
+	button#prev-gal {
+		left: 30px;
+	}
+	button#next-gal {
+		right: 30px;
+	}
+	.video iframe {
+		width: auto;
+	}
+	.video {
+		width: auto;
+	}
+}
+@media screen and (max-width: 560px) {
+	h2#fdf-h2 {
+		width: 310px;
+	}
+}
+@media screen and (max-width: 555px) {
+	.bottom-line-news, .bottom-line-news-2, .bottom-line-news-3 {
+		border: none;
+	}
+	.hr-3 {
+		width: 95%;
+	}
+	.menu {
+		width: 120px;
+		max-width: 540px;
+	}
+	.wpdevelop {
+		position: relative;
+		left: 0 !important;
+		width: 325px !important;
+		margin: 0 auto !important;
+	}
+	form.booking_form {
+		width: 325px !important;
+		margin: 0 auto !important;
+	}
+	.booking_form .booking_form_div {
+		height: 770px !important;
+	}
+	.bk_calendar_frame, .block_hints,
+	.booking_form .form-group {
+		left: 0px !important;
+	}
+	.booking_form .form-group {
+		top: 0 !important;
+	}
+	.booking_form .form-group .controls select,
+	.booking_form select,
+	.booking_form textarea,
+	.booking_form input[type="text"] {
+		width: 250px !important;
+	}
+}
+@media screen and (max-width: 508px) {
+	button#prev-gal {
+		left: 50px;
+	}
+	button#next-gal {
+		right: 30px;
+	}
+	.hr-5 {
+		display: none;
+	}
+	#kak-dobra {
+		width: 165px;
+		margin: 0 auto;
+		padding: 0;
+		float: none;
+	}
+	#karta-pr {
+		text-align: center;
+		display: block;
+	}
+}
+@media screen and (max-width: 500px) {
+	.gal-normal {
+		display: none;
+	}
+	.gal-max-500 {
+		display: block;
+	}
+	.opisanie-1 span p {
+		top: -13px;
+		position: relative;
+	}
+	.header-minus-55 {
+		margin-top: -65px !important;
+	}
+	.date-post-2 {
+		float: none;
+	}
+	.screen-5 {
+		margin-bottom: -50px;
+	}
+	#content-gal_resp {
+		overflow: hidden;
+		height: 520px;
+		width: 300px;
+		margin: 0 auto;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	#screen-gal_resp {
+		position: relative;
+		width: 4500px !important;
+		float: left;
+	}
+	#screen-gal_resp .gal-element_resp {
+		width: 300px;
+		margin: 0 auto !important;
+		float: left;
+		margin: 0 10px;
+	}
+	button#prev-gal_resp,
+	button#next-gal_resp {
+		border: none;
+		background: none;
+		border-radius: 5px;
+		font-size: 48px;
+		color: #000;
+		font-weight: 100;
+		width: 40px;
+		position: relative;
+		top: -232px;
+		cursor: pointer;
+	}
+	button#prev-gal_resp {
+		float: left;
+		left: 60px;
+	}
+	button#next-gal_resp {
+		float: right;
+		right: 60px;
+	}
+	button#prev-gal_resp:hover,
+	button#next-gal_resp:hover {
+		color: #3b9d1d;
+		font-weight: 200;
+	}
+	.gal-element_resp {
+		width: 500px;
+		margin: 0 auto !important;
+		float: left;
+	}
+}
+@media screen and (max-width: 475px) {
+	.header {
+		height: 145px;
+	}
+}
+@media screen and (max-width: 460px) {
+	.kyiev, .vodafon, .lifecell {
+		float: none;
+		margin: 0 auto;
+		left: 0;
+		max-width: 160px;
+	}
+	.social-head {
+		max-width: 145px;
+		margin: 0 auto;
+	}
+	.phones {
+		left: 0;
+		width: 170px;
+		margin: 0 auto;
+	}
+	.phones p {
+		margin-top: 5px;
+		font-size: 14px;
+		width: 145px;
+	}
+	.kyiev img, .vodafon img, .lifecell img {
+		margin-top: 0;
+	}
+	.two-butt {
+		max-width: 210px;
+	}
+	.butt-screen-1-7 {
+		padding-bottom: 10px;
+	}
+}
+@media screen and (max-width: 440px) {
+	.video, .video iframe {
+		width: 220px;
+	}
+	h2#fdf-h2 {
+		width: 235px;
+	}
+	button#prev-gal_resp {
+		left: 30px;
+	}
+	button#next-gal_resp {
+		right: 30px;
+	}
+}
+@media screen and (max-width: 410px) {
+	.booking_form .form-group .controls select,
+	.booking_form select,
+	.booking_form textarea,
+	.booking_form input[type="text"] {
+		width: 200px !important;
+	}
+}
+@media screen and (max-width: 400px) {
+	.all-block {
+		width: 310px;
+	}
+	.block-uslug {
+		width: 155px;
+	}
+}
+@media screen and (max-width: 380px) {
+	.car-car, .train-tarin, .bus-bus {
+		margin: 0 auto;
+		width: 300px;
+	}
+	.lserv {
+		left: -30px;
+		position: relative;
+		margin-right: 0;
+	}
+	.head-2 {
+		display: none;
+	}
+	.header-screen h1, 
+	.header-screen h2,
+	.header-screen h3 {
+		margin: 0 auto;
+		text-align: center;
+		padding-bottom: 10px;
+		font-size: 19px;
+	}
+	.menu {
+		width: 110px;
+	}
+	.header-screen-page h1 {
+		font-size: 19px;
+	}
+	.for-blog {
+		left: 0;
+		margin-top: 0;
+		margin-bottom: -40px;
+	}
+	.row-page-380 {
+		display: none;
+	}
+	h2#fdf-h2 {
+		width: 220px;
+	}
+	.wpdevelop {
+		left: -30px !important;
+	}
+	.header-minus-55 {
+		margin-top: -25px !important;
+	}
+}
+@media screen and (max-width: 365px) {
+	.lserv {
+		margin-top: -22px;
+	}
+	.lserv li {
+		line-height: 56px;
+	}
+	.serv {
+		width: 320px;
+	}
+	.rserv li {
+		line-height: 29px;
+	}
+}
+@media screen and (max-width: 360px) {
+	.header-screen h1, 
+	.header-screen h2,
+	.header-screen h3 {
+		font-size: 15px;
+	}
+	h2#fdf-h2 {
+		width: 180px;
+	}
+	.wpdevelop {
+		left: -40px !important;
+	}
+	.screen-5 {
+		margin-bottom: -60px;
+	}
+	button#prev-gal_resp {
+		left: 10px;
+	}
+	button#next-gal_resp {
+		right: 10px;
+	}
+}
+@media screen and (max-width: 345px) {
+	.lserv {
+		left: 0;
+	}
+	.lserv ul, .rserv ul {
+		padding: 0;
+	}
+}
+@media screen and (max-width: 340px) {
+	.video, .video iframe {
+		position: relative;
+		left: -10px;
+	}
+}
+@media screen and (max-width: 335px) {
+	.rserv {
+		position: relative;
+		left: -25px;
+	}
+	.serv {
+		width: 300px;
+	}
+	.lserv li, .rserv li {
+		font-size: 12px;
+	}
+	.block-uslug img {
+		width: 110px;
+		height: 110px;
+	}
+	.block-uslug {
+		width: 135px;
+	}
+	.all-block {
+		width: 270px;
+	}
+}
+@media screen and (max-width: 330px) {
+	form.booking_form {
+		width: 285px !important;
+	}
+	.wpdevelop {
+		left: -70px !important;
+	}
+	button#prev-gal_resp {
+		left: 0;
+	}
+	button#next-gal_resp {
+		right: 0;
+	}
+}
+@media screen and (max-width: 320px) {
+	.wpdevelop {
+		left: -75px !important;
+	}
+	form.booking_form {
+		width: 275px !important;
+	}
+}

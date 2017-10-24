@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="global.css">
+		<meta charset="utf-8">
+		<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+		<title>%todo%</title>
+		
+		<script type="text/javascript">
+			document.documentElement.className += ' js';
+			var __adobewebfontsappname__ = 'muse';
+		</script>
+		
+		<script src="//webfonts.creativecloud.com/open-sans:n4,n7:all;pt-sans:n7,n4:all.js" type="text/javascript"></script>
+		<script src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="scripts/museutils.js" type="text/javascript"></script>
+		<script src="scripts/jquery.tobrowserwidth.js" type="text/javascript"></script>
+		<script src="scripts/jquery.musemenu.js" type="text/javascript"></script>
+		<script src="scripts/jquery.musepolyfill.bgsize.js" type="text/javascript"></script>
+		<script src="scripts/jquery.watch.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() { try {
+				Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+				$('.browser_width').toBrowserWidth();/* browser width elements */
+				Muse.Utils.prepHyperlinks(true);/* body */
+				Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+				Muse.Utils.fullPage('#page');/* 100% height page */
+				Muse.Utils.showWidgetsWhenReady();/* body */
+				Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+			} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+		</script>
+		
+		<style type="text/css">
+			#headerex
+			{
+				background: #4b4b4b;
+				color: white;
+				height: 56px;
+			}
+			#header
+			{
+				margin: 0 auto;
+				width: 942px;
+			}
+			#header div p
+			{
+				margin-top: 5px;
+			}
+			#header h3,#header p
+			{
+				font-family: "Open Sans", sans-serif;
+			}
+			#header h3
+			{
+				font-size: 22px;
+			}
+			#header p
+			{
+				font-size: 13px;
+			}
+			#menu
+			{
+				height: 100%;
+				min-height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			#menu span,#menu a
+			{
+				display: block;
+				float: left;
+				font-family: "Times New Roman", times, serif;
+				font-size: 16px;
+				font-weight: bold;
+				height: 100%;
+				min-height: 100%;
+				padding: 17px;
+				text-align: center;
+				vertical-align: middle;
+			}
+			#header a:link,#header a:visited
+			{
+				color: white;
+				text-decoration: none;
+			}
+			#header a:hover,#header a:active
+			{
+				color: #ff9a22;
+				text-decoration: none;
+			}
+			.menu_active
+			{
+				color: #ff9a22;
+			}
+			.menu_contacts
+			{
+				font-family: "PT Sans", sans-serif;
+				margin-left: 20px;
+			}
+			.menu_contacts img
+			{
+				vertical-align: middle;
+			}
+			.menu_active a{font-size: 12px;font-weight: bold;}
+			#lead
+			{
+				height: auto;
+				min-height: 100%;
+			}
+			#footer
+			{
+				background: #ff9200;
+				height: 443px;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+			}
+			.al{text-align: left;}
+			.ac{text-align: center;}
+			.ar{text-align: right;}
+			.aj{text-align: justify;}
+			.vt{vertical-align: top;}
+			.vm{vertical-align: middle;}
+			.vb{vertical-align: bottom;}
+			.fl{float: left;}
+			.fr{float: right;}
+			.cl{clear: both;}
+		</style>
+	</head>
+	<body>
+		<div id="headerex">
+			<div id="header">
+				<div class="fl">
+					<a href="#">
+						<img src="logo_top.png" alt="logo">
+					</a>
+				</div>
+				<div class="fl" style="margin: 10px auto;"><h3>Оскар</h3><p>Конный клуб</p></div>
+				<div class="fl" id="menu">
+					<span>Главная</span>
+					<a href="#">Услуги</a>
+					<a href="#">Блог</a>
+					<a href="#">О нас</a>
+					<a href="#">Контакты</a>
+					<div class="cl"></div>
+				</div>
+				<div class="fl">
+					<div style="margin: 4px auto;">
+						<a href="#">
+							<img src="social_vk.png" alt="vk">
+						</a>
+						<a href="#">
+							<img src="social_fb.png" alt="fb">
+						</a>
+						<a href="#">
+							<img src="social_ig.png" alt="ig">
+						</a>
+						<a href="#">
+							<img src="social_gp.png" alt="gp">
+						</a>
+						<a href="#">
+							<img src="social_ok.png" alt="ok">
+						</a>
+					</div>
+					<div class="ac menu_active" style="margin-top: -5px;">
+						<a href="#">Карта проезда</a>
+					</div>
+				</div>
+				<div class="fl menu_contacts">
+					<div style="margin-top: 5px;">
+						<img src="icon_phone.png" alt="phone">&nbsp;<span style="font-size: 18px;font-weight: bold;">(093) <span class="menu_active">202-07-58</span></span>
+					</div>
+					<div style="margin-top: 5px;">
+						<img src="icon_mail.png" alt="mail" style="vertical-align: top;">&nbsp;<span style="font-size: 13px;"><span class="menu_active">info</span>@horse-club.kh.ua</span>
+					</div>
+				</div>
+				<div class="cl"></div>
+			</div>
+		</div>
+		<div id="lead"><br></div>
+		<div id="footer">
+			<!-- / -->
+		</div>
+	</body>
+</html>

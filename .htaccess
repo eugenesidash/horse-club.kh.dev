@@ -1,0 +1,103 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+<ifModule mod_headers.c>
+<FilesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+<FilesMatch "\.(js|css|txt)$">
+Header set Cache-Control "max-age=604800"
+</FilesMatch>
+<FilesMatch "\.(flv|swf|ico|gif|jpg|jpeg|png)$">
+Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+Header unset Cache-Control
+</FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresDefault                                      "access plus 1 month"
+ExpiresByType text/css                              "access plus 1 year"
+ExpiresByType application/atom+xml                  "access plus 1 hour"
+ExpiresByType application/rdf+xml                   "access plus 1 hour"
+ExpiresByType application/rss+xml                   "access plus 1 hour"
+ExpiresByType application/json                      "access plus 0 seconds"
+ExpiresByType application/ld+json                   "access plus 0 seconds"
+ExpiresByType application/schema+json               "access plus 0 seconds"
+ExpiresByType application/vnd.geo+json              "access plus 0 seconds"
+ExpiresByType application/xml                       "access plus 0 seconds"
+ExpiresByType text/xml                              "access plus 0 seconds"
+ExpiresByType image/vnd.microsoft.icon              "access plus 1 week"
+ExpiresByType image/x-icon                          "access plus 1 week"
+ExpiresByType text/html                             "access plus 0 seconds"
+ExpiresByType application/javascript                "access plus 1 year"
+ExpiresByType application/x-javascript              "access plus 1 year"
+ExpiresByType text/javascript                       "access plus 1 year"
+ExpiresByType application/manifest+json             "access plus 1 week"
+ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
+ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+ExpiresByType audio/ogg                             "access plus 1 month"
+ExpiresByType image/bmp                             "access plus 1 month"
+ExpiresByType image/gif                             "access plus 1 month"
+ExpiresByType image/jpeg                            "access plus 1 month"
+ExpiresByType image/png                             "access plus 1 month"
+ExpiresByType image/svg+xml                         "access plus 1 month"
+ExpiresByType image/webp                            "access plus 1 month"
+ExpiresByType video/mp4                             "access plus 1 month"
+ExpiresByType video/ogg                             "access plus 1 month"
+ExpiresByType video/webm                            "access plus 1 month"
+ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+ExpiresByType font/eot                              "access plus 1 month"
+ExpiresByType font/opentype                         "access plus 1 month"
+ExpiresByType application/x-font-ttf                "access plus 1 month"
+ExpiresByType application/font-woff                 "access plus 1 month"
+ExpiresByType application/x-font-woff               "access plus 1 month"
+ExpiresByType font/woff                             "access plus 1 month"
+ExpiresByType application/font-woff2                "access plus 1 month"
+ExpiresByType text/x-cross-domain-policy            "access plus 1 week"
+</IfModule>
+
+# Old site redirects
+redirect 301 /contacts https://www.horse-club.kh.dev/kontaktyi/
+redirect 301 /about-us https://www.horse-club.kh.dev/o-nas/
+redirect 301 /konnyie-progulki-v-harkove https://www.horse-club.kh.dev/konnyie-progulki/
+redirect 301 /konnye-progulki https://www.horse-club.kh.dev/konnyie-progulki/
+redirect 301 /arenda-loshadey-dlya-semok https://www.horse-club.kh.dev/loshadi-dlya-semok
+redirect 301 /soderzhanie-loshadey-i-arenda-dennikov https://www.horse-club.kh.dev/prostoy-loshadey
+redirect 301 /konnyiy-prokat-v-harkove-dlya-romanticheskih-progulok/ https://www.horse-club.kh.dev/dlya-romanticheskih-progulok
+redirect 301 /park-les-ili-pole-gde-pokatatsya-na-loshadyah-v-harkove-luchshe-vsego/ https://www.horse-club.kh.dev/gde-pokatatsya-na-loshadyah-v-harkove
+redirect 301 /prokat-loshadey-v-harkove-s-amunitsiey-i-bez/ https://www.horse-club.kh.dev/s-amunitsiey-i-bez
+redirect 301 /znakomstvo-s-loshadyu-v-konnom-klube-v-harkove/ https://www.horse-club.kh.dev/znakomstvo-s-loshadyu-v-konnom-klube
+redirect 301 /konnie-progulki-po-lesu https://www.horse-club.kh.dev/po-lesu
+redirect 301 /konnie-progulki-v-pole	https://www.horse-club.kh.dev/v-pole
+redirect 301 /konnie-progulki-vdol-plyazha	https://www.horse-club.kh.dev/vdol-plyazha
+redirect 301 /konnie-progulki-po-gorodu	https://www.horse-club.kh.dev/v-gorode
+redirect 301 /verhovaya-ezda-po-parku	https://www.horse-club.kh.dev/po-parku
+redirect 301 /verhovaya-ezda-na-otkryitom-platsu	https://www.horse-club.kh.dev/na-otkrytom-placu
+redirect 301 /romanticheskaya-progulka-na-loshadyah	https://www.horse-club.kh.dev/romanticheskaya-progulka
+redirect 301 /gruppovaya-poezdka-na-loshadyah	https://www.horse-club.kh.dev/gruppovaya-poezdka
+redirect 301 /obuchenie-verhovoy-ezde	https://www.horse-club.kh.dev/uroki-verhovoy-ezdy
+redirect 301 /uroki-verhovoy-ezdy-dlya-nachinayuschih	https://www.horse-club.kh.dev/zanyatiya-dlya-nachinayushchih
+redirect 301 /uroki-verhovoy-ezdy-dlya-opitnih	https://www.horse-club.kh.dev/zanyatiya-dlya-opytnyh
+redirect 301 /zanyatiya-verhovoy-ezdoy-na-poni	https://www.horse-club.kh.dev/zanyatiya-verhovoy-ezdoy-na-poni
+redirect 301 /ekspress-kursy-po-obucheniy-verhovoy-ezde	https://www.horse-club.kh.dev/ekspress-kursy
+redirect 301 /zanyatiya-verhovoy-ezdoy-dlya-detey	https://www.horse-club.kh.dev/individualnye-zanyatiya-dlya-detey
+redirect 301 /obuchenie-verhovoy-ezde-vzroslyih	https://www.horse-club.kh.dev/obuchenie-verhovoy-ezde-vzroslyh
+redirect 301 /konnyiy-fitnes	https://www.horse-club.kh.dev/konnyy-fitnes
+redirect 301 /loshadi-na-svadbu	https://www.horse-club.kh.dev/zakaz-svadebnogo-ekipazha
+redirect 301 /predlozhenie-ruki-i-serdtsa-kone	https://www.horse-club.kh.dev/predlozhenie-ruki-i-serdca
+redirect 301 /katanie-v-sanyah	https://www.horse-club.kh.dev/katanie-v-sanyah-ili-ekipazhe
+redirect 301 /kupanie-s-loshadmi-v-harkove	https://www.horse-club.kh.dev/kupanie-s-loshadmi
+redirect 301 /pomosch-v-pokupke-i-prodazhe-loshadey	https://www.horse-club.kh.dev/pomoshch-v-pokupke-i-prodazhe
+redirect 301 /konskiy-navoz-kompost-peregnoy-mulcha	https://www.horse-club.kh.dev/udobreniya
+redirect 301 /individualnyie-uroki-verhovoy-ezdy	https://www.horse-club.kh.dev/individualnye-uroki-verhovoy-ezdy

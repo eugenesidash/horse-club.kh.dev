@@ -1,0 +1,31 @@
+User-agent: *
+Disallow: /cgi-bin
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Disallow: /trackback
+Disallow: */trackback
+Disallow: */*/trackback
+Disallow: */*/feed/*/
+Disallow: */feed
+Disallow: /tag
+Allow: /wp-admin/admin-ajax.php
+
+User-agent: Yandex
+Disallow: /cgi-bin
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Disallow: /trackback
+Disallow: */trackback
+Disallow: */*/trackback
+Disallow: */*/feed/*/
+Disallow: */feed
+Disallow: /tag
+
+Host: www.horse-club.kh.ua
+Sitemap: https://www.horse-club.kh.ua/sitemap.xml
